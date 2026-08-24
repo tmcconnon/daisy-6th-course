@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Daisy's Course</title>
+<link rel="manifest" href="manifest.json">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="Daisy's Course">
+<link rel="apple-touch-icon" href="icons/icon-192.png">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="app">
+
+  <!-- WELCOME -->
+  <section id="screen-welcome">
+    <div class="topbar">
+      <h1>Daisy's Course</h1>
+      <button class="icon-btn" id="btn-open-parent" title="Parent view">&#9881;</button>
+    </div>
+    <div class="card center">
+      <div class="confetti-emoji" id="welcome-emoji">&#128075;</div>
+      <h2 class="big" id="welcome-title">Welcome, Daisy!</h2>
+      <p class="lead" id="welcome-body">Loading today's lesson&hellip;</p>
+      <button class="btn btn-primary hidden" id="btn-start-lesson">Start today's lesson</button>
+      <p class="muted hidden" id="all-done-msg">You've finished every lesson we've got loaded! Ask your dad to add the next batch.</p>
+    </div>
+  </section>
+
+  <!-- LESSON / VIDEO -->
+  <section id="screen-lesson" class="hidden">
+    <div class="topbar">
+      <button class="icon-btn" id="btn-back-1">&#8592;</button>
+      <h1>Watch</h1>
+      <span></span>
+    </div>
+    <div class="progress-track"><div class="progress-fill" id="progress-fill-1"></div></div>
+    <div class="card">
+      <span class="badge" id="lesson-badge">Subject</span>
+      <div class="video-meta" id="lesson-standard">Standard</div>
+      <h2 class="big" id="lesson-title">Video title</h2>
+      <div class="video-meta" id="lesson-channel-dur">Channel &middot; Duration</div>
+      <p class="lead">Tap below to open this video in YouTube. It should already be downloaded for offline viewing &mdash; if it needs to stream, wait until you're back on wifi.</p>
+      <a class="btn btn-primary" id="btn-open-youtube" href="#">Open in YouTube</a>
+      <button class="btn btn-secondary" id="btn-watched">I watched it &mdash; let's go!</button>
+    </div>
+  </section>
+
+  <!-- QUIZ -->
+  <section id="screen-quiz" class="hidden">
+    <div class="topbar">
+      <button class="icon-btn" id="btn-back-2">&#8592;</button>
+      <h1>Quick Check</h1>
+      <span></span>
+    </div>
+    <div class="progress-track"><div class="progress-fill" id="progress-fill-2"></div></div>
+    <div class="card">
+      <p class="lead">Answer all 3 questions. If you miss one, you can try again.</p>
+      <div id="quiz-questions"></div>
+      <button class="btn btn-primary" id="btn-submit-quiz" disabled>Check my answers</button>
+      <button class="btn btn-secondary hidden" id="btn-retry-quiz">Try again</button>
+      <button class="btn btn-primary hidden" id="btn-continue-to-notebook">Continue</button>
+    </div>
+  </section>
+
+  <!-- NOTEBOOK -->
+  <section id="screen-notebook" class="hidden">
+    <div class="topbar">
+      <button class="icon-btn" id="btn-back-3">&#8592;</button>
+      <h1>Notebook</h1>
+      <span></span>
+    </div>
+    <div class="card">
+      <p class="lead" id="notebook-prompt">Prompt goes here.</p>
+      <textarea class="notebook-input" id="notebook-text" placeholder="Type your answer here..."></textarea>
+      <button class="btn btn-primary" id="btn-save-notebook">Save &amp; finish lesson</button>
+    </div>
+  </section>
+
+  <!-- LESSON COMPLETE -->
+  <section id="screen-complete" class="hidden">
+    <div class="card center">
+      <div class="confetti-emoji">&#127881;</div>
+      <h2 class="big">Nice work!</h2>
+      <p class="lead" id="complete-score">You got 3 out of 3.</p>
+      <button class="btn btn-primary" id="btn-back-to-welcome">Done for now</button>
+    </div>
+  </section>
+
+  <!-- PARENT PIN -->
+  <section id="screen-pin" class="hidden">
+    <div class="topbar">
+      <button class="icon-btn" id="btn-back-4">&#8592;</button>
+      <h1>Parent View</h1>
+      <span></span>
+    </div>
+    <div class="card center">
+      <p class="lead">Enter PIN</p>
+      <div class="pin-dots" id="pin-dots">
+        <span></span><span></span><span></span><span></span>
+      </div>
+      <div class="pin-pad" id="pin-pad">
+        <button data-k="1">1</button><button data-k="2">2</button><button data-k="3">3</button>
+        <button data-k="4">4</button><button data-k="5">5</button><button data-k="6">6</button>
+        <button data-k="7">7</button><button data-k="8">8</button><button data-k="9">9</button>
+        <button data-k="setup">Set PIN</button><button data-k="0">0</button><button data-k="del">&#9003;</button>
+      </div>
+      <p class="muted" id="pin-msg">&nbsp;</p>
+    </div>
+  </section>
+
+  <!-- PARENT DASHBOARD -->
+  <section id="screen-parent" class="hidden">
+    <div class="topbar">
+      <button class="icon-btn" id="btn-back-5">&#8592;</button>
+      <h1>Progress</h1>
+      <span></span>
+    </div>
+    <div class="card">
+      <p class="lead" id="parent-summary">Summary</p>
+    </div>
+    <div class="card" id="parent-log"></div>
+    <button class="btn btn-secondary" id="btn-reset-progress">Reset all progress</button>
+  </section>
+
+</div>
+<script src="app.js"></script>
+</body>
+</html>

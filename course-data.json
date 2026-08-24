@@ -1,0 +1,137 @@
+{
+  "studentName": "Daisy",
+  "lessons": [
+    {
+      "id": 1, "week": 1, "subject": "Social Studies", "standard": "6.1.1",
+      "title": "The rise and fall of history's first empire",
+      "channel": "TED-Ed", "youtubeId": "XBk9KywTIgk", "duration": "5:37",
+      "questions": [
+        { "q": "What material did the Sumerians use to build their cities, since they had no stone or timber?", "choices": ["Marble", "Mud brick", "Granite", "Bronze"], "correct": 1 },
+        { "q": "What invention did Sumerians create largely to help manage trade and record transactions?", "choices": ["The wheel only", "Writing", "The pyramid", "Coinage"], "correct": 1 },
+        { "q": "What innovation let Sumerians farm successfully in a dry landscape?", "choices": ["Greenhouses", "Irrigation", "Terrace farming", "Imported fertilizer"], "correct": 1 }
+      ],
+      "notebookPrompt": "In 2-4 sentences, describe how Sumerians turned a resource-poor landscape into 'the cradle of civilization.' What single Sumerian invention do you think mattered most, and why?"
+    },
+    {
+      "id": 2, "week": 1, "subject": "Social Studies", "standard": "6.1.1",
+      "title": "How did they build the Great Pyramid of Giza?",
+      "channel": "TED-Ed", "youtubeId": "fJBlEPOj4Fk", "duration": "5:33",
+      "questions": [
+        { "q": "Who was the architect of the Great Pyramid?", "choices": ["Khufu", "Hemiunu", "Imhotep", "Ramesses"], "correct": 1 },
+        { "q": "About how many stones were used to build the Great Pyramid?", "choices": ["About 2,000", "About 200,000", "About 2 million", "About 20 million"], "correct": 2 },
+        { "q": "About how many years did the video say construction took?", "choices": ["5 years", "20 years", "50 years", "100 years"], "correct": 1 }
+      ],
+      "notebookPrompt": "In 2-4 sentences, explain what organizing thousands of workers to build the Great Pyramid tells you about Egyptian government and society at the time."
+    },
+    {
+      "id": 3, "week": 1, "subject": "Social Studies", "standard": "6.1.1",
+      "title": "The secret behind how Chinese characters work",
+      "channel": "TED-Ed", "youtubeId": "U0EySK4T2aY", "duration": "4:48",
+      "questions": [
+        { "q": "What is the main subject of this video?", "choices": ["Chinese cuisine", "The history and evolution of Chinese characters", "The Great Wall", "Chinese dynasties"], "correct": 1 },
+        { "q": "How does the video describe Chinese characters changing over time?", "choices": ["They've stayed exactly the same for 5,000 years", "They've evolved over thousands of years", "They were invented last century", "They were borrowed entirely from another language"], "correct": 1 },
+        { "q": "A lasting writing system is an example of which characteristic of civilization?", "choices": ["Government", "Communication and record-keeping", "Religion", "Trade routes"], "correct": 1 }
+      ],
+      "notebookPrompt": "In 2-4 sentences, compare the role writing played in Sumer, Egypt, and China based on this week's three videos."
+    },
+    {
+      "id": 4, "week": 2, "subject": "Social Studies", "standard": "6.1.2",
+      "title": "The five major world religions",
+      "channel": "TED-Ed", "youtubeId": "m6dCxo7t_aE", "duration": "11:10",
+      "questions": [
+        { "q": "Which of these religions IS covered in this video?", "choices": ["Sikhism", "Judaism", "Taoism", "Confucianism"], "correct": 1 },
+        { "q": "How many major religions does this video cover?", "choices": ["3", "5", "8", "10"], "correct": 1 },
+        { "q": "The video describes these religions' histories as:", "choices": ["Completely unrelated", "Intertwined", "Identical", "Recently invented"], "correct": 1 }
+      ],
+      "notebookPrompt": "In 2-4 sentences, describe one way a religion discussed in the video shaped the civilization it grew up in (government, art, law, or daily life). Note: this video covers 5 of the 8 religions in our standard - ask a parent about Confucianism, Sikhism, and Taoism too."
+    },
+    {
+      "id": 5, "week": 3, "subject": "Social Studies", "standard": "6.1.3",
+      "title": "The Importance Of The River Nile in Ancient Egypt",
+      "channel": "Simple History", "youtubeId": "aEK6PT7K8OM", "duration": "7:12",
+      "questions": [
+        { "q": "What did the Nile provide to ancient Egypt, according to the video?", "choices": ["Gold and silver only", "Water and fertile silt", "Oil", "Timber"], "correct": 1 },
+        { "q": "What did Egyptians regulate based on the Nile's waters?", "choices": ["Their military campaigns only", "Their daily and annual activities", "Their religious calendar only", "Nothing"], "correct": 1 },
+        { "q": "Besides farming, what else did the Nile offer Egypt?", "choices": ["Protection and spiritual strength", "Cooling technology", "Building stone", "Written language"], "correct": 0 }
+      ],
+      "notebookPrompt": "In 2-4 sentences, explain how Egypt's geography (the Nile) shaped where and how its civilization grew."
+    },
+    {
+      "id": 6, "week": 3, "subject": "Social Studies", "standard": "6.1.3",
+      "title": "Ancient Mesopotamia Geography: The Fertile Crescent, Tigris & Euphrates Rivers",
+      "channel": "Instructomania", "youtubeId": "OCH_Yh1rr7E", "duration": "~8:00",
+      "questions": [
+        { "q": "What does \"Mesopotamia\" refer to, based on the video?", "choices": ["A mountain range", "The land between the Tigris and Euphrates rivers", "A desert", "An island"], "correct": 1 },
+        { "q": "What is the \"Fertile Crescent\"?", "choices": ["A moon shape in the sky", "A fertile farming region shaped like a crescent", "A type of pottery", "A Sumerian god"], "correct": 1 },
+        { "q": "What technology did Sumerians and Akkadians use to farm successfully there?", "choices": ["Windmills", "Irrigation", "Greenhouses", "Fishing nets"], "correct": 1 }
+      ],
+      "notebookPrompt": "In 2-4 sentences, compare how the Tigris and Euphrates shaped Mesopotamian civilization to how the Nile shaped Egyptian civilization."
+    },
+    {
+      "id": 7, "week": 3, "subject": "Social Studies", "standard": "6.1.3",
+      "title": "Mohenjo Daro 101",
+      "channel": "National Geographic", "youtubeId": "QUng-iHhSzU", "duration": "3:14",
+      "questions": [
+        { "q": "What was Mohenjo Daro?", "choices": ["A pyramid", "The largest city of the Indus Civilization", "A river", "A religion"], "correct": 1 },
+        { "q": "What advanced engineering feature does the video highlight?", "choices": ["The Great Bath", "A stadium", "A library", "An aqueduct bridge"], "correct": 0 },
+        { "q": "How does the video compare Mohenjo Daro's age to the Egyptian pyramids?", "choices": ["Much newer", "Built around the same time", "Thousands of years older", "Not compared"], "correct": 1 }
+      ],
+      "notebookPrompt": "In 2-4 sentences, describe what made Mohenjo Daro's engineering advanced for its time."
+    },
+    {
+      "id": 8, "week": 1, "subject": "Science", "standard": "6.1.1",
+      "title": "Moon Phases Explained (Animations and Timelapse)",
+      "channel": "timeanddate", "youtubeId": "3lrnNUqTmGU", "duration": "4:08",
+      "questions": [
+        { "q": "What actually changes to create moon phases?", "choices": ["The Moon's shape", "How much of the sunlit Moon we can see from Earth", "The Moon's color", "The Moon's size"], "correct": 1 },
+        { "q": "What is a \"New Moon\"?", "choices": ["The start of the lunar month, when the Moon isn't visible", "A brand new moon that just formed", "The brightest phase", "A lunar eclipse"], "correct": 0 },
+        { "q": "About how long is a full cycle of moon phases?", "choices": ["One day", "One week", "About a month", "One year"], "correct": 2 }
+      ],
+      "notebookPrompt": "In 2-4 sentences, explain in your own words why the Moon appears to go through phases."
+    },
+    {
+      "id": 9, "week": 1, "subject": "Science", "standard": "6.1.1",
+      "title": "What creates a total solar eclipse?",
+      "channel": "TED-Ed", "youtubeId": "Qog18tiNnqg", "duration": "3:46",
+      "questions": [
+        { "q": "What creates a total solar eclipse?", "choices": ["The Moon passing between Earth and the Sun", "The Earth passing between the Sun and Moon", "Clouds blocking the Sun", "The Sun going dark"], "correct": 0 },
+        { "q": "What has to line up for an eclipse to happen?", "choices": ["Sun, Earth, and Moon in specific alignment", "Just clouds", "Two full moons", "The seasons changing"], "correct": 0 },
+        { "q": "The video mentions how civilizations throughout history reacted to eclipses. This reaction was often:", "choices": ["Indifference", "Fear or wonder", "Scientific calculation only", "Not recorded at all"], "correct": 1 }
+      ],
+      "notebookPrompt": "In 2-4 sentences, explain what has to line up in space for a total solar eclipse to happen."
+    },
+    {
+      "id": 10, "week": 2, "subject": "Science", "standard": "6.1.1",
+      "title": "Reasons for the seasons",
+      "channel": "TED-Ed", "youtubeId": "DD_8Jm5pTLk", "duration": "5:21",
+      "questions": [
+        { "q": "What actually causes Earth's seasons?", "choices": ["Earth's distance from the Sun changing a lot", "Earth's tilt on its axis", "The Moon's phases", "Solar flares"], "correct": 1 },
+        { "q": "Why are seasons reversed in the Northern and Southern Hemispheres?", "choices": ["They aren't reversed", "Because of Earth's tilt relative to the Sun as it orbits", "Because of the Moon", "Random chance"], "correct": 1 },
+        { "q": "Approximately what is Earth's axial tilt?", "choices": ["0 degrees", "23.5 degrees", "45 degrees", "90 degrees"], "correct": 1 }
+      ],
+      "notebookPrompt": "In 2-4 sentences, explain why summer and winter happen even though Earth's distance from the Sun barely changes."
+    },
+    {
+      "id": 11, "week": 4, "subject": "Science", "standard": "6.1.2",
+      "title": "How Inertia and Gravity work TOGETHER",
+      "channel": "MooMooMath and Science", "youtubeId": "19M5l7gbkQE", "duration": "2:03",
+      "questions": [
+        { "q": "What two forces keep a planet in orbit rather than falling in or flying away?", "choices": ["Magnetism and friction", "Gravity and inertia", "Wind and pressure", "Light and heat"], "correct": 1 },
+        { "q": "What is inertia, based on the video?", "choices": ["The pull of gravity", "An object's tendency to keep moving in a straight line", "The speed of light", "A type of orbit"], "correct": 1 },
+        { "q": "What would happen to a planet's straight-line inertia without gravity?", "choices": ["It would spiral inward", "It would fly off in a straight line", "It would stop moving", "It would speed up randomly"], "correct": 1 }
+      ],
+      "notebookPrompt": "In 2-4 sentences, explain how gravity and inertia work together to keep a planet in orbit."
+    },
+    {
+      "id": 12, "week": 4, "subject": "Science", "standard": "6.1.2",
+      "title": "How far would you have to go to escape gravity?",
+      "channel": "TED-Ed", "youtubeId": "YlxKh4oCKhw", "duration": "4:56",
+      "questions": [
+        { "q": "What two factors determine the strength of gravity's pull, according to the video?", "choices": ["Color and temperature", "Mass and distance", "Speed and time", "Size and shape only"], "correct": 1 },
+        { "q": "Does gravity's pull ever completely disappear with distance, based on the video?", "choices": ["Yes, beyond a certain point", "No, it just gets weaker", "It reverses", "It's not addressed"], "correct": 1 },
+        { "q": "What happens to gravity's pull as mass increases?", "choices": ["It gets weaker", "It stays the same", "It gets stronger", "It disappears"], "correct": 2 }
+      ],
+      "notebookPrompt": "In 2-4 sentences, explain how mass and distance change the strength of gravity, using an example from the video."
+    }
+  ]
+}
