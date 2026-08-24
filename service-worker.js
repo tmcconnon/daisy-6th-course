@@ -1,4 +1,4 @@
-const CACHE_NAME = "daisy-course-v12";
+const CACHE_NAME = "daisy-course-v13";
 const APP_SHELL = [
   "./",
   "./index.html",

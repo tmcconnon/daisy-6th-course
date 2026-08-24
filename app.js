@@ -4,7 +4,23 @@
 
 const STORAGE_KEY = "daisy_course_progress_v1";
 const PIN_KEY = "daisy_course_pin_v1";
-const APP_VERSION = "v12"; // bump alongside CACHE_NAME in service-worker.js so the two always match
+const APP_VERSION = "v13"; // bump alongside CACHE_NAME in service-worker.js so the two always match
+
+// One new lesson per calendar day (device-local time). A lesson already in
+// progress when the day rolls over may still be finished - this only gates
+// STARTING a new one from the Welcome screen.
+function todayStr() {
+  const d = new Date();
+  return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, "0")}-${String(d.getDate()).padStart(2, "0")}`;
+}
+function completedToday() {
+  return Object.values(state.completedLessons).some(rec => {
+    if (!rec || !rec.completedAt) return false;
+    const d = new Date(rec.completedAt);
+    const local = `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, "0")}-${String(d.getDate()).padStart(2, "0")}`;
+    return local === todayStr();
+  });
+}
 
 let COURSE = null;   // loaded course-data.json
 let state = loadState();
@@ -67,7 +83,13 @@ function renderWelcome() {
   const doneMsg = document.getElementById("all-done-msg");
 
   const name = COURSE.studentName || "there";
-  if (lesson) {
+  if (lesson && completedToday()) {
+    title.textContent = `Nice work today, ${name}!`;
+    body.textContent = "";
+    startBtn.classList.add("hidden");
+    doneMsg.textContent = "You've done today's lesson - come back tomorrow for the next one!";
+    doneMsg.classList.remove("hidden");
+  } else if (lesson) {
     title.textContent = `Welcome, ${name}!`;
     body.textContent = `Today we're covering some ${lesson.subject} content. Ready when you are.`;
     startBtn.classList.remove("hidden");
@@ -77,6 +99,7 @@ function renderWelcome() {
     title.textContent = `Great work, ${name}!`;
     body.textContent = "";
     startBtn.classList.add("hidden");
+    doneMsg.textContent = "You've finished every lesson we've got loaded! Ask your dad to add the next batch.";
     doneMsg.classList.remove("hidden");
   }
   show("screen-welcome");
@@ -492,7 +515,10 @@ document.getElementById("btn-export-all").onclick = () => doExport(null, false);
 function renderParentDashboard() {
   const total = COURSE.lessons.length;
   const done = Object.keys(state.completedLessons).length;
-  document.getElementById("parent-summary").textContent = `${done} of ${total} lessons completed.`;
+  const todayNote = completedToday()
+    ? " Today's lesson is done - locked until tomorrow."
+    : " Today's lesson is available.";
+  document.getElementById("parent-summary").textContent = `${done} of ${total} lessons completed.${todayNote}`;
   updateExportStatus();
 
   const log = document.getElementById("parent-log");
