@@ -4,6 +4,7 @@
 
 const STORAGE_KEY = "daisy_course_progress_v1";
 const PIN_KEY = "daisy_course_pin_v1";
+const APP_VERSION = "v7"; // bump alongside CACHE_NAME in service-worker.js so the two always match
 
 let COURSE = null;   // loaded course-data.json
 let state = loadState();
@@ -425,9 +426,12 @@ function showExportMessage(msg) {
 
 function updateExportStatus() {
   const el = document.getElementById("export-status");
-  el.textContent = state.lastExportAt
+  const exportLine = state.lastExportAt
     ? `Last exported: ${new Date(state.lastExportAt).toLocaleString()}`
     : "You haven't exported yet.";
+  el.textContent = exportLine;
+  const versionEl = document.getElementById("app-version");
+  if (versionEl) versionEl.textContent = `App version: ${APP_VERSION}`;
 }
 
 async function doExport(sinceIso, advanceCursor) {
