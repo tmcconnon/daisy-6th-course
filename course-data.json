@@ -651,43 +651,43 @@
       "week": 6,
       "subject": "Social Studies",
       "standard": "6.1.4",
-      "title": "Mohenjo Daro 101",
+      "title": "Threads That Speak: How The Inca Used Strings to Communicate",
       "channel": "National Geographic",
-      "youtubeId": "QUng-iHhSzU",
-      "duration": "3:15",
+      "youtubeId": "AmPyz1kCbOw",
+      "duration": "3:38",
       "questions": [
         {
-          "q": "What civilization built the city of Mohenjo Daro?",
+          "q": "What is a quipu?",
           "choices": [
-            "Egyptian",
-            "Indus Valley (Harappan)",
-            "Mesopotamian",
-            "Chinese"
+            "A system of knotted strings the Inca used to record and communicate information",
+            "A type of Incan currency made of gold",
+            "An ancient Incan road",
+            "A written alphabet"
           ],
-          "correct": 1
+          "correct": 0
         },
         {
-          "q": "What advanced feature did Mohenjo Daro have that shows economic/technological sophistication?",
+          "q": "Why was the quipu an important economic technology for the Inca Empire?",
           "choices": [
-            "A modern subway",
-            "Advanced city planning, drainage, and standardized weights for trade",
-            "Nothing notable",
-            "Only mud huts"
+            "It let them track resources, populations, and records without a written language",
+            "It was only used for decoration",
+            "It replaced the need for any government",
+            "It was used exclusively for religious ceremonies"
           ],
-          "correct": 1
+          "correct": 0
         },
         {
-          "q": "How old is Mohenjo Daro compared to the Egyptian pyramids, per the video?",
+          "q": "What does the quipu system show about how civilizations can solve the same problem differently?",
           "choices": [
-            "Much newer",
-            "Built around the same era",
-            "Thousands of years older",
-            "It isn't compared"
+            "Every civilization must invent writing to manage a complex economy",
+            "The Inca managed complex record-keeping using knots instead of written text",
+            "The Inca had no way to track resources or trade",
+            "Quipu and writing are exactly the same thing"
           ],
           "correct": 1
         }
       ],
-      "notebookPrompt": "In 2-4 sentences, describe one piece of evidence from Mohenjo Daro that shows the Indus Valley civilization had an organized economy."
+      "notebookPrompt": "In 2-4 sentences, compare the quipu system to another technology you've learned about (writing, currency, irrigation). How did each help a civilization manage its economy?"
     },
     {
       "id": 17,
@@ -780,43 +780,43 @@
       "week": 7,
       "subject": "Social Studies",
       "standard": "6.1.5",
-      "title": "The secret behind how Chinese characters work",
+      "title": "The incredible history of China's terracotta warriors",
       "channel": "TED-Ed",
-      "youtubeId": "U0EySK4T2aY",
-      "duration": "4:48",
+      "youtubeId": "mP5p4QbvPtc",
+      "duration": "4:32",
       "questions": [
         {
-          "q": "What is the video mainly about?",
+          "q": "What are the terracotta warriors?",
           "choices": [
-            "Chinese cuisine",
-            "The history and structure of Chinese writing",
-            "The Great Wall",
-            "Chinese dynasties"
+            "An army of thousands of life-sized clay soldiers buried to guard an emperor's tomb",
+            "A collection of ancient coins",
+            "A type of Chinese pottery used for cooking",
+            "Statues built to guard the Great Wall"
           ],
-          "correct": 1
+          "correct": 0
         },
         {
-          "q": "How have Chinese characters changed over thousands of years?",
+          "q": "What does the incredible detail and scale of the terracotta army suggest about the civilization that built it?",
           "choices": [
-            "They've stayed exactly the same",
-            "They've evolved while keeping a long continuous tradition",
-            "They were invented last century",
-            "They were borrowed from another language"
+            "It had huge resources, skilled artisans, and a ruler powerful enough to command them",
+            "It had almost no organized government",
+            "It was a very small, simple society",
+            "It had no interest in art or the afterlife"
           ],
-          "correct": 1
+          "correct": 0
         },
         {
-          "q": "Why is a writing system considered a form of cultural expression?",
+          "q": "Why is the terracotta army considered a form of cultural expression?",
           "choices": [
-            "It has no cultural meaning",
-            "It carries and preserves a civilization's language, ideas, and history",
-            "Writing is only functional, never artistic",
-            "It's unrelated to culture"
+            "It's just a random pile of clay",
+            "It reflects beliefs about the afterlife, artistic skill, and imperial power all at once",
+            "It has no artistic or historical value",
+            "It was copied entirely from Egyptian tomb art"
           ],
           "correct": 1
         }
       ],
-      "notebookPrompt": "In 2-4 sentences, compare how writing served as cultural expression in China versus what you learned about Mesopotamia or Egypt."
+      "notebookPrompt": "In 2-4 sentences, compare what the terracotta army reveals about ancient Chinese beliefs and values to what you learned about Egyptian tomb art or writing."
     },
     {
       "id": 20,

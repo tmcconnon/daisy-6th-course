@@ -8,6 +8,7 @@ const PIN_KEY = "daisy_course_pin_v1";
 let COURSE = null;   // loaded course-data.json
 let state = loadState();
 if (!state.boxCounters) state.boxCounters = { animal: 0, joke: 0, funfact: 0 };
+if (state.lastExportAt === undefined) state.lastExportAt = null;
 
 function loadState() {
   try {
@@ -15,7 +16,7 @@ function loadState() {
     if (raw) return JSON.parse(raw);
   } catch (e) { /* ignore */ }
   return { completedLessons: {}, currentLessonId: null, currentAttempt: null,
-           boxCounters: { animal: 0, joke: 0, funfact: 0 } };
+           boxCounters: { animal: 0, joke: 0, funfact: 0 }, lastExportAt: null };
 }
 function saveState() {
   localStorage.setItem(STORAGE_KEY, JSON.stringify(state));
@@ -389,10 +390,87 @@ document.getElementById("pin-pad").addEventListener("click", (e) => {
   }
 });
 
+/* ---------------- EXPORT (for parent review) ---------------- */
+function buildExportText(sinceIso) {
+  const sinceDate = sinceIso ? new Date(sinceIso) : null;
+  const lines = [];
+  let count = 0;
+  lines.push(`Daisy's Learning Log — exported ${new Date().toLocaleString()}`);
+  if (sinceDate) lines.push(`(entries completed since ${sinceDate.toLocaleString()})`);
+  lines.push("");
+
+  COURSE.lessons.forEach(lesson => {
+    const rec = state.completedLessons[lesson.id];
+    if (!rec) return;
+    if (sinceDate && new Date(rec.completedAt) <= sinceDate) return;
+    count++;
+    lines.push(`[${lesson.subject} · Standard ${lesson.standard}] "${lesson.title}"`);
+    lines.push(`Prompt: ${lesson.notebookPrompt}`);
+    lines.push(`Daisy's answer: ${rec.notebookText || "(no answer recorded)"}`);
+    lines.push(`Quiz score: ${rec.score}/${rec.total}`);
+    lines.push(`Completed: ${new Date(rec.completedAt).toLocaleDateString()}`);
+    lines.push("");
+  });
+
+  return { text: lines.join("\n").trim(), count };
+}
+
+function showExportMessage(msg) {
+  const el = document.getElementById("export-confirm");
+  el.textContent = msg;
+  el.classList.remove("hidden");
+  clearTimeout(showExportMessage._t);
+  showExportMessage._t = setTimeout(() => el.classList.add("hidden"), 3000);
+}
+
+function updateExportStatus() {
+  const el = document.getElementById("export-status");
+  el.textContent = state.lastExportAt
+    ? `Last exported: ${new Date(state.lastExportAt).toLocaleString()}`
+    : "You haven't exported yet.";
+}
+
+async function doExport(sinceIso, advanceCursor) {
+  const { text, count } = buildExportText(sinceIso);
+  if (count === 0) {
+    showExportMessage(advanceCursor ? "No new entries since your last export." : "No entries completed yet.");
+    return;
+  }
+
+  let copied = false;
+  try {
+    await navigator.clipboard.writeText(text);
+    copied = true;
+  } catch (e) { /* clipboard API unavailable or blocked - share sheet below still gives a path out */ }
+
+  let shared = false;
+  if (navigator.share) {
+    try {
+      await navigator.share({ title: "Daisy's Learning Log", text: text });
+      shared = true;
+    } catch (e) { /* user cancelled the share sheet, or it's unsupported here - not an error */ }
+  }
+
+  if (copied && shared) showExportMessage(`Copied ${count} ${count === 1 ? "entry" : "entries"} & opened share sheet.`);
+  else if (shared) showExportMessage(`Shared ${count} ${count === 1 ? "entry" : "entries"}.`);
+  else if (copied) showExportMessage(`Copied ${count} ${count === 1 ? "entry" : "entries"} to clipboard!`);
+  else showExportMessage("Couldn't export automatically - try again from a supported browser.");
+
+  if (advanceCursor) {
+    state.lastExportAt = new Date().toISOString();
+    saveState();
+    updateExportStatus();
+  }
+}
+
+document.getElementById("btn-export-new").onclick = () => doExport(state.lastExportAt, true);
+document.getElementById("btn-export-all").onclick = () => doExport(null, false);
+
 function renderParentDashboard() {
   const total = COURSE.lessons.length;
   const done = Object.keys(state.completedLessons).length;
   document.getElementById("parent-summary").textContent = `${done} of ${total} lessons completed.`;
+  updateExportStatus();
 
   const log = document.getElementById("parent-log");
   log.innerHTML = "";
@@ -431,7 +509,7 @@ function renderParentDashboard() {
 document.getElementById("btn-reset-progress").onclick = () => {
   if (confirm("Reset ALL of Daisy's progress? This can't be undone.")) {
     state = { completedLessons: {}, currentLessonId: null, currentAttempt: null,
-              boxCounters: { animal: 0, joke: 0, funfact: 0 } };
+              boxCounters: { animal: 0, joke: 0, funfact: 0 }, lastExportAt: null };
     saveState();
     renderParentDashboard();
   }

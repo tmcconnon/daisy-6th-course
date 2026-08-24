@@ -176,6 +176,16 @@ p.lead { font-size: 16px; color: var(--muted); line-height: 1.5; }
 .box-cat-tag.funfact { background: var(--accent); }
 .box-reveal-emoji { font-size: 42px; margin-bottom: 6px; }
 
+/* ---------------- PARENT EXPORT ---------------- */
+.export-confirm {
+  color: var(--good);
+  font-weight: 600;
+  font-size: 14px;
+  margin: 10px 0 0;
+  text-align: center;
+}
+.export-confirm.hidden { display: none; }
+
 .progress-track {
   height: 8px;
   background: #eee;
