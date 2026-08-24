@@ -98,30 +98,25 @@
     </div>
   </section>
 
-  <!-- SURPRISE BOX -->
-  <section id="screen-boxes" class="hidden">
-    <div class="card center">
-      <p class="lead" id="boxes-prompt">Pick a box &mdash; you get one surprise per lesson!</p>
-      <div class="box-row" id="box-row">
-        <button class="surprise-box" id="box-0" data-slot="0"><span class="box-mark">?</span></button>
-        <button class="surprise-box" id="box-1" data-slot="1"><span class="box-mark">?</span></button>
-        <button class="surprise-box" id="box-2" data-slot="2"><span class="box-mark">?</span></button>
-      </div>
-      <div class="box-reveal hidden" id="box-reveal">
-        <span class="box-cat-tag" id="box-cat-tag"></span>
-        <div class="box-reveal-emoji" id="box-reveal-emoji"></div>
-        <p class="lead" id="box-reveal-text"></p>
-        <button class="btn btn-primary" id="btn-box-continue">Continue</button>
-      </div>
-    </div>
-  </section>
-
-  <!-- LESSON COMPLETE -->
+  <!-- LESSON COMPLETE + SURPRISE BOX -->
   <section id="screen-complete" class="hidden">
     <div class="card center">
       <div class="confetti-emoji">&#127881;</div>
       <h2 class="big">Nice work!</h2>
       <p class="lead" id="complete-score">You got 3 out of 3.</p>
+
+      <p class="lead" id="boxes-prompt">Pick a box &mdash; you get one surprise per lesson!</p>
+      <div class="box-row" id="box-row">
+        <button class="surprise-box box-color-1" id="box-0" data-slot="0"><span class="box-lid"></span><span class="box-ribbon"></span></button>
+        <button class="surprise-box box-color-2" id="box-1" data-slot="1"><span class="box-lid"></span><span class="box-ribbon"></span></button>
+        <button class="surprise-box box-color-3" id="box-2" data-slot="2"><span class="box-lid"></span><span class="box-ribbon"></span></button>
+      </div>
+      <div class="box-reveal hidden" id="box-reveal">
+        <span class="box-cat-tag" id="box-cat-tag"></span>
+        <div class="box-reveal-emoji" id="box-reveal-emoji"></div>
+        <p class="lead" id="box-reveal-text"></p>
+      </div>
+
       <button class="btn btn-primary" id="btn-back-to-welcome">Done for now</button>
     </div>
   </section>

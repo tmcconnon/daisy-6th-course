@@ -4,7 +4,7 @@
 
 const STORAGE_KEY = "daisy_course_progress_v1";
 const PIN_KEY = "daisy_course_pin_v1";
-const APP_VERSION = "v7"; // bump alongside CACHE_NAME in service-worker.js so the two always match
+const APP_VERSION = "v8"; // bump alongside CACHE_NAME in service-worker.js so the two always match
 
 let COURSE = null;   // loaded course-data.json
 let state = loadState();
@@ -269,7 +269,7 @@ document.getElementById("btn-save-notebook").onclick = () => {
   state.currentAttempt = null;
   saveState();
 
-  renderBoxesScreen(lesson, score);
+  renderCompleteScreen(lesson, score);
 };
 
 /* ---------------- SURPRISE BOX ---------------- */
@@ -285,7 +285,7 @@ function shuffle(arr) {
 const BOX_CATEGORIES = ["animal", "joke", "funfact"];
 const BOX_CAT_LABEL = { animal: "Animal Fact", joke: "Dad Joke", funfact: "Fun Fact" };
 
-function renderBoxesScreen(lesson, score) {
+function setupBoxes(lesson, score) {
   const assignment = shuffle(BOX_CATEGORIES);
   const boxes = [0, 1, 2].map(i => document.getElementById(`box-${i}`));
 
@@ -293,18 +293,15 @@ function renderBoxesScreen(lesson, score) {
     btn.dataset.cat = assignment[i];
     btn.disabled = false;
     btn.classList.remove("picked", "faded");
-    btn.querySelector(".box-mark").textContent = "?";
   });
   document.getElementById("box-reveal").classList.add("hidden");
 
   boxes.forEach(btn => {
-    btn.onclick = () => pickBox(btn, boxes, lesson, score);
+    btn.onclick = () => pickBox(btn, boxes);
   });
-
-  show("screen-boxes");
 }
 
-function pickBox(chosenBtn, allBoxes, lesson, score) {
+function pickBox(chosenBtn, allBoxes) {
   // Only one pick allowed per lesson - lock out the other boxes immediately.
   allBoxes.forEach(b => {
     b.disabled = true;
@@ -327,12 +324,11 @@ function pickBox(chosenBtn, allBoxes, lesson, score) {
   setTimeout(() => {
     document.getElementById("box-reveal").classList.remove("hidden");
   }, 250);
-
-  document.getElementById("btn-box-continue").onclick = () => renderCompleteScreen(lesson, score);
 }
 
 function renderCompleteScreen(lesson, score) {
   document.getElementById("complete-score").textContent = `You got ${score} out of ${lesson.questions.length} on the first pass through the quiz.`;
+  setupBoxes(lesson, score);
   show("screen-complete");
 }
 

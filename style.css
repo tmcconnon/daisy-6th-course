@@ -121,39 +121,61 @@ p.lead { font-size: 16px; color: var(--muted); line-height: 1.5; }
 .box-row {
   display: flex;
   justify-content: center;
-  gap: 16px;
-  margin: 18px 0 8px;
+  gap: 22px;
+  margin: 26px 0 8px;
+  padding-top: 16px; /* room for the lids, which overhang the top of each box */
 }
 .surprise-box {
-  width: 84px;
-  height: 84px;
-  border-radius: 14px;
+  width: 76px;
+  height: 62px;
+  border-radius: 8px;
   border: none;
-  background: linear-gradient(160deg, var(--accent), var(--accent-dark));
-  box-shadow: 0 6px 14px rgba(0,0,0,0.18);
   cursor: pointer;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  position: relative;
+  box-shadow: 0 6px 14px rgba(0,0,0,0.2);
   transition: transform 0.15s ease, opacity 0.2s ease;
 }
-.surprise-box .box-mark {
-  font-size: 30px;
-  color: white;
-  font-weight: 700;
+.surprise-box .box-lid {
+  position: absolute;
+  top: -14px;
+  left: -5px;
+  right: -5px;
+  height: 18px;
+  border-radius: 6px;
+  box-shadow: 0 3px 5px rgba(0,0,0,0.15);
 }
+.surprise-box .box-ribbon {
+  position: absolute;
+  top: -14px;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 12px;
+  background: rgba(255,255,255,0.6);
+  border-radius: 2px;
+}
+.box-color-1 { background: #f2a154; }
+.box-color-1 .box-lid { background: #f6bb7d; }
+.box-color-2 { background: #6ab7f5; }
+.box-color-2 .box-lid { background: #92cbf8; }
+.box-color-3 { background: #f28ba8; }
+.box-color-3 .box-lid { background: #f6abc0; }
+
 .surprise-box:active { transform: scale(0.94); }
-.surprise-box.picked { animation: box-pop 0.35s ease; }
+.surprise-box.picked { animation: box-pop 0.4s ease; }
 .surprise-box.faded {
-  opacity: 0.35;
+  opacity: 0.3;
   pointer-events: none;
 }
 .surprise-box:disabled { pointer-events: none; }
 @keyframes box-pop {
-  0% { transform: scale(1); }
-  45% { transform: scale(1.15) rotate(-3deg); }
-  100% { transform: scale(1); }
+  0% { transform: scale(1) rotate(0); }
+  35% { transform: scale(1.2) rotate(-6deg); }
+  65% { transform: scale(1.1) rotate(4deg); }
+  100% { transform: scale(1) rotate(0); }
 }
+
+#boxes-prompt { margin-top: 18px; }
 
 .box-reveal {
   margin-top: 18px;
