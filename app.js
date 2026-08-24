@@ -156,17 +156,19 @@ document.getElementById("btn-submit-quiz").onclick = () => {
     const chosen = attempt.answers[qi];
     const block = document.querySelectorAll(".question-block")[qi];
     const buttons = block.querySelectorAll(".choice");
+    const isCorrect = chosen === q.correct;
     buttons.forEach((b, ci) => {
       b.disabled = true;
-      if (ci === q.correct) b.classList.add("correct");
-      else if (ci === chosen) b.classList.add("incorrect");
+      // Only mark the choice the student actually picked - never reveal
+      // which one was correct if they got it wrong.
+      if (ci === chosen) b.classList.add(isCorrect ? "correct" : "incorrect");
     });
     const fb = document.getElementById(`feedback-${qi}`);
-    if (chosen === q.correct) {
+    if (isCorrect) {
       fb.textContent = "Correct!";
       fb.className = "feedback good";
     } else {
-      fb.textContent = "Not quite - the right answer is highlighted.";
+      fb.textContent = "Not quite - try again.";
       fb.className = "feedback bad";
       allCorrect = false;
     }

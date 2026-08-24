@@ -2,136 +2,4132 @@
   "studentName": "Daisy",
   "lessons": [
     {
-      "id": 1, "week": 1, "subject": "Social Studies", "standard": "6.1.1",
+      "id": 1,
+      "week": 1,
+      "subject": "Social Studies",
+      "standard": "6.1.1",
       "title": "The rise and fall of history's first empire",
-      "channel": "TED-Ed", "youtubeId": "XBk9KywTIgk", "duration": "5:37",
+      "channel": "TED-Ed",
+      "youtubeId": "XBk9KywTIgk",
+      "duration": "5:37",
       "questions": [
-        { "q": "What material did the Sumerians use to build their cities, since they had no stone or timber?", "choices": ["Marble", "Mud brick", "Granite", "Bronze"], "correct": 1 },
-        { "q": "What invention did Sumerians create largely to help manage trade and record transactions?", "choices": ["The wheel only", "Writing", "The pyramid", "Coinage"], "correct": 1 },
-        { "q": "What innovation let Sumerians farm successfully in a dry landscape?", "choices": ["Greenhouses", "Irrigation", "Terrace farming", "Imported fertilizer"], "correct": 1 }
+        {
+          "q": "What material did the Sumerians use to build their cities, since they had no stone or timber?",
+          "choices": [
+            "Marble",
+            "Mud brick",
+            "Granite",
+            "Bronze"
+          ],
+          "correct": 1
+        },
+        {
+          "q": "What invention did Sumerians create largely to help manage trade and record transactions?",
+          "choices": [
+            "The wheel only",
+            "Writing",
+            "The pyramid",
+            "Coinage"
+          ],
+          "correct": 1
+        },
+        {
+          "q": "What innovation let Sumerians farm successfully in a dry landscape?",
+          "choices": [
+            "Greenhouses",
+            "Irrigation",
+            "Terrace farming",
+            "Imported fertilizer"
+          ],
+          "correct": 1
+        }
       ],
       "notebookPrompt": "In 2-4 sentences, describe how Sumerians turned a resource-poor landscape into 'the cradle of civilization.' What single Sumerian invention do you think mattered most, and why?"
     },
     {
-      "id": 2, "week": 1, "subject": "Social Studies", "standard": "6.1.1",
+      "id": 2,
+      "week": 1,
+      "subject": "Social Studies",
+      "standard": "6.1.1",
       "title": "How did they build the Great Pyramid of Giza?",
-      "channel": "TED-Ed", "youtubeId": "fJBlEPOj4Fk", "duration": "5:33",
+      "channel": "TED-Ed",
+      "youtubeId": "fJBlEPOj4Fk",
+      "duration": "5:33",
       "questions": [
-        { "q": "Who was the architect of the Great Pyramid?", "choices": ["Khufu", "Hemiunu", "Imhotep", "Ramesses"], "correct": 1 },
-        { "q": "About how many stones were used to build the Great Pyramid?", "choices": ["About 2,000", "About 200,000", "About 2 million", "About 20 million"], "correct": 2 },
-        { "q": "About how many years did the video say construction took?", "choices": ["5 years", "20 years", "50 years", "100 years"], "correct": 1 }
+        {
+          "q": "Who was the architect of the Great Pyramid?",
+          "choices": [
+            "Khufu",
+            "Hemiunu",
+            "Imhotep",
+            "Ramesses"
+          ],
+          "correct": 1
+        },
+        {
+          "q": "About how many stones were used to build the Great Pyramid?",
+          "choices": [
+            "About 2,000",
+            "About 200,000",
+            "About 2 million",
+            "About 20 million"
+          ],
+          "correct": 2
+        },
+        {
+          "q": "About how many years did the video say construction took?",
+          "choices": [
+            "5 years",
+            "20 years",
+            "50 years",
+            "100 years"
+          ],
+          "correct": 1
+        }
       ],
       "notebookPrompt": "In 2-4 sentences, explain what organizing thousands of workers to build the Great Pyramid tells you about Egyptian government and society at the time."
     },
     {
-      "id": 3, "week": 1, "subject": "Social Studies", "standard": "6.1.1",
+      "id": 3,
+      "week": 1,
+      "subject": "Social Studies",
+      "standard": "6.1.1",
       "title": "The secret behind how Chinese characters work",
-      "channel": "TED-Ed", "youtubeId": "U0EySK4T2aY", "duration": "4:48",
+      "channel": "TED-Ed",
+      "youtubeId": "U0EySK4T2aY",
+      "duration": "4:48",
       "questions": [
-        { "q": "What is the main subject of this video?", "choices": ["Chinese cuisine", "The history and evolution of Chinese characters", "The Great Wall", "Chinese dynasties"], "correct": 1 },
-        { "q": "How does the video describe Chinese characters changing over time?", "choices": ["They've stayed exactly the same for 5,000 years", "They've evolved over thousands of years", "They were invented last century", "They were borrowed entirely from another language"], "correct": 1 },
-        { "q": "A lasting writing system is an example of which characteristic of civilization?", "choices": ["Government", "Communication and record-keeping", "Religion", "Trade routes"], "correct": 1 }
+        {
+          "q": "What is the main subject of this video?",
+          "choices": [
+            "Chinese cuisine",
+            "The history and evolution of Chinese characters",
+            "The Great Wall",
+            "Chinese dynasties"
+          ],
+          "correct": 1
+        },
+        {
+          "q": "How does the video describe Chinese characters changing over time?",
+          "choices": [
+            "They've stayed exactly the same for 5,000 years",
+            "They've evolved over thousands of years",
+            "They were invented last century",
+            "They were borrowed entirely from another language"
+          ],
+          "correct": 1
+        },
+        {
+          "q": "A lasting writing system is an example of which characteristic of civilization?",
+          "choices": [
+            "Government",
+            "Communication and record-keeping",
+            "Religion",
+            "Trade routes"
+          ],
+          "correct": 1
+        }
       ],
       "notebookPrompt": "In 2-4 sentences, compare the role writing played in Sumer, Egypt, and China based on this week's three videos."
     },
     {
-      "id": 4, "week": 2, "subject": "Social Studies", "standard": "6.1.2",
+      "id": 4,
+      "week": 2,
+      "subject": "Social Studies",
+      "standard": "6.1.2",
       "title": "The five major world religions",
-      "channel": "TED-Ed", "youtubeId": "m6dCxo7t_aE", "duration": "11:10",
+      "channel": "TED-Ed",
+      "youtubeId": "m6dCxo7t_aE",
+      "duration": "11:10",
       "questions": [
-        { "q": "Which of these religions IS covered in this video?", "choices": ["Sikhism", "Judaism", "Taoism", "Confucianism"], "correct": 1 },
-        { "q": "How many major religions does this video cover?", "choices": ["3", "5", "8", "10"], "correct": 1 },
-        { "q": "The video describes these religions' histories as:", "choices": ["Completely unrelated", "Intertwined", "Identical", "Recently invented"], "correct": 1 }
+        {
+          "q": "Which of these religions IS covered in this video?",
+          "choices": [
+            "Sikhism",
+            "Judaism",
+            "Taoism",
+            "Confucianism"
+          ],
+          "correct": 1
+        },
+        {
+          "q": "How many major religions does this video cover?",
+          "choices": [
+            "3",
+            "5",
+            "8",
+            "10"
+          ],
+          "correct": 1
+        },
+        {
+          "q": "The video describes these religions' histories as:",
+          "choices": [
+            "Completely unrelated",
+            "Intertwined",
+            "Identical",
+            "Recently invented"
+          ],
+          "correct": 1
+        }
       ],
       "notebookPrompt": "In 2-4 sentences, describe one way a religion discussed in the video shaped the civilization it grew up in (government, art, law, or daily life). Note: this video covers 5 of the 8 religions in our standard - ask a parent about Confucianism, Sikhism, and Taoism too."
     },
     {
-      "id": 5, "week": 3, "subject": "Social Studies", "standard": "6.1.3",
+      "id": 5,
+      "week": 3,
+      "subject": "Social Studies",
+      "standard": "6.1.3",
       "title": "The Importance Of The River Nile in Ancient Egypt",
-      "channel": "Simple History", "youtubeId": "aEK6PT7K8OM", "duration": "7:12",
+      "channel": "Simple History",
+      "youtubeId": "aEK6PT7K8OM",
+      "duration": "7:12",
       "questions": [
-        { "q": "What did the Nile provide to ancient Egypt, according to the video?", "choices": ["Gold and silver only", "Water and fertile silt", "Oil", "Timber"], "correct": 1 },
-        { "q": "What did Egyptians regulate based on the Nile's waters?", "choices": ["Their military campaigns only", "Their daily and annual activities", "Their religious calendar only", "Nothing"], "correct": 1 },
-        { "q": "Besides farming, what else did the Nile offer Egypt?", "choices": ["Protection and spiritual strength", "Cooling technology", "Building stone", "Written language"], "correct": 0 }
+        {
+          "q": "What did the Nile provide to ancient Egypt, according to the video?",
+          "choices": [
+            "Gold and silver only",
+            "Water and fertile silt",
+            "Oil",
+            "Timber"
+          ],
+          "correct": 1
+        },
+        {
+          "q": "What did Egyptians regulate based on the Nile's waters?",
+          "choices": [
+            "Their military campaigns only",
+            "Their daily and annual activities",
+            "Their religious calendar only",
+            "Nothing"
+          ],
+          "correct": 1
+        },
+        {
+          "q": "Besides farming, what else did the Nile offer Egypt?",
+          "choices": [
+            "Protection and spiritual strength",
+            "Cooling technology",
+            "Building stone",
+            "Written language"
+          ],
+          "correct": 0
+        }
       ],
       "notebookPrompt": "In 2-4 sentences, explain how Egypt's geography (the Nile) shaped where and how its civilization grew."
     },
     {
-      "id": 6, "week": 3, "subject": "Social Studies", "standard": "6.1.3",
+      "id": 6,
+      "week": 3,
+      "subject": "Social Studies",
+      "standard": "6.1.3",
       "title": "Ancient Mesopotamia Geography: The Fertile Crescent, Tigris & Euphrates Rivers",
-      "channel": "Instructomania", "youtubeId": "OCH_Yh1rr7E", "duration": "~8:00",
+      "channel": "Instructomania",
+      "youtubeId": "OCH_Yh1rr7E",
+      "duration": "~8:00",
       "questions": [
-        { "q": "What does \"Mesopotamia\" refer to, based on the video?", "choices": ["A mountain range", "The land between the Tigris and Euphrates rivers", "A desert", "An island"], "correct": 1 },
-        { "q": "What is the \"Fertile Crescent\"?", "choices": ["A moon shape in the sky", "A fertile farming region shaped like a crescent", "A type of pottery", "A Sumerian god"], "correct": 1 },
-        { "q": "What technology did Sumerians and Akkadians use to farm successfully there?", "choices": ["Windmills", "Irrigation", "Greenhouses", "Fishing nets"], "correct": 1 }
+        {
+          "q": "What does \"Mesopotamia\" refer to, based on the video?",
+          "choices": [
+            "A mountain range",
+            "The land between the Tigris and Euphrates rivers",
+            "A desert",
+            "An island"
+          ],
+          "correct": 1
+        },
+        {
+          "q": "What is the \"Fertile Crescent\"?",
+          "choices": [
+            "A moon shape in the sky",
+            "A fertile farming region shaped like a crescent",
+            "A type of pottery",
+            "A Sumerian god"
+          ],
+          "correct": 1
+        },
+        {
+          "q": "What technology did Sumerians and Akkadians use to farm successfully there?",
+          "choices": [
+            "Windmills",
+            "Irrigation",
+            "Greenhouses",
+            "Fishing nets"
+          ],
+          "correct": 1
+        }
       ],
       "notebookPrompt": "In 2-4 sentences, compare how the Tigris and Euphrates shaped Mesopotamian civilization to how the Nile shaped Egyptian civilization."
     },
     {
-      "id": 7, "week": 3, "subject": "Social Studies", "standard": "6.1.3",
+      "id": 7,
+      "week": 3,
+      "subject": "Social Studies",
+      "standard": "6.1.3",
       "title": "Mohenjo Daro 101",
-      "channel": "National Geographic", "youtubeId": "QUng-iHhSzU", "duration": "3:14",
+      "channel": "National Geographic",
+      "youtubeId": "QUng-iHhSzU",
+      "duration": "3:14",
       "questions": [
-        { "q": "What was Mohenjo Daro?", "choices": ["A pyramid", "The largest city of the Indus Civilization", "A river", "A religion"], "correct": 1 },
-        { "q": "What advanced engineering feature does the video highlight?", "choices": ["The Great Bath", "A stadium", "A library", "An aqueduct bridge"], "correct": 0 },
-        { "q": "How does the video compare Mohenjo Daro's age to the Egyptian pyramids?", "choices": ["Much newer", "Built around the same time", "Thousands of years older", "Not compared"], "correct": 1 }
+        {
+          "q": "What was Mohenjo Daro?",
+          "choices": [
+            "A pyramid",
+            "The largest city of the Indus Civilization",
+            "A river",
+            "A religion"
+          ],
+          "correct": 1
+        },
+        {
+          "q": "What advanced engineering feature does the video highlight?",
+          "choices": [
+            "The Great Bath",
+            "A stadium",
+            "A library",
+            "An aqueduct bridge"
+          ],
+          "correct": 0
+        },
+        {
+          "q": "How does the video compare Mohenjo Daro's age to the Egyptian pyramids?",
+          "choices": [
+            "Much newer",
+            "Built around the same time",
+            "Thousands of years older",
+            "Not compared"
+          ],
+          "correct": 1
+        }
       ],
       "notebookPrompt": "In 2-4 sentences, describe what made Mohenjo Daro's engineering advanced for its time."
     },
     {
-      "id": 8, "week": 1, "subject": "Science", "standard": "6.1.1",
+      "id": 8,
+      "week": 1,
+      "subject": "Science",
+      "standard": "6.1.1",
       "title": "Moon Phases Explained (Animations and Timelapse)",
-      "channel": "timeanddate", "youtubeId": "3lrnNUqTmGU", "duration": "4:08",
+      "channel": "timeanddate",
+      "youtubeId": "3lrnNUqTmGU",
+      "duration": "4:08",
       "questions": [
-        { "q": "What actually changes to create moon phases?", "choices": ["The Moon's shape", "How much of the sunlit Moon we can see from Earth", "The Moon's color", "The Moon's size"], "correct": 1 },
-        { "q": "What is a \"New Moon\"?", "choices": ["The start of the lunar month, when the Moon isn't visible", "A brand new moon that just formed", "The brightest phase", "A lunar eclipse"], "correct": 0 },
-        { "q": "About how long is a full cycle of moon phases?", "choices": ["One day", "One week", "About a month", "One year"], "correct": 2 }
+        {
+          "q": "What actually changes to create moon phases?",
+          "choices": [
+            "The Moon's shape",
+            "How much of the sunlit Moon we can see from Earth",
+            "The Moon's color",
+            "The Moon's size"
+          ],
+          "correct": 1
+        },
+        {
+          "q": "What is a \"New Moon\"?",
+          "choices": [
+            "The start of the lunar month, when the Moon isn't visible",
+            "A brand new moon that just formed",
+            "The brightest phase",
+            "A lunar eclipse"
+          ],
+          "correct": 0
+        },
+        {
+          "q": "About how long is a full cycle of moon phases?",
+          "choices": [
+            "One day",
+            "One week",
+            "About a month",
+            "One year"
+          ],
+          "correct": 2
+        }
       ],
       "notebookPrompt": "In 2-4 sentences, explain in your own words why the Moon appears to go through phases."
     },
     {
-      "id": 9, "week": 1, "subject": "Science", "standard": "6.1.1",
+      "id": 9,
+      "week": 1,
+      "subject": "Science",
+      "standard": "6.1.1",
       "title": "What creates a total solar eclipse?",
-      "channel": "TED-Ed", "youtubeId": "Qog18tiNnqg", "duration": "3:46",
+      "channel": "TED-Ed",
+      "youtubeId": "Qog18tiNnqg",
+      "duration": "3:46",
       "questions": [
-        { "q": "What creates a total solar eclipse?", "choices": ["The Moon passing between Earth and the Sun", "The Earth passing between the Sun and Moon", "Clouds blocking the Sun", "The Sun going dark"], "correct": 0 },
-        { "q": "What has to line up for an eclipse to happen?", "choices": ["Sun, Earth, and Moon in specific alignment", "Just clouds", "Two full moons", "The seasons changing"], "correct": 0 },
-        { "q": "The video mentions how civilizations throughout history reacted to eclipses. This reaction was often:", "choices": ["Indifference", "Fear or wonder", "Scientific calculation only", "Not recorded at all"], "correct": 1 }
+        {
+          "q": "What creates a total solar eclipse?",
+          "choices": [
+            "The Moon passing between Earth and the Sun",
+            "The Earth passing between the Sun and Moon",
+            "Clouds blocking the Sun",
+            "The Sun going dark"
+          ],
+          "correct": 0
+        },
+        {
+          "q": "What has to line up for an eclipse to happen?",
+          "choices": [
+            "Sun, Earth, and Moon in specific alignment",
+            "Just clouds",
+            "Two full moons",
+            "The seasons changing"
+          ],
+          "correct": 0
+        },
+        {
+          "q": "The video mentions how civilizations throughout history reacted to eclipses. This reaction was often:",
+          "choices": [
+            "Indifference",
+            "Fear or wonder",
+            "Scientific calculation only",
+            "Not recorded at all"
+          ],
+          "correct": 1
+        }
       ],
       "notebookPrompt": "In 2-4 sentences, explain what has to line up in space for a total solar eclipse to happen."
     },
     {
-      "id": 10, "week": 2, "subject": "Science", "standard": "6.1.1",
+      "id": 10,
+      "week": 2,
+      "subject": "Science",
+      "standard": "6.1.1",
       "title": "Reasons for the seasons",
-      "channel": "TED-Ed", "youtubeId": "DD_8Jm5pTLk", "duration": "5:21",
+      "channel": "TED-Ed",
+      "youtubeId": "DD_8Jm5pTLk",
+      "duration": "5:21",
       "questions": [
-        { "q": "What actually causes Earth's seasons?", "choices": ["Earth's distance from the Sun changing a lot", "Earth's tilt on its axis", "The Moon's phases", "Solar flares"], "correct": 1 },
-        { "q": "Why are seasons reversed in the Northern and Southern Hemispheres?", "choices": ["They aren't reversed", "Because of Earth's tilt relative to the Sun as it orbits", "Because of the Moon", "Random chance"], "correct": 1 },
-        { "q": "Approximately what is Earth's axial tilt?", "choices": ["0 degrees", "23.5 degrees", "45 degrees", "90 degrees"], "correct": 1 }
+        {
+          "q": "What actually causes Earth's seasons?",
+          "choices": [
+            "Earth's distance from the Sun changing a lot",
+            "Earth's tilt on its axis",
+            "The Moon's phases",
+            "Solar flares"
+          ],
+          "correct": 1
+        },
+        {
+          "q": "Why are seasons reversed in the Northern and Southern Hemispheres?",
+          "choices": [
+            "They aren't reversed",
+            "Because of Earth's tilt relative to the Sun as it orbits",
+            "Because of the Moon",
+            "Random chance"
+          ],
+          "correct": 1
+        },
+        {
+          "q": "Approximately what is Earth's axial tilt?",
+          "choices": [
+            "0 degrees",
+            "23.5 degrees",
+            "45 degrees",
+            "90 degrees"
+          ],
+          "correct": 1
+        }
       ],
       "notebookPrompt": "In 2-4 sentences, explain why summer and winter happen even though Earth's distance from the Sun barely changes."
     },
     {
-      "id": 11, "week": 4, "subject": "Science", "standard": "6.1.2",
+      "id": 11,
+      "week": 4,
+      "subject": "Science",
+      "standard": "6.1.2",
       "title": "How Inertia and Gravity work TOGETHER",
-      "channel": "MooMooMath and Science", "youtubeId": "19M5l7gbkQE", "duration": "2:03",
+      "channel": "MooMooMath and Science",
+      "youtubeId": "19M5l7gbkQE",
+      "duration": "2:03",
       "questions": [
-        { "q": "What two forces keep a planet in orbit rather than falling in or flying away?", "choices": ["Magnetism and friction", "Gravity and inertia", "Wind and pressure", "Light and heat"], "correct": 1 },
-        { "q": "What is inertia, based on the video?", "choices": ["The pull of gravity", "An object's tendency to keep moving in a straight line", "The speed of light", "A type of orbit"], "correct": 1 },
-        { "q": "What would happen to a planet's straight-line inertia without gravity?", "choices": ["It would spiral inward", "It would fly off in a straight line", "It would stop moving", "It would speed up randomly"], "correct": 1 }
+        {
+          "q": "What two forces keep a planet in orbit rather than falling in or flying away?",
+          "choices": [
+            "Magnetism and friction",
+            "Gravity and inertia",
+            "Wind and pressure",
+            "Light and heat"
+          ],
+          "correct": 1
+        },
+        {
+          "q": "What is inertia, based on the video?",
+          "choices": [
+            "The pull of gravity",
+            "An object's tendency to keep moving in a straight line",
+            "The speed of light",
+            "A type of orbit"
+          ],
+          "correct": 1
+        },
+        {
+          "q": "What would happen to a planet's straight-line inertia without gravity?",
+          "choices": [
+            "It would spiral inward",
+            "It would fly off in a straight line",
+            "It would stop moving",
+            "It would speed up randomly"
+          ],
+          "correct": 1
+        }
       ],
       "notebookPrompt": "In 2-4 sentences, explain how gravity and inertia work together to keep a planet in orbit."
     },
     {
-      "id": 12, "week": 4, "subject": "Science", "standard": "6.1.2",
+      "id": 12,
+      "week": 4,
+      "subject": "Science",
+      "standard": "6.1.2",
       "title": "How far would you have to go to escape gravity?",
-      "channel": "TED-Ed", "youtubeId": "YlxKh4oCKhw", "duration": "4:56",
+      "channel": "TED-Ed",
+      "youtubeId": "YlxKh4oCKhw",
+      "duration": "4:56",
       "questions": [
-        { "q": "What two factors determine the strength of gravity's pull, according to the video?", "choices": ["Color and temperature", "Mass and distance", "Speed and time", "Size and shape only"], "correct": 1 },
-        { "q": "Does gravity's pull ever completely disappear with distance, based on the video?", "choices": ["Yes, beyond a certain point", "No, it just gets weaker", "It reverses", "It's not addressed"], "correct": 1 },
-        { "q": "What happens to gravity's pull as mass increases?", "choices": ["It gets weaker", "It stays the same", "It gets stronger", "It disappears"], "correct": 2 }
+        {
+          "q": "What two factors determine the strength of gravity's pull, according to the video?",
+          "choices": [
+            "Color and temperature",
+            "Mass and distance",
+            "Speed and time",
+            "Size and shape only"
+          ],
+          "correct": 1
+        },
+        {
+          "q": "Does gravity's pull ever completely disappear with distance, based on the video?",
+          "choices": [
+            "Yes, beyond a certain point",
+            "No, it just gets weaker",
+            "It reverses",
+            "It's not addressed"
+          ],
+          "correct": 1
+        },
+        {
+          "q": "What happens to gravity's pull as mass increases?",
+          "choices": [
+            "It gets weaker",
+            "It stays the same",
+            "It gets stronger",
+            "It disappears"
+          ],
+          "correct": 2
+        }
       ],
       "notebookPrompt": "In 2-4 sentences, explain how mass and distance change the strength of gravity, using an example from the video."
+    },
+    {
+      "id": 13,
+      "week": 5,
+      "subject": "Social Studies",
+      "standard": "6.1.4",
+      "title": "A day in the life of an ancient Babylonian business mogul",
+      "channel": "TED-Ed",
+      "youtubeId": "ZsiHrK9DvvQ",
+      "duration": "4:47",
+      "questions": [
+        {
+          "q": "What ancient civilization is this video about?",
+          "choices": [
+            "Egypt",
+            "Mesopotamia (Babylon)",
+            "China",
+            "Rome"
+          ],
+          "correct": 1
+        },
+        {
+          "q": "What economic tools does the video highlight (currency, contracts, trade records)?",
+          "choices": [
+            "None - Babylon had no economy",
+            "Early forms of business records, loans, and trade",
+            "Only bartering with no records",
+            "Modern banking"
+          ],
+          "correct": 1
+        },
+        {
+          "q": "Why were written records important to Babylonian trade, according to the video?",
+          "choices": [
+            "They weren't important",
+            "They tracked debts, deals, and property",
+            "They were only used for religion",
+            "They were purely decorative"
+          ],
+          "correct": 1
+        }
+      ],
+      "notebookPrompt": "In 2-4 sentences, describe one economic technology or system ancient Babylon used, and explain why it mattered to daily business life."
+    },
+    {
+      "id": 14,
+      "week": 5,
+      "subject": "Social Studies",
+      "standard": "6.1.4",
+      "title": "A day in the life of an ancient Egyptian doctor",
+      "channel": "TED-Ed",
+      "youtubeId": "2rvLEJrQm7g",
+      "duration": "4:34",
+      "questions": [
+        {
+          "q": "What profession does this video follow in ancient Egypt?",
+          "choices": [
+            "A farmer",
+            "A doctor",
+            "A soldier",
+            "A priestess only"
+          ],
+          "correct": 1
+        },
+        {
+          "q": "What kind of economic/technological system does the video show supporting this profession?",
+          "choices": [
+            "Specialized trades and medical knowledge passed down",
+            "No specialization at all",
+            "Only foreign doctors were allowed",
+            "Doctors worked for free with no training"
+          ],
+          "correct": 0
+        },
+        {
+          "q": "What does the existence of specialized doctors suggest about Egyptian society?",
+          "choices": [
+            "It was a simple, unorganized society",
+            "It had enough surplus and organization to support specialized workers",
+            "Everyone had to farm",
+            "Medicine didn't exist"
+          ],
+          "correct": 1
+        }
+      ],
+      "notebookPrompt": "In 2-4 sentences, explain what having specialized doctors (instead of everyone farming) tells you about ancient Egypt's economy."
+    },
+    {
+      "id": 15,
+      "week": 5,
+      "subject": "Social Studies",
+      "standard": "6.1.4",
+      "title": "The Silk Road: Connecting the ancient world through trade",
+      "channel": "TED-Ed",
+      "youtubeId": "vn3e37VWc0k",
+      "duration": "5:20",
+      "questions": [
+        {
+          "q": "What was the Silk Road?",
+          "choices": [
+            "A single paved road",
+            "A network of trade routes connecting China to the Mediterranean",
+            "A river",
+            "A wall"
+          ],
+          "correct": 1
+        },
+        {
+          "q": "Name one good or idea that traveled along the Silk Road.",
+          "choices": [
+            "Silk, spices, or new technologies/ideas",
+            "Nothing traveled on it",
+            "Only soldiers used it",
+            "Only gold traveled on it"
+          ],
+          "correct": 0
+        },
+        {
+          "q": "How did the Silk Road affect the civilizations it connected?",
+          "choices": [
+            "It isolated them further",
+            "It spread goods, technology, and culture between them",
+            "It had no effect",
+            "It only caused wars"
+          ],
+          "correct": 1
+        }
+      ],
+      "notebookPrompt": "In 2-4 sentences, explain how trade networks like the Silk Road helped ancient China's economy and technology grow."
+    },
+    {
+      "id": 16,
+      "week": 6,
+      "subject": "Social Studies",
+      "standard": "6.1.4",
+      "title": "Mohenjo Daro 101",
+      "channel": "National Geographic",
+      "youtubeId": "QUng-iHhSzU",
+      "duration": "3:15",
+      "questions": [
+        {
+          "q": "What civilization built the city of Mohenjo Daro?",
+          "choices": [
+            "Egyptian",
+            "Indus Valley (Harappan)",
+            "Mesopotamian",
+            "Chinese"
+          ],
+          "correct": 1
+        },
+        {
+          "q": "What advanced feature did Mohenjo Daro have that shows economic/technological sophistication?",
+          "choices": [
+            "A modern subway",
+            "Advanced city planning, drainage, and standardized weights for trade",
+            "Nothing notable",
+            "Only mud huts"
+          ],
+          "correct": 1
+        },
+        {
+          "q": "How old is Mohenjo Daro compared to the Egyptian pyramids, per the video?",
+          "choices": [
+            "Much newer",
+            "Built around the same era",
+            "Thousands of years older",
+            "It isn't compared"
+          ],
+          "correct": 1
+        }
+      ],
+      "notebookPrompt": "In 2-4 sentences, describe one piece of evidence from Mohenjo Daro that shows the Indus Valley civilization had an organized economy."
+    },
+    {
+      "id": 17,
+      "week": 7,
+      "subject": "Social Studies",
+      "standard": "6.1.5",
+      "title": "The epic of Gilgamesh, the king who tried to conquer death",
+      "channel": "TED-Ed",
+      "youtubeId": "BV9t3Cp18Rc",
+      "duration": "5:27",
+      "questions": [
+        {
+          "q": "What is the Epic of Gilgamesh?",
+          "choices": [
+            "A modern novel",
+            "One of the oldest known works of literature, from Mesopotamia",
+            "A Chinese poem",
+            "An Egyptian prayer"
+          ],
+          "correct": 1
+        },
+        {
+          "q": "What theme does Gilgamesh struggle with in the story?",
+          "choices": [
+            "Mortality and the search for immortality",
+            "Sports",
+            "Farming techniques",
+            "Modern politics"
+          ],
+          "correct": 0
+        },
+        {
+          "q": "What does the survival of this story for thousands of years tell us about Mesopotamian culture?",
+          "choices": [
+            "They had no culture",
+            "Writing let them preserve stories and beliefs long-term",
+            "It was never written down",
+            "It was purely factual, not artistic"
+          ],
+          "correct": 1
+        }
+      ],
+      "notebookPrompt": "In 2-4 sentences, describe what the Epic of Gilgamesh reveals about what Mesopotamians believed or valued."
+    },
+    {
+      "id": 18,
+      "week": 7,
+      "subject": "Social Studies",
+      "standard": "6.1.5",
+      "title": "The Egyptian Book of the Dead: A guidebook for the underworld",
+      "channel": "TED-Ed",
+      "youtubeId": "1yv_MXNYbAo",
+      "duration": "4:32",
+      "questions": [
+        {
+          "q": "What was the Egyptian Book of the Dead used for?",
+          "choices": [
+            "Cooking recipes",
+            "Guiding the dead through the afterlife",
+            "Tax records",
+            "Building instructions"
+          ],
+          "correct": 1
+        },
+        {
+          "q": "What does the Book of the Dead reveal about Egyptian beliefs?",
+          "choices": [
+            "They didn't believe in an afterlife",
+            "They believed in a complex afterlife journey requiring preparation",
+            "It was purely fictional entertainment",
+            "They had no religion"
+          ],
+          "correct": 1
+        },
+        {
+          "q": "How does this artifact count as 'cultural expression'?",
+          "choices": [
+            "It's a religious/artistic text reflecting beliefs and values",
+            "It's just a grocery list",
+            "It has nothing to do with culture",
+            "It was written by outsiders"
+          ],
+          "correct": 0
+        }
+      ],
+      "notebookPrompt": "In 2-4 sentences, explain what the Book of the Dead shows about ancient Egyptian beliefs about death and the afterlife."
+    },
+    {
+      "id": 19,
+      "week": 7,
+      "subject": "Social Studies",
+      "standard": "6.1.5",
+      "title": "The secret behind how Chinese characters work",
+      "channel": "TED-Ed",
+      "youtubeId": "U0EySK4T2aY",
+      "duration": "4:48",
+      "questions": [
+        {
+          "q": "What is the video mainly about?",
+          "choices": [
+            "Chinese cuisine",
+            "The history and structure of Chinese writing",
+            "The Great Wall",
+            "Chinese dynasties"
+          ],
+          "correct": 1
+        },
+        {
+          "q": "How have Chinese characters changed over thousands of years?",
+          "choices": [
+            "They've stayed exactly the same",
+            "They've evolved while keeping a long continuous tradition",
+            "They were invented last century",
+            "They were borrowed from another language"
+          ],
+          "correct": 1
+        },
+        {
+          "q": "Why is a writing system considered a form of cultural expression?",
+          "choices": [
+            "It has no cultural meaning",
+            "It carries and preserves a civilization's language, ideas, and history",
+            "Writing is only functional, never artistic",
+            "It's unrelated to culture"
+          ],
+          "correct": 1
+        }
+      ],
+      "notebookPrompt": "In 2-4 sentences, compare how writing served as cultural expression in China versus what you learned about Mesopotamia or Egypt."
+    },
+    {
+      "id": 20,
+      "week": 7,
+      "subject": "Social Studies",
+      "standard": "6.1.5",
+      "title": "Mohenjo Daro 101 (revisited: art & city design)",
+      "channel": "National Geographic",
+      "youtubeId": "QUng-iHhSzU",
+      "duration": "3:15",
+      "questions": [
+        {
+          "q": "What artistic/design achievement does Mohenjo Daro show, beyond just economics?",
+          "choices": [
+            "Advanced urban planning and standardized architecture",
+            "No design at all",
+            "Random, unplanned huts",
+            "Only religious buildings"
+          ],
+          "correct": 0
+        },
+        {
+          "q": "Why is Indus Valley cultural expression harder to study than Egypt's or China's?",
+          "choices": [
+            "Because their script has never been deciphered",
+            "Because they left no artifacts",
+            "Because it's identical to Egypt's",
+            "Because there's too much information"
+          ],
+          "correct": 0
+        },
+        {
+          "q": "What can archaeologists still learn about Indus Valley culture even without readable writing?",
+          "choices": [
+            "Nothing at all",
+            "Clues from city layout, art, and artifacts",
+            "Only guesses with no evidence",
+            "Only from other civilizations' records"
+          ],
+          "correct": 1
+        }
+      ],
+      "notebookPrompt": "In 2-4 sentences: since the Indus script hasn't been deciphered, what does the layout and design of Mohenjo Daro itself tell us about this civilization's values and skills? (Note for parent: this is the same video used for 6.1.4, revisited here with a cultural-expression lens since dedicated art/literature sources for the Indus Valley are very limited \u2014 see sourcing notes.)"
+    },
+    {
+      "id": 21,
+      "week": 8,
+      "subject": "Social Studies",
+      "standard": "6.1.6",
+      "title": "All Hail the King! What is a Monarchy? | Politics on Point",
+      "channel": "NewsDepth (PBS/Ideastream)",
+      "youtubeId": "CbEO9-gJnRw",
+      "duration": "2:53",
+      "questions": [
+        {
+          "q": "What is a monarchy?",
+          "choices": [
+            "Rule by the people",
+            "Rule by a king or queen, often inherited",
+            "Rule by a small elite group",
+            "Rule by religious leaders"
+          ],
+          "correct": 1
+        },
+        {
+          "q": "How does someone typically become a monarch?",
+          "choices": [
+            "By winning an election",
+            "Usually through inheritance (birth into the royal family)",
+            "By military coup only",
+            "By lottery"
+          ],
+          "correct": 1
+        },
+        {
+          "q": "Name a modern example of a country with a monarchy, if mentioned or known.",
+          "choices": [
+            "The United States",
+            "The United Kingdom",
+            "France",
+            "Mexico"
+          ],
+          "correct": 1
+        }
+      ],
+      "notebookPrompt": "In 2-4 sentences, explain what a monarchy is and give one strength and one weakness of this form of government."
+    },
+    {
+      "id": 22,
+      "week": 8,
+      "subject": "Social Studies",
+      "standard": "6.1.6",
+      "title": "This Is What Democracy Looks Like | Politics on Point",
+      "channel": "NewsDepth (PBS/Ideastream)",
+      "youtubeId": "REsyq-J09m8",
+      "duration": "3:03",
+      "questions": [
+        {
+          "q": "What is a democracy?",
+          "choices": [
+            "Rule by one king",
+            "A system where citizens have a say in government, often through voting",
+            "Rule by the wealthy only",
+            "Rule by religious law"
+          ],
+          "correct": 1
+        },
+        {
+          "q": "Where did an early form of democracy originate, historically?",
+          "choices": [
+            "Ancient Rome only",
+            "Ancient Athens, Greece",
+            "Medieval England",
+            "Ancient China"
+          ],
+          "correct": 1
+        },
+        {
+          "q": "What is one key feature that makes a government democratic?",
+          "choices": [
+            "No elections at all",
+            "Citizens participating in choosing leaders or laws",
+            "One person makes all decisions",
+            "Only the military decides"
+          ],
+          "correct": 1
+        }
+      ],
+      "notebookPrompt": "In 2-4 sentences, explain what makes a democracy different from a monarchy."
+    },
+    {
+      "id": 23,
+      "week": 8,
+      "subject": "Social Studies",
+      "standard": "6.1.6",
+      "title": "What is an Oligarchy?",
+      "channel": "Well... Actually",
+      "youtubeId": "G362sKXKnMo",
+      "duration": "3:10",
+      "questions": [
+        {
+          "q": "What is an oligarchy?",
+          "choices": [
+            "Rule by one person",
+            "Rule by a small group of powerful people",
+            "Rule by everyone equally",
+            "Rule by religious leaders"
+          ],
+          "correct": 1
+        },
+        {
+          "q": "What kinds of people often make up the ruling group in an oligarchy?",
+          "choices": [
+            "Randomly chosen citizens",
+            "Wealthy, military, or otherwise powerful elites",
+            "Only elected officials",
+            "Only religious figures"
+          ],
+          "correct": 1
+        },
+        {
+          "q": "How is an oligarchy different from a democracy?",
+          "choices": [
+            "They're identical",
+            "Power rests with a few, not with all citizens",
+            "Oligarchy has more voters",
+            "Oligarchy is the same as monarchy"
+          ],
+          "correct": 1
+        }
+      ],
+      "notebookPrompt": "In 2-4 sentences, explain what an oligarchy is and give an example (ancient or modern) if you can."
+    },
+    {
+      "id": 24,
+      "week": 8,
+      "subject": "Social Studies",
+      "standard": "6.1.6",
+      "title": "Ancient Greece Government...in five minutes or less",
+      "channel": "TheMrGranito",
+      "youtubeId": "Pw8ZgcHkfmI",
+      "duration": "5:11",
+      "questions": [
+        {
+          "q": "Which ancient civilization's government forms does this video cover?",
+          "choices": [
+            "Ancient Rome",
+            "Ancient Greece",
+            "Ancient Egypt",
+            "Ancient China"
+          ],
+          "correct": 1
+        },
+        {
+          "q": "What is a tyranny, as covered in the video?",
+          "choices": [
+            "Rule by law and elected officials",
+            "Rule by one person who seized power by force, often oppressively",
+            "Rule by a council of elders",
+            "A type of democracy"
+          ],
+          "correct": 1
+        },
+        {
+          "q": "How many different government types does this video mention existing in ancient Greek city-states?",
+          "choices": [
+            "Just one",
+            "Several, including monarchy, oligarchy, tyranny, and democracy",
+            "None",
+            "Ten"
+          ],
+          "correct": 1
+        }
+      ],
+      "notebookPrompt": "In 2-4 sentences, explain what a tyranny is and how it differs from a monarchy."
+    },
+    {
+      "id": 25,
+      "week": 9,
+      "subject": "Social Studies",
+      "standard": "6.1.6",
+      "title": "Democracy Vs Republic",
+      "channel": "Illustrate to Educate",
+      "youtubeId": "a_BZ1b5e5Bk",
+      "duration": "4:10",
+      "questions": [
+        {
+          "q": "What is a republic?",
+          "choices": [
+            "A country with no government",
+            "A system where citizens elect representatives to make decisions on their behalf",
+            "The same thing as a monarchy",
+            "Rule by a king appointed by voters"
+          ],
+          "correct": 1
+        },
+        {
+          "q": "How is a republic different from a direct democracy?",
+          "choices": [
+            "There is no difference",
+            "In a republic, citizens elect representatives rather than voting on every issue directly",
+            "A republic has no elections",
+            "A republic is ruled by one family"
+          ],
+          "correct": 1
+        },
+        {
+          "q": "Can a country be both a democracy and a republic?",
+          "choices": [
+            "No, never",
+            "Yes - many republics are also democracies (representative democracies)",
+            "Only if it has a king",
+            "Only in ancient times"
+          ],
+          "correct": 1
+        }
+      ],
+      "notebookPrompt": "In 2-4 sentences, explain the difference between a democracy and a republic in your own words."
+    },
+    {
+      "id": 26,
+      "week": 9,
+      "subject": "Social Studies",
+      "standard": "6.1.6",
+      "title": "What is Theocracy?",
+      "channel": "Political Sextant",
+      "youtubeId": "xq1rmA64b6Q",
+      "duration": "1:48",
+      "questions": [
+        {
+          "q": "What is a theocracy?",
+          "choices": [
+            "Rule by elected officials",
+            "A government run according to religious law, often by religious leaders",
+            "Rule by military generals",
+            "A government with no laws"
+          ],
+          "correct": 1
+        },
+        {
+          "q": "Give an example of a historical or modern theocracy, if mentioned.",
+          "choices": [
+            "Ancient Rome",
+            "Ancient Egypt or a modern religious state",
+            "The United States",
+            "Canada"
+          ],
+          "correct": 1
+        },
+        {
+          "q": "How does a theocracy typically justify its authority?",
+          "choices": [
+            "Through elections",
+            "Through religious authority or divine right",
+            "Through military strength only",
+            "Through popular vote"
+          ],
+          "correct": 1
+        }
+      ],
+      "notebookPrompt": "In 2-4 sentences, explain what a theocracy is and compare it to one other government type from this week."
+    },
+    {
+      "id": 27,
+      "week": 10,
+      "subject": "Social Studies",
+      "standard": "6.2.1",
+      "title": "Origin and History of Hinduism",
+      "channel": "5 MINUTES",
+      "youtubeId": "7soy1nT_Lic",
+      "duration": "6:19",
+      "questions": [
+        {
+          "q": "Where did Hinduism originate?",
+          "choices": [
+            "The Indian subcontinent",
+            "China",
+            "The Middle East",
+            "Europe"
+          ],
+          "correct": 0
+        },
+        {
+          "q": "What is one key concept in Hinduism mentioned in overviews like this?",
+          "choices": [
+            "Karma and reincarnation",
+            "A single holy book with no other beliefs",
+            "It has no gods or spiritual beliefs",
+            "It began in the last century"
+          ],
+          "correct": 0
+        },
+        {
+          "q": "Is Hinduism founded by one single person, according to most historical accounts?",
+          "choices": [
+            "Yes, one founder",
+            "No - it developed gradually over a very long time from many traditions",
+            "It was founded in 1900",
+            "It was created by a government"
+          ],
+          "correct": 1
+        }
+      ],
+      "notebookPrompt": "In 2-4 sentences, summarize one key belief or tenet of Hinduism from the video."
+    },
+    {
+      "id": 28,
+      "week": 10,
+      "subject": "Social Studies",
+      "standard": "6.2.1",
+      "title": "Origin of Judaism - A Brief History",
+      "channel": "5 MINUTES",
+      "youtubeId": "q_QYTd14nN0",
+      "duration": "6:42",
+      "questions": [
+        {
+          "q": "Judaism is centered on the worship of what?",
+          "choices": [
+            "Many gods",
+            "One God (monotheism)",
+            "Nature spirits",
+            "Ancestors only"
+          ],
+          "correct": 1
+        },
+        {
+          "q": "What figure is commonly associated with the origins of Judaism?",
+          "choices": [
+            "Confucius",
+            "Abraham",
+            "Buddha",
+            "Muhammad"
+          ],
+          "correct": 1
+        },
+        {
+          "q": "What is a foundational text of Judaism?",
+          "choices": [
+            "The Quran",
+            "The Torah",
+            "The Tao Te Ching",
+            "The Vedas"
+          ],
+          "correct": 1
+        }
+      ],
+      "notebookPrompt": "In 2-4 sentences, summarize one key tenet of Judaism from the video."
+    },
+    {
+      "id": 29,
+      "week": 10,
+      "subject": "Social Studies",
+      "standard": "6.2.1",
+      "title": "Brief History of Buddhism",
+      "channel": "5 MINUTES",
+      "youtubeId": "CrqA1E9f6do",
+      "duration": "5:29",
+      "questions": [
+        {
+          "q": "Who founded Buddhism?",
+          "choices": [
+            "Confucius",
+            "Siddhartha Gautama (the Buddha)",
+            "Muhammad",
+            "Moses"
+          ],
+          "correct": 1
+        },
+        {
+          "q": "What is one central idea in Buddhism?",
+          "choices": [
+            "The Four Noble Truths and the path to end suffering",
+            "Worship of many nature gods only",
+            "A single holy war",
+            "There is no goal in Buddhism"
+          ],
+          "correct": 0
+        },
+        {
+          "q": "Where did Buddhism originate?",
+          "choices": [
+            "The Indian subcontinent",
+            "China",
+            "Rome",
+            "Arabia"
+          ],
+          "correct": 0
+        }
+      ],
+      "notebookPrompt": "In 2-4 sentences, summarize one key tenet of Buddhism from the video."
+    },
+    {
+      "id": 30,
+      "week": 10,
+      "subject": "Social Studies",
+      "standard": "6.2.1",
+      "title": "How Did Christianity Start and Spread",
+      "channel": "5 MINUTES",
+      "youtubeId": "755CLtpeuXA",
+      "duration": "6:40",
+      "questions": [
+        {
+          "q": "Christianity is based on the teachings of whom?",
+          "choices": [
+            "Muhammad",
+            "Jesus Christ",
+            "Confucius",
+            "Buddha"
+          ],
+          "correct": 1
+        },
+        {
+          "q": "How did Christianity spread across such a wide area?",
+          "choices": [
+            "It never spread beyond one town",
+            "Through missionaries, trade routes, and eventually the Roman Empire",
+            "It spread by force alone with no other factors",
+            "It spread only after 2000 CE"
+          ],
+          "correct": 1
+        },
+        {
+          "q": "What is a foundational text of Christianity?",
+          "choices": [
+            "The Torah",
+            "The Bible",
+            "The Quran",
+            "The Analects"
+          ],
+          "correct": 1
+        }
+      ],
+      "notebookPrompt": "In 2-4 sentences, summarize one key tenet of Christianity and one way it spread, according to the video."
+    },
+    {
+      "id": 31,
+      "week": 10,
+      "subject": "Social Studies",
+      "standard": "6.2.1",
+      "title": "History of Islam in Brief",
+      "channel": "5 MINUTES",
+      "youtubeId": "k2ExG9Nc_aA",
+      "duration": "7:30",
+      "questions": [
+        {
+          "q": "Who is the founding prophet of Islam?",
+          "choices": [
+            "Muhammad",
+            "Moses",
+            "Jesus",
+            "Confucius"
+          ],
+          "correct": 0
+        },
+        {
+          "q": "What is the holy book of Islam?",
+          "choices": [
+            "The Bible",
+            "The Quran",
+            "The Torah",
+            "The Vedas"
+          ],
+          "correct": 1
+        },
+        {
+          "q": "Islam, like Judaism and Christianity, is what type of religion?",
+          "choices": [
+            "Polytheistic (many gods)",
+            "Monotheistic (one God)",
+            "Non-theistic",
+            "Nature-worship based"
+          ],
+          "correct": 1
+        }
+      ],
+      "notebookPrompt": "In 2-4 sentences, summarize one key tenet of Islam from the video."
+    },
+    {
+      "id": 32,
+      "week": 10,
+      "subject": "Social Studies",
+      "standard": "6.2.1",
+      "title": "Who was Confucius? (Bryan W. Van Norden)",
+      "channel": "TED-Ed",
+      "youtubeId": "wFt_VGG0kJU",
+      "duration": "4:30",
+      "questions": [
+        {
+          "q": "Confucius was a philosopher from which country?",
+          "choices": [
+            "India",
+            "China",
+            "Egypt",
+            "Greece"
+          ],
+          "correct": 1
+        },
+        {
+          "q": "What did Confucius emphasize as important for society?",
+          "choices": [
+            "Ethics, respect, and proper relationships/order",
+            "Military conquest only",
+            "Ignoring family duties",
+            "Random chance"
+          ],
+          "correct": 0
+        },
+        {
+          "q": "Is Confucianism generally considered a religion or a philosophy/ethical system?",
+          "choices": [
+            "Purely a religion with gods",
+            "Primarily an ethical and philosophical system",
+            "A myth with no real influence",
+            "A modern invention"
+          ],
+          "correct": 1
+        }
+      ],
+      "notebookPrompt": "In 2-4 sentences, summarize one key tenet of Confucianism (or a key idea from Confucius) from the video."
+    },
+    {
+      "id": 33,
+      "week": 10,
+      "subject": "Social Studies",
+      "standard": "6.2.1",
+      "title": "What is Sikhism?",
+      "channel": "ReligionForBreakfast",
+      "youtubeId": "MWsClPXLApA",
+      "duration": "11:30",
+      "questions": [
+        {
+          "q": "Where and when did Sikhism originate?",
+          "choices": [
+            "In the Punjab region of South Asia, around the 15th century",
+            "In ancient Rome",
+            "In modern-day China",
+            "In the last 50 years"
+          ],
+          "correct": 0
+        },
+        {
+          "q": "Who founded Sikhism?",
+          "choices": [
+            "Guru Nanak",
+            "Confucius",
+            "Buddha",
+            "Muhammad"
+          ],
+          "correct": 0
+        },
+        {
+          "q": "What is one core belief of Sikhism?",
+          "choices": [
+            "Belief in one God and equality of all people",
+            "Worship of many separate gods",
+            "Rejecting all forms of community",
+            "It has no holy text"
+          ],
+          "correct": 0
+        }
+      ],
+      "notebookPrompt": "In 2-4 sentences, summarize one key tenet of Sikhism from the video."
+    },
+    {
+      "id": 34,
+      "week": 11,
+      "subject": "Social Studies",
+      "standard": "6.2.2",
+      "title": "The rise and fall of the medieval Islamic Empire",
+      "channel": "TED-Ed",
+      "youtubeId": "rQ0EKiCt6H8",
+      "duration": "5:06",
+      "questions": [
+        {
+          "q": "How did the spread of Islam contribute to globalization in the post-classical era?",
+          "choices": [
+            "It isolated regions from each other",
+            "It connected trade, scholarship, and culture across a vast empire",
+            "It had no effect on trade",
+            "It ended all cultural exchange"
+          ],
+          "correct": 1
+        },
+        {
+          "q": "What areas did the medieval Islamic Empire span at its height?",
+          "choices": [
+            "Only the Arabian Peninsula",
+            "A vast area from Spain to Central Asia",
+            "Only modern-day Turkey",
+            "Only North America"
+          ],
+          "correct": 1
+        },
+        {
+          "q": "Name one contribution of the medieval Islamic world mentioned in the video (science, math, trade, etc.).",
+          "choices": [
+            "Advances in science, mathematics, or trade networks",
+            "Nothing of note",
+            "Isolationism",
+            "Rejecting all outside knowledge"
+          ],
+          "correct": 0
+        }
+      ],
+      "notebookPrompt": "In 2-4 sentences, explain how the spread of Islam helped connect different parts of the post-classical world."
+    },
+    {
+      "id": 35,
+      "week": 11,
+      "subject": "Social Studies",
+      "standard": "6.2.2",
+      "title": "The Crusades \u2013 Pilgrimage or Holy War?: Crash Course World History #15",
+      "channel": "CrashCourse",
+      "youtubeId": "X0zudTQelzI",
+      "duration": "11:33",
+      "questions": [
+        {
+          "q": "What were the Crusades?",
+          "choices": [
+            "Peaceful trade missions only",
+            "A series of religious wars between Christians and Muslims over control of the Holy Land",
+            "A single small battle",
+            "Wars between two Christian kingdoms"
+          ],
+          "correct": 1
+        },
+        {
+          "q": "Besides religion, what other factor drove some Crusaders, according to the video?",
+          "choices": [
+            "Only pure religious devotion with no other motive",
+            "Economic and political motives, like land and wealth",
+            "Environmental factors only",
+            "None - it was entirely random"
+          ],
+          "correct": 1
+        },
+        {
+          "q": "What long-term effect did the Crusades have on trade and cultural exchange?",
+          "choices": [
+            "They ended all contact between Europe and the Middle East",
+            "They increased contact, trade, and exchange of ideas despite the conflict",
+            "They had zero long-term effects",
+            "They only affected China"
+          ],
+          "correct": 1
+        }
+      ],
+      "notebookPrompt": "In 2-4 sentences, explain how the Crusades - despite being wars - actually increased contact and exchange between Europe and the Middle East."
+    },
+    {
+      "id": 36,
+      "week": 11,
+      "subject": "Social Studies",
+      "standard": "6.2.2",
+      "title": "Gothic architecture explained",
+      "channel": "Smarthistory",
+      "youtubeId": "G94jFWH8NSM",
+      "duration": "4:31",
+      "questions": [
+        {
+          "q": "What is Gothic architecture known for?",
+          "choices": [
+            "Flat roofs and no windows",
+            "Pointed arches, ribbed vaults, and large stained-glass windows",
+            "Simple mud-brick construction",
+            "Being built entirely underground"
+          ],
+          "correct": 1
+        },
+        {
+          "q": "Where and when did Gothic architecture develop?",
+          "choices": [
+            "In medieval Europe, starting around the 12th century",
+            "In ancient Egypt",
+            "In modern Japan",
+            "In the 20th century United States"
+          ],
+          "correct": 0
+        },
+        {
+          "q": "Why were cathedrals built in the Gothic style often so tall and light-filled?",
+          "choices": [
+            "To reflect religious ideas about reaching toward heaven and divine light",
+            "By accident, with no symbolic meaning",
+            "To save on building materials",
+            "To block out all sunlight"
+          ],
+          "correct": 0
+        }
+      ],
+      "notebookPrompt": "In 2-4 sentences, explain how Gothic cathedrals reflect the religious ideas of medieval Europe, and how the spread of this architectural style connects to globalization."
+    },
+    {
+      "id": 37,
+      "week": 11,
+      "subject": "Social Studies",
+      "standard": "6.2.2",
+      "title": "A Fun, Animated History of the Reformation and the Man Who Started It All",
+      "channel": "National Geographic (Short Film Showcase)",
+      "youtubeId": "FhGGjRjvq7w",
+      "duration": "4:56",
+      "questions": [
+        {
+          "q": "Who is closely associated with starting the Protestant Reformation?",
+          "choices": [
+            "Martin Luther",
+            "Confucius",
+            "Muhammad",
+            "Julius Caesar"
+          ],
+          "correct": 0
+        },
+        {
+          "q": "What did the Reformation challenge?",
+          "choices": [
+            "The authority and practices of the Catholic Church",
+            "The existence of trade routes",
+            "Nothing - it changed nothing",
+            "Only art styles"
+          ],
+          "correct": 0
+        },
+        {
+          "q": "How did the printing press help the Reformation spread?",
+          "choices": [
+            "It didn't - printing wasn't invented yet",
+            "It allowed ideas and pamphlets to spread quickly across Europe",
+            "It only printed government documents",
+            "It was used exclusively by the Catholic Church"
+          ],
+          "correct": 1
+        }
+      ],
+      "notebookPrompt": "In 2-4 sentences, explain what the Reformation was and how new technology (like the printing press) helped it spread across Europe."
+    },
+    {
+      "id": 38,
+      "week": 13,
+      "subject": "Social Studies",
+      "standard": "6.2.3",
+      "title": "The evolution of the book",
+      "channel": "TED-Ed",
+      "youtubeId": "_YqYtdPUis4",
+      "duration": "4:18",
+      "questions": [
+        {
+          "q": "What invention by Johannes Gutenberg revolutionized the spread of information?",
+          "choices": [
+            "The internet",
+            "The printing press with movable type",
+            "The telegraph",
+            "Paper itself"
+          ],
+          "correct": 1
+        },
+        {
+          "q": "Before the printing press, how were books typically made?",
+          "choices": [
+            "Printed by machines",
+            "Copied by hand, which was slow and expensive",
+            "Downloaded digitally",
+            "Not made at all"
+          ],
+          "correct": 1
+        },
+        {
+          "q": "Why is the printing press considered one of the most important inventions of 500-1500 CE?",
+          "choices": [
+            "It made books cheaper and faster to produce, spreading literacy and ideas widely",
+            "It had no real effect on society",
+            "It only affected one small town",
+            "It replaced spoken language"
+          ],
+          "correct": 0
+        }
+      ],
+      "notebookPrompt": "In 2-4 sentences, explain why the printing press is still considered important today, even though we now have digital technology."
+    },
+    {
+      "id": 39,
+      "week": 13,
+      "subject": "Social Studies",
+      "standard": "6.2.3",
+      "title": "Tom Wujec demos the 13th-century astrolabe",
+      "channel": "TED",
+      "youtubeId": "yioZhHe1i5M",
+      "duration": "11:58",
+      "questions": [
+        {
+          "q": "What is an astrolabe used for?",
+          "choices": [
+            "Cooking",
+            "Measuring the positions of stars and the sun for navigation and timekeeping",
+            "Writing letters",
+            "Building houses"
+          ],
+          "correct": 1
+        },
+        {
+          "q": "Which civilizations contributed to developing and refining the astrolabe?",
+          "choices": [
+            "Only modern scientists",
+            "Ancient Greek, Islamic, and medieval scholars, among others",
+            "Only 20th century engineers",
+            "No one - it fell from the sky"
+          ],
+          "correct": 1
+        },
+        {
+          "q": "Why was the astrolabe an important tool for astronomy and navigation in this era?",
+          "choices": [
+            "It let people calculate time, location, and star positions without modern technology",
+            "It had no practical use",
+            "It was purely decorative",
+            "It only worked at night"
+          ],
+          "correct": 0
+        }
+      ],
+      "notebookPrompt": "In 2-4 sentences, explain what an astrolabe does and why it mattered for astronomy and navigation before modern instruments existed."
+    },
+    {
+      "id": 40,
+      "week": 13,
+      "subject": "Social Studies",
+      "standard": "6.2.3",
+      "title": "What did people do before anesthesia?",
+      "channel": "TED-Ed",
+      "youtubeId": "FBlcU4GdxCc",
+      "duration": "5:27",
+      "questions": [
+        {
+          "q": "Before modern anesthesia, what methods did people use to manage pain during medical procedures?",
+          "choices": [
+            "Nothing at all was tried",
+            "Alcohol, herbs, opium, and other early remedies",
+            "Modern anesthesia was always available",
+            "Only prayer, nothing physical"
+          ],
+          "correct": 1
+        },
+        {
+          "q": "Why was the development of effective anesthesia such a major medical breakthrough?",
+          "choices": [
+            "It made surgery far more survivable and humane",
+            "It made no difference to surgery",
+            "It only helped with headaches",
+            "It was invented in ancient Rome"
+          ],
+          "correct": 0
+        },
+        {
+          "q": "Does this video suggest medieval/early medicine had zero pain-management knowledge?",
+          "choices": [
+            "Yes, none at all",
+            "No - there were various (often limited or risky) methods before modern anesthesia",
+            "Medicine didn't exist before 1500",
+            "Only magic was used"
+          ],
+          "correct": 1
+        }
+      ],
+      "notebookPrompt": "In 2-4 sentences, describe one pain-management method used before modern anesthesia and explain why real anesthesia was such an important invention."
+    },
+    {
+      "id": 41,
+      "week": 15,
+      "subject": "Social Studies",
+      "standard": "6.2.4",
+      "title": "Mansa Musa, one of the wealthiest people who ever lived",
+      "channel": "TED-Ed",
+      "youtubeId": "O3YJMaL55TM",
+      "duration": "3:55",
+      "questions": [
+        {
+          "q": "Who was Mansa Musa?",
+          "choices": [
+            "A European king",
+            "The ruler of the Mali Empire, famous for his immense wealth",
+            "A Chinese emperor",
+            "A Roman general"
+          ],
+          "correct": 1
+        },
+        {
+          "q": "What was the main source of Mali's wealth?",
+          "choices": [
+            "Manufacturing",
+            "Control of gold and salt trade routes across the Sahara",
+            "Fishing",
+            "Oil"
+          ],
+          "correct": 1
+        },
+        {
+          "q": "What happened when Mansa Musa traveled on his famous pilgrimage, giving away gold?",
+          "choices": [
+            "Nothing changed",
+            "He caused gold's value to crash in regions he passed through, showing his empire's global economic reach",
+            "He lost all his wealth immediately",
+            "He was robbed"
+          ],
+          "correct": 1
+        }
+      ],
+      "notebookPrompt": "In 2-4 sentences, explain how trade routes like the trans-Saharan gold-salt trade connected Mali to the wider medieval world."
+    },
+    {
+      "id": 42,
+      "week": 15,
+      "subject": "Social Studies",
+      "standard": "6.2.4",
+      "title": "The Life Story of Marco Polo in Under 3 Minutes",
+      "channel": "ZeroMotion",
+      "youtubeId": "GpLoSEGqw_w",
+      "duration": "3:25",
+      "questions": [
+        {
+          "q": "What was Marco Polo known for?",
+          "choices": [
+            "Building pyramids",
+            "Traveling the Silk Road and writing about his journeys to Asia, including China",
+            "Inventing gunpowder",
+            "Founding a religion"
+          ],
+          "correct": 1
+        },
+        {
+          "q": "How did Marco Polo's travels affect European knowledge of the world?",
+          "choices": [
+            "They introduced Europeans to new ideas, goods, and information about Asia",
+            "They had no effect",
+            "They caused Europe to stop trading with Asia",
+            "No one believed his accounts existed"
+          ],
+          "correct": 0
+        },
+        {
+          "q": "What geographic feature/route made journeys like Marco Polo's possible?",
+          "choices": [
+            "The Silk Road trade network",
+            "The internet",
+            "Modern railways",
+            "Air travel"
+          ],
+          "correct": 0
+        }
+      ],
+      "notebookPrompt": "In 2-4 sentences, explain how Marco Polo's travels are an example of cultural exchange between civilizations."
+    },
+    {
+      "id": 43,
+      "week": 15,
+      "subject": "Social Studies",
+      "standard": "6.2.4",
+      "title": "The past, present, and future of the bubonic plague",
+      "channel": "TED-Ed",
+      "youtubeId": "ySClB6-OH-Q",
+      "duration": "4:13",
+      "questions": [
+        {
+          "q": "How did the bubonic plague (Black Death) spread across medieval Europe and Asia?",
+          "choices": [
+            "It didn't spread - it stayed in one city",
+            "Along trade routes, carried by fleas on rats",
+            "Only through the air with no carrier",
+            "It was spread deliberately by governments"
+          ],
+          "correct": 1
+        },
+        {
+          "q": "Roughly what portion of Europe's population died during the Black Death, according to common estimates?",
+          "choices": [
+            "Almost none",
+            "Roughly a third of the population",
+            "100%",
+            "Less than 1%"
+          ],
+          "correct": 1
+        },
+        {
+          "q": "How does the plague's spread connect to the theme of geography enabling human connection?",
+          "choices": [
+            "Trade routes that connected civilizations also allowed disease to spread between them",
+            "Disease has nothing to do with trade",
+            "The plague only affected isolated islands",
+            "It spread through modern airplanes"
+          ],
+          "correct": 0
+        }
+      ],
+      "notebookPrompt": "In 2-4 sentences, explain how the same trade routes that spread goods and ideas also spread disease like the bubonic plague."
+    },
+    {
+      "id": 44,
+      "week": 16,
+      "subject": "Social Studies",
+      "standard": "6.2.5",
+      "title": "Medieval Guilds, Explained",
+      "channel": "The Generalist Papers",
+      "youtubeId": "wRAxug7BomQ",
+      "duration": "12:08",
+      "questions": [
+        {
+          "q": "What was a medieval guild?",
+          "choices": [
+            "A royal family",
+            "An organization of craftsmen or merchants in the same trade who set rules and standards",
+            "A religious order only",
+            "A type of currency"
+          ],
+          "correct": 1
+        },
+        {
+          "q": "How did the rise of the merchant class relate to self-rule?",
+          "choices": [
+            "Merchants gained wealth and influence, which gave them more say in town governance",
+            "Merchants had no influence on government",
+            "Merchants were banned from towns",
+            "Merchants only worked for kings"
+          ],
+          "correct": 0
+        },
+        {
+          "q": "What role did guilds play in medieval towns?",
+          "choices": [
+            "They regulated trade quality, training, and prices for their craft",
+            "They had no function at all",
+            "They only threw parties",
+            "They replaced kings entirely"
+          ],
+          "correct": 0
+        }
+      ],
+      "notebookPrompt": "In 2-4 sentences, explain how the rise of merchants and guilds contributed to more self-rule in medieval towns."
+    },
+    {
+      "id": 45,
+      "week": 16,
+      "subject": "Social Studies",
+      "standard": "6.2.5",
+      "title": "What is Magna Carta?",
+      "channel": "British Library",
+      "youtubeId": "7xo4tUMdAMw",
+      "duration": "3:33",
+      "questions": [
+        {
+          "q": "What was the Magna Carta?",
+          "choices": [
+            "A religious text",
+            "A 1215 document limiting the English king's power",
+            "A trade agreement with China",
+            "A map of Europe"
+          ],
+          "correct": 1
+        },
+        {
+          "q": "Why did English nobles force King John to sign the Magna Carta?",
+          "choices": [
+            "To give him more power",
+            "To limit his power and protect their own rights",
+            "To make him emperor of Europe",
+            "As a joke with no real purpose"
+          ],
+          "correct": 1
+        },
+        {
+          "q": "Why is the Magna Carta considered an important step toward self-rule?",
+          "choices": [
+            "It established that even the king was subject to the law",
+            "It gave the king unlimited power",
+            "It abolished the monarchy immediately",
+            "It had no lasting influence"
+          ],
+          "correct": 0
+        }
+      ],
+      "notebookPrompt": "In 2-4 sentences, explain why the Magna Carta is considered an early step toward limiting a ruler's power and increasing self-rule."
+    },
+    {
+      "id": 46,
+      "week": 16,
+      "subject": "Social Studies",
+      "standard": "6.2.5",
+      "title": "What was Feudalism?",
+      "channel": "History Hub",
+      "youtubeId": "OfXholnOS9E",
+      "duration": "4:39",
+      "questions": [
+        {
+          "q": "What was feudalism in medieval Europe?",
+          "choices": [
+            "A democracy",
+            "A system where land was exchanged for loyalty and military service between lords and vassals",
+            "A trade agreement between nations",
+            "A religious ceremony"
+          ],
+          "correct": 1
+        },
+        {
+          "q": "Who was at the top of the feudal hierarchy?",
+          "choices": [
+            "Peasants",
+            "The king or monarch",
+            "Merchants",
+            "Foreign traders"
+          ],
+          "correct": 1
+        },
+        {
+          "q": "What did peasants (serfs) typically owe under feudalism?",
+          "choices": [
+            "Nothing at all",
+            "Labor and a portion of crops to the lord who controlled their land",
+            "Only military service",
+            "Taxes to a distant emperor"
+          ],
+          "correct": 1
+        }
+      ],
+      "notebookPrompt": "In 2-4 sentences, explain how feudalism organized medieval European society, from king down to peasant."
+    },
+    {
+      "id": 47,
+      "week": 16,
+      "subject": "Social Studies",
+      "standard": "6.2.5",
+      "title": "Shoguns, samurai and the Japanese Middle Ages | World History",
+      "channel": "Khan Academy",
+      "youtubeId": "zLHwRTNbcjI",
+      "duration": "6:27",
+      "questions": [
+        {
+          "q": "Who held real military power in feudal Japan, even though the emperor was the official ruler?",
+          "choices": [
+            "The emperor alone",
+            "The shogun and samurai class",
+            "Foreign kings",
+            "Merchants"
+          ],
+          "correct": 1
+        },
+        {
+          "q": "What was a samurai?",
+          "choices": [
+            "A farmer",
+            "A warrior who served a lord (daimyo) under a code of honor",
+            "A religious priest",
+            "A foreign trader"
+          ],
+          "correct": 1
+        },
+        {
+          "q": "How is Japanese feudalism similar to European feudalism?",
+          "choices": [
+            "They are identical in every detail",
+            "Both involved a hierarchy of land and loyalty exchanged for military service/protection",
+            "They have nothing in common",
+            "Neither had any social hierarchy"
+          ],
+          "correct": 1
+        }
+      ],
+      "notebookPrompt": "In 2-4 sentences, compare feudalism in Japan to feudalism in Europe - name one similarity and one difference."
+    },
+    {
+      "id": 48,
+      "week": 18,
+      "subject": "Social Studies",
+      "standard": "6.2.6",
+      "title": "The deadly irony of gunpowder",
+      "channel": "TED-Ed",
+      "youtubeId": "mqHVRgCkCDE",
+      "duration": "3:25",
+      "questions": [
+        {
+          "q": "Where was gunpowder invented?",
+          "choices": [
+            "Europe",
+            "China",
+            "The Middle East",
+            "The Americas"
+          ],
+          "correct": 1
+        },
+        {
+          "q": "What was gunpowder originally being developed for, ironically, in China?",
+          "choices": [
+            "Weapons only",
+            "An elixir of immortality (medicine), before its explosive properties were found",
+            "Cooking",
+            "Building materials"
+          ],
+          "correct": 1
+        },
+        {
+          "q": "How did gunpowder's spread from China affect the wider world?",
+          "choices": [
+            "It stayed only in China",
+            "It spread along trade routes and transformed warfare across Asia, the Middle East, and Europe",
+            "It was never adopted elsewhere",
+            "It had no historical impact"
+          ],
+          "correct": 1
+        }
+      ],
+      "notebookPrompt": "In 2-4 sentences, explain how a Chinese invention like gunpowder ended up changing warfare and history across the whole world."
+    },
+    {
+      "id": 49,
+      "week": 18,
+      "subject": "Social Studies",
+      "standard": "6.2.6",
+      "title": "A brief history of numerical systems",
+      "channel": "TED-Ed",
+      "youtubeId": "cZH0YnFpjwU",
+      "duration": "5:08",
+      "questions": [
+        {
+          "q": "What number system did India develop that we still use today (with the concept of zero)?",
+          "choices": [
+            "Roman numerals",
+            "The Hindu-Arabic numeral system",
+            "Chinese counting rods",
+            "Egyptian hieroglyphic numbers"
+          ],
+          "correct": 1
+        },
+        {
+          "q": "How did India's numeral system spread to Europe?",
+          "choices": [
+            "It never spread beyond India",
+            "Through trade and scholarship with the Islamic world, which passed it to Europe",
+            "Europeans invented it independently at the same time",
+            "It arrived by accident with no clear path"
+          ],
+          "correct": 1
+        },
+        {
+          "q": "Why was the number zero such an important mathematical innovation?",
+          "choices": [
+            "It wasn't important at all",
+            "It enabled place-value systems and much more advanced mathematics",
+            "It only mattered for counting to ten",
+            "It replaced all other numbers"
+          ],
+          "correct": 1
+        }
+      ],
+      "notebookPrompt": "In 2-4 sentences, explain how India's number system (including the concept of zero) spread and influenced math worldwide."
+    },
+    {
+      "id": 50,
+      "week": 18,
+      "subject": "Social Studies",
+      "standard": "6.2.6",
+      "title": "The Srivijaya Empire",
+      "channel": "chronicle",
+      "youtubeId": "01vXcFO1Geg",
+      "duration": "4:35",
+      "questions": [
+        {
+          "q": "What was the Srivijaya Empire known for?",
+          "choices": [
+            "Being landlocked with no trade",
+            "Controlling maritime trade routes in Southeast Asia",
+            "Building pyramids",
+            "Isolating itself from the world"
+          ],
+          "correct": 1
+        },
+        {
+          "q": "Why was Srivijaya's location strategically important?",
+          "choices": [
+            "It controlled key straits used by ships trading between India, China, and beyond",
+            "It had no strategic value",
+            "It was located in the middle of a desert",
+            "It was in Europe"
+          ],
+          "correct": 0
+        },
+        {
+          "q": "How did Southeast Asia's location increase its influence on globalization in this era?",
+          "choices": [
+            "It had no influence, being isolated",
+            "Its position on major sea trade routes let it connect and profit from trade between major civilizations",
+            "It was completely cut off from India and China",
+            "It only traded with itself"
+          ],
+          "correct": 1
+        }
+      ],
+      "notebookPrompt": "In 2-4 sentences, explain why Southeast Asia's geographic position made it important to trade and globalization in this era."
+    },
+    {
+      "id": 51,
+      "week": 18,
+      "subject": "Social Studies",
+      "standard": "6.2.6",
+      "title": "A day in the life of a teenager in medieval Baghdad",
+      "channel": "TED-Ed",
+      "youtubeId": "CNO9aOlGNkE",
+      "duration": "4:46",
+      "questions": [
+        {
+          "q": "What made medieval Baghdad an important global city?",
+          "choices": [
+            "It was isolated from the rest of the world",
+            "It was a major center of trade, scholarship, and culture in the Islamic Golden Age",
+            "It had no schools or libraries",
+            "It was a small, unimportant village"
+          ],
+          "correct": 1
+        },
+        {
+          "q": "What kinds of knowledge were studied and preserved in Baghdad's House of Wisdom (or similar institutions)?",
+          "choices": [
+            "None - nothing was studied",
+            "Science, mathematics, medicine, and philosophy from many cultures",
+            "Only religious texts",
+            "Only military strategy"
+          ],
+          "correct": 1
+        },
+        {
+          "q": "How did the Middle East's role as a knowledge and trade hub affect globalization?",
+          "choices": [
+            "It blocked all exchange between East and West",
+            "It helped transmit and preserve knowledge and goods between Asia, Africa, and Europe",
+            "It had no effect on other regions",
+            "It only affected local trade"
+          ],
+          "correct": 1
+        }
+      ],
+      "notebookPrompt": "In 2-4 sentences, explain how a city like medieval Baghdad helped connect and spread ideas between different parts of the world."
+    },
+    {
+      "id": 52,
+      "week": 19,
+      "subject": "Social Studies",
+      "standard": "6.3.1",
+      "title": "European Exploration of the Americas: Motivation",
+      "channel": "Teach with Edpuzzle",
+      "youtubeId": "OTnaM7R9RKU",
+      "duration": "6:54",
+      "questions": [
+        {
+          "q": "What are the three main motivations often summarized as driving European exploration?",
+          "choices": [
+            "Sleep, food, and rest",
+            "God, gold, and glory",
+            "Only curiosity",
+            "Only fear"
+          ],
+          "correct": 1
+        },
+        {
+          "q": "What role did religion play in motivating exploration and colonization?",
+          "choices": [
+            "None at all",
+            "Spreading Christianity was a major motivating goal for many explorers",
+            "It discouraged all exploration",
+            "It was the only motivation, with no economic factor"
+          ],
+          "correct": 1
+        },
+        {
+          "q": "How does exploration in this era connect to globalization?",
+          "choices": [
+            "It connected the Americas, Europe, Africa, and Asia in new economic and cultural networks",
+            "It kept all continents completely separate",
+            "It had no lasting global effects",
+            "It only affected local villages"
+          ],
+          "correct": 0
+        }
+      ],
+      "notebookPrompt": "In 2-4 sentences, explain the 'God, gold, and glory' motivations behind European exploration, using one example from the video."
+    },
+    {
+      "id": 53,
+      "week": 19,
+      "subject": "Social Studies",
+      "standard": "6.3.1",
+      "title": "A Brief History of The Scramble For Africa",
+      "channel": "A. J. Merrick",
+      "youtubeId": "PzF88HBlAHY",
+      "duration": "10:05",
+      "questions": [
+        {
+          "q": "What was the 'Scramble for Africa'?",
+          "choices": [
+            "African nations colonizing Europe",
+            "European powers rapidly dividing and colonizing African territory in the late 1800s",
+            "A trade agreement between equals",
+            "A sporting event"
+          ],
+          "correct": 1
+        },
+        {
+          "q": "What conference formalized the division of Africa among European powers?",
+          "choices": [
+            "The Berlin Conference",
+            "The Paris Peace Conference",
+            "The Congress of Vienna",
+            "The United Nations"
+          ],
+          "correct": 0
+        },
+        {
+          "q": "What motivations drove the Scramble for Africa, according to the video?",
+          "choices": [
+            "Purely scientific curiosity with no economic motive",
+            "Resources, trade, and national competition/prestige among European powers",
+            "African nations invited colonization",
+            "There was no clear motivation"
+          ],
+          "correct": 1
+        }
+      ],
+      "notebookPrompt": "In 2-4 sentences, explain what motivated European powers to rapidly colonize Africa in the late 1800s."
+    },
+    {
+      "id": 54,
+      "week": 21,
+      "subject": "Social Studies",
+      "standard": "6.3.2",
+      "title": "One of history's most dangerous myths",
+      "channel": "TED-Ed",
+      "youtubeId": "3GWqM-IoAgM",
+      "duration": "5:12",
+      "questions": [
+        {
+          "q": "What is the 'empty land' myth discussed in this video?",
+          "choices": [
+            "A true fact about South Africa",
+            "A false claim colonizers used, saying land was empty/unclaimed to justify taking it from indigenous people",
+            "A myth about ancient Egypt",
+            "A story about Europe"
+          ],
+          "correct": 1
+        },
+        {
+          "q": "What lasting impact did this myth and land seizure have?",
+          "choices": [
+            "No lasting impact",
+            "It contributed to unequal land distribution and systems like apartheid",
+            "It immediately ended all conflict",
+            "It was quickly reversed with no consequences"
+          ],
+          "correct": 1
+        },
+        {
+          "q": "How can maps and historical claims be used to justify colonization, according to the video?",
+          "choices": [
+            "Maps are always neutral and never misused",
+            "Colonizers sometimes redrew or reinterpreted land claims to serve their interests",
+            "Maps have nothing to do with colonization",
+            "Only indigenous people used maps this way"
+          ],
+          "correct": 1
+        }
+      ],
+      "notebookPrompt": "In 2-4 sentences, explain how a false historical narrative (like the 'empty land' myth) was used to justify colonization, and what lasting impact it had."
+    },
+    {
+      "id": 55,
+      "week": 22,
+      "subject": "Social Studies",
+      "standard": "6.3.3",
+      "title": "The Columbian Exchange: Crash Course World History #23",
+      "channel": "CrashCourse",
+      "youtubeId": "HQPA5oNpfM4",
+      "duration": "12:09",
+      "questions": [
+        {
+          "q": "What was the Columbian Exchange?",
+          "choices": [
+            "A trade of only gold between Europe and Asia",
+            "The widespread transfer of plants, animals, diseases, and people between the Old World and New World after 1492",
+            "A modern stock exchange",
+            "A war between Spain and England"
+          ],
+          "correct": 1
+        },
+        {
+          "q": "Name one crop that moved from the Americas to the rest of the world.",
+          "choices": [
+            "Wheat",
+            "Potatoes, corn, or tomatoes",
+            "Rice",
+            "Bananas (originally)"
+          ],
+          "correct": 1
+        },
+        {
+          "q": "What was one devastating negative effect of the Columbian Exchange?",
+          "choices": [
+            "Nothing negative happened",
+            "European diseases devastated Native American populations, who had no immunity",
+            "Native Americans had no reaction to new diseases",
+            "It only affected Europe"
+          ],
+          "correct": 1
+        }
+      ],
+      "notebookPrompt": "In 2-4 sentences, describe one positive and one negative effect of the Columbian Exchange."
+    },
+    {
+      "id": 56,
+      "week": 22,
+      "subject": "Social Studies",
+      "standard": "6.3.3",
+      "title": "The Atlantic slave trade: What too few textbooks told you",
+      "channel": "TED-Ed",
+      "youtubeId": "3NXC4Q_4JVg",
+      "duration": "5:39",
+      "questions": [
+        {
+          "q": "What was the Atlantic slave trade?",
+          "choices": [
+            "A voluntary migration",
+            "The forced transport and enslavement of millions of Africans to the Americas",
+            "A trade of only goods, no people",
+            "A short-lived, minor event"
+          ],
+          "correct": 1
+        },
+        {
+          "q": "Roughly how many Africans were forcibly transported across the Atlantic, according to historical estimates?",
+          "choices": [
+            "A few hundred",
+            "Millions",
+            "Only a dozen",
+            "It's unknown and was very small"
+          ],
+          "correct": 1
+        },
+        {
+          "q": "What economic system relied heavily on the labor of enslaved people in the Americas?",
+          "choices": [
+            "Small independent farms only",
+            "Plantation economies (like sugar, cotton, and tobacco)",
+            "No economic system used slave labor",
+            "Only factories in Europe"
+          ],
+          "correct": 1
+        }
+      ],
+      "notebookPrompt": "In 2-4 sentences, describe the scale and impact of the Atlantic slave trade based on the video."
+    },
+    {
+      "id": 57,
+      "week": 22,
+      "subject": "Social Studies",
+      "standard": "6.3.3",
+      "title": "Coal, Steam, and The Industrial Revolution: Crash Course World History #32",
+      "channel": "CrashCourse",
+      "youtubeId": "zhL5DCizj5c",
+      "duration": "11:05",
+      "questions": [
+        {
+          "q": "What powered many of the new machines and factories of the Industrial Revolution?",
+          "choices": [
+            "Solar panels",
+            "Coal and steam power",
+            "Wind alone",
+            "Human labor only"
+          ],
+          "correct": 1
+        },
+        {
+          "q": "Where did the Industrial Revolution begin?",
+          "choices": [
+            "China",
+            "Great Britain",
+            "The United States",
+            "Egypt"
+          ],
+          "correct": 1
+        },
+        {
+          "q": "What was one major social change caused by the rise of factories?",
+          "choices": [
+            "No change at all",
+            "Massive urbanization, as people moved to cities to work in factories",
+            "Everyone moved to farms instead",
+            "Population decreased everywhere"
+          ],
+          "correct": 1
+        }
+      ],
+      "notebookPrompt": "In 2-4 sentences, explain how the Industrial Revolution changed where and how people worked."
+    },
+    {
+      "id": 58,
+      "week": 22,
+      "subject": "Social Studies",
+      "standard": "6.3.3",
+      "title": "What really caused the Irish Potato Famine",
+      "channel": "TED-Ed",
+      "youtubeId": "OUieqzVZdQc",
+      "duration": "5:04",
+      "questions": [
+        {
+          "q": "What crop failure triggered the Irish Potato Famine?",
+          "choices": [
+            "Wheat blight",
+            "A potato blight (disease) that destroyed the potato crop",
+            "A corn shortage",
+            "A rice shortage"
+          ],
+          "correct": 1
+        },
+        {
+          "q": "Besides the crop disease, what made the famine so much worse, according to the video?",
+          "choices": [
+            "Nothing else contributed",
+            "The British government's policies and slow/inadequate response",
+            "Ireland had too much food surplus",
+            "It was caused entirely by war"
+          ],
+          "correct": 1
+        },
+        {
+          "q": "Roughly how many people died or emigrated because of the famine?",
+          "choices": [
+            "None",
+            "Roughly a million died and a million more emigrated",
+            "Only a few dozen",
+            "The population increased"
+          ],
+          "correct": 1
+        }
+      ],
+      "notebookPrompt": "In 2-4 sentences, explain what caused the Irish Potato Famine and why the government's response made it worse."
+    },
+    {
+      "id": 59,
+      "week": 24,
+      "subject": "Social Studies",
+      "standard": "6.3.4",
+      "title": "The Enlightenment: Crash Course European History #18",
+      "channel": "CrashCourse",
+      "youtubeId": "NnoFj2cMRLY",
+      "duration": "16:23",
+      "questions": [
+        {
+          "q": "What was the Enlightenment?",
+          "choices": [
+            "A religious revival",
+            "An intellectual movement emphasizing reason, science, and individual rights",
+            "A military campaign",
+            "A trade agreement"
+          ],
+          "correct": 1
+        },
+        {
+          "q": "Name one Enlightenment thinker or idea mentioned that influenced later revolutions.",
+          "choices": [
+            "Ideas about natural rights, government by consent, or separation of powers",
+            "There were no influential ideas",
+            "Only religious dogma",
+            "Divine right of kings, unchanged"
+          ],
+          "correct": 0
+        },
+        {
+          "q": "How did Enlightenment ideas influence later political revolutions?",
+          "choices": [
+            "They had no influence",
+            "They inspired ideas like individual rights and questioning traditional authority, fueling revolutions",
+            "They only affected art",
+            "They were rejected by all revolutionaries"
+          ],
+          "correct": 1
+        }
+      ],
+      "notebookPrompt": "In 2-4 sentences, explain one Enlightenment idea and how it might have inspired people to challenge their governments."
+    },
+    {
+      "id": 60,
+      "week": 24,
+      "subject": "Social Studies",
+      "standard": "6.3.4",
+      "title": "What caused the French Revolution?",
+      "channel": "TED-Ed",
+      "youtubeId": "PBn7iWzrKoI",
+      "duration": "5:39",
+      "questions": [
+        {
+          "q": "What social/economic conditions helped cause the French Revolution?",
+          "choices": [
+            "France had no problems at all",
+            "Inequality between social classes, financial crisis, and food shortages",
+            "Only a foreign invasion",
+            "Enlightenment had no role"
+          ],
+          "correct": 1
+        },
+        {
+          "q": "What were the three 'estates' of French society before the Revolution?",
+          "choices": [
+            "Only rich and poor",
+            "Clergy, nobility, and the common people (Third Estate)",
+            "North, South, and West",
+            "There were no estates"
+          ],
+          "correct": 1
+        },
+        {
+          "q": "What famous slogan is associated with the French Revolution's ideals?",
+          "choices": [
+            "Peace at any cost",
+            "Liberty, Equality, Fraternity",
+            "God, King, and Country",
+            "None"
+          ],
+          "correct": 1
+        }
+      ],
+      "notebookPrompt": "In 2-4 sentences, explain what caused the French Revolution and what its main goals were."
+    },
+    {
+      "id": 61,
+      "week": 24,
+      "subject": "Social Studies",
+      "standard": "6.3.4",
+      "title": "Latin American Revolutions: Crash Course World History #31",
+      "channel": "CrashCourse",
+      "youtubeId": "ZBw35Ze3bg8",
+      "duration": "13:43",
+      "questions": [
+        {
+          "q": "What inspired many Latin American independence movements in the early 1800s?",
+          "choices": [
+            "Nothing - they happened randomly",
+            "Enlightenment ideas and the example of the American and French Revolutions",
+            "Orders from Spain",
+            "They copied Asian revolutions"
+          ],
+          "correct": 1
+        },
+        {
+          "q": "Name one leader of Latin American independence movements.",
+          "choices": [
+            "Simon Bolivar",
+            "Napoleon",
+            "George Washington",
+            "Confucius"
+          ],
+          "correct": 0
+        },
+        {
+          "q": "What European countries did most Latin American nations gain independence from?",
+          "choices": [
+            "Britain and France",
+            "Spain and Portugal",
+            "Germany and Italy",
+            "Russia and China"
+          ],
+          "correct": 1
+        }
+      ],
+      "notebookPrompt": "In 2-4 sentences, explain what inspired Latin American colonies to seek independence, and name one leader involved."
+    },
+    {
+      "id": 62,
+      "week": 24,
+      "subject": "Social Studies",
+      "standard": "6.3.4",
+      "title": "Mohandas Gandhi, the Power of Nonviolence",
+      "channel": "NBC News Learn",
+      "youtubeId": "9nAUxQ8X3GQ",
+      "duration": "4:32",
+      "questions": [
+        {
+          "q": "What method did Gandhi use to lead India's independence movement?",
+          "choices": [
+            "Armed rebellion",
+            "Nonviolent resistance (satyagraha) and civil disobedience",
+            "He didn't participate in the movement",
+            "He supported continued British rule"
+          ],
+          "correct": 1
+        },
+        {
+          "q": "What is the Salt March an example of?",
+          "choices": [
+            "A violent uprising",
+            "A peaceful act of civil disobedience against British salt taxes/laws",
+            "A trade agreement",
+            "A religious pilgrimage with no political meaning"
+          ],
+          "correct": 1
+        },
+        {
+          "q": "What was the ultimate result of India's independence movement?",
+          "choices": [
+            "India remained a British colony forever",
+            "India gained independence from Britain in 1947",
+            "Nothing changed",
+            "Britain conquered more of India"
+          ],
+          "correct": 1
+        }
+      ],
+      "notebookPrompt": "In 2-4 sentences, explain how Gandhi's approach to independence differed from a violent revolution, and why it worked."
+    },
+    {
+      "id": 63,
+      "week": 24,
+      "subject": "Social Studies",
+      "standard": "6.3.4",
+      "title": "Decolonization and Nationalism Triumphant: Crash Course World History #40",
+      "channel": "CrashCourse",
+      "youtubeId": "T_sGTspaF4Y",
+      "duration": "12:49",
+      "questions": [
+        {
+          "q": "What happened to most European colonial empires after World War II?",
+          "choices": [
+            "They grew larger",
+            "Most collapsed as colonies gained independence (decolonization)",
+            "Nothing changed",
+            "Only Asian colonies were affected"
+          ],
+          "correct": 1
+        },
+        {
+          "q": "What role did nationalism play in African independence movements?",
+          "choices": [
+            "None at all",
+            "A strong sense of national identity motivated people to seek self-rule",
+            "Nationalism discouraged independence",
+            "It only existed in Europe"
+          ],
+          "correct": 1
+        },
+        {
+          "q": "Name a region discussed in the video that gained independence during decolonization.",
+          "choices": [
+            "Only Antarctica",
+            "Regions of Africa and Asia (e.g. India, parts of Africa)",
+            "The Moon",
+            "No regions are mentioned"
+          ],
+          "correct": 1
+        }
+      ],
+      "notebookPrompt": "In 2-4 sentences, explain what decolonization was and why it accelerated after World War II."
+    },
+    {
+      "id": 64,
+      "week": 24,
+      "subject": "Social Studies",
+      "standard": "6.3.4",
+      "title": "The Cold War in Asia: Crash Course US History #38",
+      "channel": "CrashCourse",
+      "youtubeId": "Y2IcmLkuhG0",
+      "duration": "13:42",
+      "questions": [
+        {
+          "q": "What conflict in Vietnam is discussed as part of the Cold War in Asia?",
+          "choices": [
+            "The Vietnam War, between communist North Vietnam and the US-backed South",
+            "A war between Vietnam and China only",
+            "There was no conflict in Vietnam",
+            "A trade dispute"
+          ],
+          "correct": 0
+        },
+        {
+          "q": "What larger global conflict was the Vietnam War part of?",
+          "choices": [
+            "World War II",
+            "The Cold War between the US and Soviet-aligned communism",
+            "The Napoleonic Wars",
+            "No larger conflict"
+          ],
+          "correct": 1
+        },
+        {
+          "q": "What was one major effect of the Vietnam War on American society, according to the video?",
+          "choices": [
+            "No effect at all",
+            "Widespread anti-war protests and political division",
+            "Universal support with no dissent",
+            "It ended the Cold War immediately"
+          ],
+          "correct": 1
+        }
+      ],
+      "notebookPrompt": "In 2-4 sentences, explain how the Vietnam War connected to the larger Cold War struggle between the US and Soviet-aligned communism."
+    },
+    {
+      "id": 65,
+      "week": 26,
+      "subject": "Social Studies",
+      "standard": "6.3.5",
+      "title": "How World War I Started: Crash Course World History 209",
+      "channel": "CrashCourse",
+      "youtubeId": "Cd2ch4XV84s",
+      "duration": "9:10",
+      "questions": [
+        {
+          "q": "What event is often cited as the spark that started World War I?",
+          "choices": [
+            "The bombing of Pearl Harbor",
+            "The assassination of Archduke Franz Ferdinand",
+            "The French Revolution",
+            "The fall of the Berlin Wall"
+          ],
+          "correct": 1
+        },
+        {
+          "q": "What system of alliances helped turn a regional conflict into a world war?",
+          "choices": [
+            "No alliances existed",
+            "A web of European alliances pulled multiple countries into the conflict",
+            "Only two countries were involved, ever",
+            "Alliances prevented the war from spreading"
+          ],
+          "correct": 1
+        },
+        {
+          "q": "What were some of the long-term causes of WWI mentioned (beyond the assassination)?",
+          "choices": [
+            "None - it was purely random",
+            "Militarism, nationalism, and imperial competition among European powers",
+            "Only economic depression",
+            "Climate change"
+          ],
+          "correct": 1
+        }
+      ],
+      "notebookPrompt": "In 2-4 sentences, explain both the immediate spark and one deeper, long-term cause of World War I."
+    },
+    {
+      "id": 66,
+      "week": 26,
+      "subject": "Social Studies",
+      "standard": "6.3.5",
+      "title": "The Great Depression: Crash Course US History #33",
+      "channel": "CrashCourse",
+      "youtubeId": "GCQfMWAikyU",
+      "duration": "14:27",
+      "questions": [
+        {
+          "q": "What event in 1929 is closely associated with the start of the Great Depression?",
+          "choices": [
+            "The stock market crash",
+            "The end of World War I",
+            "A pandemic",
+            "A world war"
+          ],
+          "correct": 0
+        },
+        {
+          "q": "What was one major effect of the Great Depression on ordinary people?",
+          "choices": [
+            "No effect - the economy stayed strong",
+            "Widespread unemployment, poverty, and business failures",
+            "Everyone became wealthier",
+            "It only affected banks, not people"
+          ],
+          "correct": 1
+        },
+        {
+          "q": "What government response is discussed as an attempt to address the Great Depression?",
+          "choices": [
+            "No response at all",
+            "The New Deal - a set of government programs and reforms",
+            "Declaring war immediately",
+            "Ignoring the problem entirely"
+          ],
+          "correct": 1
+        }
+      ],
+      "notebookPrompt": "In 2-4 sentences, explain what caused the Great Depression and one way government tried to respond to it."
+    },
+    {
+      "id": 67,
+      "week": 26,
+      "subject": "Social Studies",
+      "standard": "6.3.5",
+      "title": "World War II: Crash Course World History #38",
+      "channel": "CrashCourse",
+      "youtubeId": "Q78COTwT7nE",
+      "duration": "13:13",
+      "questions": [
+        {
+          "q": "What ideology and leader in Germany helped cause World War II?",
+          "choices": [
+            "Communism under Stalin",
+            "Nazism/fascism under Adolf Hitler",
+            "Democracy under Churchill",
+            "There was no clear cause"
+          ],
+          "correct": 1
+        },
+        {
+          "q": "Name one major alliance or side in World War II.",
+          "choices": [
+            "The Allies (e.g. US, UK, USSR) vs. the Axis (e.g. Germany, Japan, Italy)",
+            "There were no sides",
+            "Only one country fought",
+            "It was a purely economic conflict"
+          ],
+          "correct": 0
+        },
+        {
+          "q": "What was one major global effect of World War II mentioned in the video?",
+          "choices": [
+            "No lasting effects",
+            "Massive loss of life, reshaped borders, and the beginning of the Cold War era",
+            "It ended all future conflicts forever",
+            "Only Europe was affected"
+          ],
+          "correct": 1
+        }
+      ],
+      "notebookPrompt": "In 2-4 sentences, explain the major causes of World War II and one lasting global effect it had."
+    },
+    {
+      "id": 68,
+      "week": 28,
+      "subject": "Social Studies",
+      "standard": "6.4.1",
+      "title": "The history of the Cuban Missile Crisis",
+      "channel": "TED-Ed",
+      "youtubeId": "bwWW3sbk4EU",
+      "duration": "4:52",
+      "questions": [
+        {
+          "q": "What was the Cuban Missile Crisis?",
+          "choices": [
+            "A trade dispute",
+            "A tense 1962 standoff between the US and USSR over Soviet missiles in Cuba",
+            "A war between Cuba and Mexico",
+            "A natural disaster"
+          ],
+          "correct": 1
+        },
+        {
+          "q": "Why was this crisis so dangerous?",
+          "choices": [
+            "It wasn't dangerous at all",
+            "It brought the US and USSR to the brink of nuclear war",
+            "It was a minor diplomatic issue",
+            "No weapons were involved"
+          ],
+          "correct": 1
+        },
+        {
+          "q": "How was the crisis eventually resolved?",
+          "choices": [
+            "Through negotiation - the Soviets removed the missiles in exchange for US concessions",
+            "Through a nuclear war",
+            "It was never resolved",
+            "The US invaded Cuba"
+          ],
+          "correct": 0
+        }
+      ],
+      "notebookPrompt": "In 2-4 sentences, explain what the Cuban Missile Crisis was and why it's considered one of the most dangerous moments of the Cold War."
+    },
+    {
+      "id": 69,
+      "week": 28,
+      "subject": "Social Studies",
+      "standard": "6.4.1",
+      "title": "What caused the Rwandan Genocide?",
+      "channel": "TED-Ed",
+      "youtubeId": "MF7EbUGlaOU",
+      "duration": "6:22",
+      "questions": [
+        {
+          "q": "In what year did the Rwandan Genocide take place?",
+          "choices": [
+            "1994",
+            "1945",
+            "2001",
+            "1975"
+          ],
+          "correct": 0
+        },
+        {
+          "q": "What historical/political factors contributed to the tensions that led to the genocide, according to the video?",
+          "choices": [
+            "There were no earlier tensions",
+            "Colonial-era policies that deepened ethnic divisions between groups in Rwanda",
+            "It was a completely random, sudden event with no history",
+            "Only economic factors, nothing social"
+          ],
+          "correct": 1
+        },
+        {
+          "q": "What is one lesson the video suggests we should take from studying this event?",
+          "choices": [
+            "That we should ignore history",
+            "Understanding how divisions are created and escalate can help prevent future violence",
+            "That genocide could never happen again anywhere",
+            "That the event doesn't matter today"
+          ],
+          "correct": 1
+        }
+      ],
+      "notebookPrompt": "In 2-4 sentences, explain what factors the video says contributed to the Rwandan Genocide. (Note for parent: this is heavy content - consider watching or discussing it together.)"
+    },
+    {
+      "id": 70,
+      "week": 28,
+      "subject": "Social Studies",
+      "standard": "6.4.1",
+      "title": "Real Story of 9/11 \u2014 Why Terrorists Attacked America",
+      "channel": "How it was",
+      "youtubeId": "lVAQsD9MK4k",
+      "duration": "6:24",
+      "questions": [
+        {
+          "q": "On what date did the September 11, 2001 terrorist attacks occur?",
+          "choices": [
+            "September 11, 2001",
+            "July 4, 1976",
+            "December 7, 1941",
+            "November 11, 1918"
+          ],
+          "correct": 0
+        },
+        {
+          "q": "What group carried out the 9/11 attacks?",
+          "choices": [
+            "A foreign government's army",
+            "The terrorist group al-Qaeda",
+            "No group - it was an accident",
+            "A domestic protest group"
+          ],
+          "correct": 1
+        },
+        {
+          "q": "What major US policy changes followed the 9/11 attacks, according to the video?",
+          "choices": [
+            "None at all",
+            "Increased security measures and military action, including the War on Terror",
+            "The US closed its borders permanently",
+            "The United Nations dissolved"
+          ],
+          "correct": 1
+        }
+      ],
+      "notebookPrompt": "In 2-4 sentences, explain what happened on 9/11 and how it changed US policy afterward."
+    },
+    {
+      "id": 71,
+      "week": 28,
+      "subject": "Social Studies",
+      "standard": "6.4.1",
+      "title": "Trade Wars: A Look at the Smoot-Hawley Tariff",
+      "channel": "CFR Education",
+      "youtubeId": "C4CvLu8HA7I",
+      "duration": "4:30",
+      "questions": [
+        {
+          "q": "What was the Smoot-Hawley Tariff Act (1930)?",
+          "choices": [
+            "A tax cut",
+            "A law that raised U.S. tariffs on thousands of imported goods",
+            "A trade agreement lowering tariffs",
+            "A treaty ending a war"
+          ],
+          "correct": 1
+        },
+        {
+          "q": "What happened after other countries responded to the Smoot-Hawley Tariff?",
+          "choices": [
+            "Nothing - no other country reacted",
+            "Other countries raised their own tariffs in retaliation, shrinking global trade",
+            "Global trade increased dramatically",
+            "It ended the Great Depression"
+          ],
+          "correct": 1
+        },
+        {
+          "q": "What is a 'trade war,' based on this example?",
+          "choices": [
+            "A shooting war over trade routes",
+            "A cycle of countries raising tariffs/trade barriers against each other",
+            "A war fought only with money as weapons",
+            "A trade war has no real economic effect"
+          ],
+          "correct": 1
+        }
+      ],
+      "notebookPrompt": "In 2-4 sentences, explain what a trade war is, using the Smoot-Hawley Tariff as an example."
+    },
+    {
+      "id": 72,
+      "week": 28,
+      "subject": "Social Studies",
+      "standard": "6.4.1",
+      "title": "The hidden life of Rosa Parks",
+      "channel": "TED-Ed",
+      "youtubeId": "tLfbmepDd4c",
+      "duration": "5:00",
+      "questions": [
+        {
+          "q": "What action is Rosa Parks most famous for?",
+          "choices": [
+            "Running for president",
+            "Refusing to give up her bus seat to a white passenger in 1955, sparking the Montgomery Bus Boycott",
+            "Writing a famous book",
+            "Leading a violent protest"
+          ],
+          "correct": 1
+        },
+        {
+          "q": "Was Rosa Parks's act of resistance spontaneous or something she had prepared for, according to the video?",
+          "choices": [
+            "Completely spontaneous with no prior activism",
+            "She was already an experienced civil rights activist before that day",
+            "She had no connection to any movement",
+            "It never really happened"
+          ],
+          "correct": 1
+        },
+        {
+          "q": "What larger movement did Rosa Parks's action help energize?",
+          "choices": [
+            "The women's suffrage movement of the 1800s",
+            "The American Civil Rights Movement",
+            "The American Revolution",
+            "The labor union movement of the 1800s"
+          ],
+          "correct": 1
+        }
+      ],
+      "notebookPrompt": "In 2-4 sentences, explain what Rosa Parks did and how it connects to the broader Civil Rights Movement."
+    },
+    {
+      "id": 73,
+      "week": 31,
+      "subject": "Social Studies",
+      "standard": "6.4.2",
+      "title": "Communism Vs Socialism Vs Capitalism",
+      "channel": "Illustrate to Educate",
+      "youtubeId": "_8gTqgaczTI",
+      "duration": "2:50",
+      "questions": [
+        {
+          "q": "In capitalism, who typically owns businesses and property?",
+          "choices": [
+            "The government owns everything",
+            "Private individuals and companies",
+            "No one owns anything",
+            "Only religious institutions"
+          ],
+          "correct": 1
+        },
+        {
+          "q": "In communism, who is intended to control the means of production (factories, land, etc.)?",
+          "choices": [
+            "Private individuals",
+            "The community/state, collectively, with no private ownership",
+            "Foreign countries",
+            "No one - production stops"
+          ],
+          "correct": 1
+        },
+        {
+          "q": "Where does socialism generally fall between these two systems?",
+          "choices": [
+            "It's identical to pure capitalism",
+            "It often involves a mix, with more government role in providing services/regulating the economy than capitalism but less total state control than communism",
+            "It's identical to pure communism",
+            "It rejects all economic activity"
+          ],
+          "correct": 1
+        }
+      ],
+      "notebookPrompt": "In 2-4 sentences, explain one key difference between capitalism, socialism, and communism in your own words."
+    },
+    {
+      "id": 74,
+      "week": 33,
+      "subject": "Social Studies",
+      "standard": "6.4.3",
+      "title": "What are the universal human rights?",
+      "channel": "TED-Ed",
+      "youtubeId": "nDgIVseTkuE",
+      "duration": "4:47",
+      "questions": [
+        {
+          "q": "What document lists a set of rights believed to belong to every person, adopted by the UN in 1948?",
+          "choices": [
+            "The Declaration of Independence",
+            "The Universal Declaration of Human Rights (UDHR)",
+            "The Magna Carta",
+            "The Constitution"
+          ],
+          "correct": 1
+        },
+        {
+          "q": "Give an example of a right listed in the UDHR.",
+          "choices": [
+            "The right to own a car",
+            "The right to life, liberty, and freedom from torture",
+            "The right to unlimited wealth",
+            "There are no specific rights listed"
+          ],
+          "correct": 1
+        },
+        {
+          "q": "What do human rights defenders do, according to the video?",
+          "choices": [
+            "Nothing - the concept is purely theoretical",
+            "Work to protect and advocate for people whose rights are being violated",
+            "Only work for governments",
+            "Oppose all human rights"
+          ],
+          "correct": 1
+        }
+      ],
+      "notebookPrompt": "In 2-4 sentences, explain what the Universal Declaration of Human Rights is and name one right it protects."
+    },
+    {
+      "id": 75,
+      "week": 36,
+      "subject": "Social Studies",
+      "standard": "6.4.4",
+      "title": "What Is Globalization? Understand Our Interconnected World",
+      "channel": "CFR Education",
+      "youtubeId": "wLNp3kgBuuQ",
+      "duration": "3:15",
+      "questions": [
+        {
+          "q": "What is globalization?",
+          "choices": [
+            "Countries becoming completely isolated from each other",
+            "The increasing connection and interdependence of countries through trade, technology, and culture",
+            "A term with no real meaning",
+            "Something that only affects one country"
+          ],
+          "correct": 1
+        },
+        {
+          "q": "Name one way globalization affects everyday life.",
+          "choices": [
+            "Products, information, and people move more easily across borders",
+            "It has no effect on daily life",
+            "It only affects ancient history",
+            "It stops all international travel"
+          ],
+          "correct": 0
+        },
+        {
+          "q": "Can you think of (or research) a CURRENT event that shows how interconnected the world is today?",
+          "choices": [
+            "No current events show this",
+            "Open-ended - discuss a current trade, technology, health, or diplomatic event with a parent",
+            "This can't be answered",
+            "Globalization ended recently"
+          ],
+          "correct": 1
+        }
+      ],
+      "notebookPrompt": "This lesson is special: find and describe ONE current news story (ask a parent to help you look, or check a kid-friendly news source) that shows how interconnected countries are today - through trade, technology, travel, or a shared global challenge. In 2-4 sentences, explain what the event is and how it shows global interconnectedness."
+    },
+    {
+      "id": 76,
+      "week": 6,
+      "subject": "Science",
+      "standard": "6.1.3",
+      "title": "To Scale: THE SOLAR SYSTEM",
+      "channel": "To Scale:",
+      "youtubeId": "zR3Igc3Rhfg",
+      "duration": "7:07",
+      "questions": [
+        {
+          "q": "What are the friends in this video trying to build in the desert?",
+          "choices": [
+            "A full-size rocket",
+            "An accurate scale model of the solar system, including distances",
+            "A model of the ocean",
+            "A miniature Earth only"
+          ],
+          "correct": 1
+        },
+        {
+          "q": "What surprises people most when they see the solar system built to true scale?",
+          "choices": [
+            "How close together the planets are",
+            "How incredibly far apart the planets actually are compared to their size",
+            "That there are only 3 planets",
+            "That the sun is smaller than Earth"
+          ],
+          "correct": 1
+        },
+        {
+          "q": "Why is it hard to show the solar system 'to scale' in a normal classroom poster?",
+          "choices": [
+            "It's not hard at all",
+            "The real distances between planets are far too vast to fit at the same scale as the planets' sizes",
+            "Posters are always accurate",
+            "Planets don't actually have different sizes"
+          ],
+          "correct": 1
+        }
+      ],
+      "notebookPrompt": "In 2-4 sentences, describe what surprised you most about the true scale of distance between planets in our solar system."
+    },
+    {
+      "id": 77,
+      "week": 6,
+      "subject": "Science",
+      "standard": "6.1.3",
+      "title": "Solar System 101",
+      "channel": "National Geographic",
+      "youtubeId": "libKVRa01L8",
+      "duration": "4:11",
+      "questions": [
+        {
+          "q": "How many planets are currently recognized in our solar system?",
+          "choices": [
+            "6",
+            "8",
+            "10",
+            "12"
+          ],
+          "correct": 1
+        },
+        {
+          "q": "What is at the center of our solar system, holding everything in orbit with its gravity?",
+          "choices": [
+            "Earth",
+            "The Sun",
+            "Jupiter",
+            "The Moon"
+          ],
+          "correct": 1
+        },
+        {
+          "q": "How did our solar system form, according to the video?",
+          "choices": [
+            "It appeared instantly, fully formed",
+            "From a giant cloud of gas and dust that collapsed under gravity",
+            "It was built by aliens",
+            "No one knows anything about its formation"
+          ],
+          "correct": 1
+        }
+      ],
+      "notebookPrompt": "In 2-4 sentences, summarize how the solar system formed and name one property (size, distance, or temperature) that varies a lot between planets."
+    },
+    {
+      "id": 78,
+      "week": 7,
+      "subject": "Science",
+      "standard": "6.2.1",
+      "title": "How atoms bond",
+      "channel": "TED-Ed",
+      "youtubeId": "NgD9yHSJ29I",
+      "duration": "3:34",
+      "questions": [
+        {
+          "q": "What is a molecule?",
+          "choices": [
+            "A single atom",
+            "Two or more atoms bonded together",
+            "A type of energy",
+            "A star"
+          ],
+          "correct": 1
+        },
+        {
+          "q": "What are the two types of atomic bonds discussed in the video?",
+          "choices": [
+            "Only one type exists",
+            "Ionic bonds and covalent bonds",
+            "Magnetic and gravitational",
+            "Solid and liquid bonds"
+          ],
+          "correct": 1
+        },
+        {
+          "q": "What kind of molecule is water (H2O) an example of - atoms bonding to form what?",
+          "choices": [
+            "A single atom",
+            "A molecule made of two hydrogen atoms and one oxygen atom bonded together",
+            "A metal",
+            "Pure energy"
+          ],
+          "correct": 1
+        }
+      ],
+      "notebookPrompt": "In 2-4 sentences, explain in your own words how atoms bond together to form a molecule like water (H2O) or carbon dioxide (CO2)."
+    },
+    {
+      "id": 79,
+      "week": 9,
+      "subject": "Science",
+      "standard": "6.2.2",
+      "title": "Solid, liquid, gas and \u2026 plasma?",
+      "channel": "TED-Ed",
+      "youtubeId": "tJplytSR-ww",
+      "duration": "3:52",
+      "questions": [
+        {
+          "q": "What are the three most common states of matter?",
+          "choices": [
+            "Solid, liquid, and gas",
+            "Hot, cold, and warm",
+            "Big, medium, and small",
+            "Fast, slow, and still"
+          ],
+          "correct": 0
+        },
+        {
+          "q": "What determines which state matter is in?",
+          "choices": [
+            "Its color",
+            "How much energy (heat) the particles have and how they're arranged/moving",
+            "Its weight only",
+            "Random chance"
+          ],
+          "correct": 1
+        },
+        {
+          "q": "What is plasma, the fourth state of matter?",
+          "choices": [
+            "A type of liquid",
+            "An extremely energized, ionized gas, like what makes up stars",
+            "A solid at very low temperature",
+            "Just another name for water"
+          ],
+          "correct": 1
+        }
+      ],
+      "notebookPrompt": "In 2-4 sentences, explain how adding or removing heat energy can change a substance from one state of matter to another."
+    },
+    {
+      "id": 80,
+      "week": 9,
+      "subject": "Science",
+      "standard": "6.2.2",
+      "title": "Why does ice float in water?",
+      "channel": "TED-Ed",
+      "youtubeId": "UukRgqzk-KE",
+      "duration": "3:56",
+      "questions": [
+        {
+          "q": "Why does ice float instead of sink in liquid water?",
+          "choices": [
+            "Ice is heavier than water",
+            "Ice is less dense than liquid water because of how water molecules arrange when frozen",
+            "Ice always sinks, it doesn't float",
+            "It's random and unexplained"
+          ],
+          "correct": 1
+        },
+        {
+          "q": "What happens to most substances' density when they freeze (turn solid)?",
+          "choices": [
+            "They stay exactly the same density",
+            "Most substances get denser when they freeze - water is unusual because it gets less dense",
+            "They always get less dense, just like water",
+            "Density has nothing to do with freezing"
+          ],
+          "correct": 1
+        },
+        {
+          "q": "Why does it matter (for lake and ocean life) that ice floats instead of sinking?",
+          "choices": [
+            "It doesn't matter at all",
+            "It insulates the water below, letting aquatic life survive winter under a floating ice layer",
+            "It causes all fish to die every winter",
+            "It has no ecological effect"
+          ],
+          "correct": 1
+        }
+      ],
+      "notebookPrompt": "In 2-4 sentences, explain why ice floats on water, and why this unusual property of water matters for lakes and rivers in winter."
+    },
+    {
+      "id": 81,
+      "week": 12,
+      "subject": "Science",
+      "standard": "6.2.3",
+      "title": "Heat Transfer \u2013 Conduction, Convection and Radiation",
+      "channel": "Next Generation Science",
+      "youtubeId": "Me60Ti0E_rY",
+      "duration": "3:15",
+      "questions": [
+        {
+          "q": "What is conduction?",
+          "choices": [
+            "Heat transfer through direct contact between materials",
+            "Heat transfer through empty space",
+            "Heat transfer through moving liquids or gases only",
+            "Heat that doesn't move at all"
+          ],
+          "correct": 0
+        },
+        {
+          "q": "What is convection?",
+          "choices": [
+            "Heat transfer through direct contact only",
+            "Heat transfer through the movement of fluids (liquids or gases)",
+            "Heat transfer through empty space with no matter",
+            "A type of solid"
+          ],
+          "correct": 1
+        },
+        {
+          "q": "What is radiation (in terms of heat transfer)?",
+          "choices": [
+            "Heat transfer that requires touching",
+            "Heat transfer through electromagnetic waves, even through empty space (like from the Sun)",
+            "Only found in liquids",
+            "The same thing as conduction"
+          ],
+          "correct": 1
+        }
+      ],
+      "notebookPrompt": "In 2-4 sentences, describe conduction, convection, and radiation, using one real-life example of each if you can."
+    },
+    {
+      "id": 82,
+      "week": 14,
+      "subject": "Science",
+      "standard": "6.2.4",
+      "title": "Heat Conductors and Insulators \u2013 A Demonstration",
+      "channel": "Next Generation Science",
+      "youtubeId": "M7g5MwExn8k",
+      "duration": "4:24",
+      "questions": [
+        {
+          "q": "What is a heat conductor?",
+          "choices": [
+            "A material that blocks heat from passing through easily",
+            "A material that lets heat pass through it easily (like most metals)",
+            "A material with no temperature at all",
+            "A material that creates heat"
+          ],
+          "correct": 1
+        },
+        {
+          "q": "What is a heat insulator?",
+          "choices": [
+            "A material that transfers heat quickly",
+            "A material that resists/slows the transfer of heat (like wood, plastic, or fabric)",
+            "The same thing as a conductor",
+            "A type of liquid only"
+          ],
+          "correct": 1
+        },
+        {
+          "q": "Why might you design a coffee cup handle with an insulating material instead of metal?",
+          "choices": [
+            "To make it transfer heat faster to your hand",
+            "To slow heat transfer so the handle doesn't get too hot to hold",
+            "Insulators have no practical uses",
+            "It doesn't matter what material is used"
+          ],
+          "correct": 1
+        }
+      ],
+      "notebookPrompt": "In 2-4 sentences, design (in words) an object that uses an insulator to keep something warm (or a conductor to cool something down quickly), and explain why your material choice works."
+    },
+    {
+      "id": 83,
+      "week": 16,
+      "subject": "Science",
+      "standard": "6.3.1",
+      "title": "The water cycle | Ecology",
+      "channel": "Khan Academy",
+      "youtubeId": "jFjI6y46QRk",
+      "duration": "8:13",
+      "questions": [
+        {
+          "q": "What provides the energy that drives the water cycle?",
+          "choices": [
+            "The Moon",
+            "The Sun (solar energy)",
+            "Wind alone",
+            "Ocean currents alone"
+          ],
+          "correct": 1
+        },
+        {
+          "q": "What is evaporation?",
+          "choices": [
+            "Water falling from clouds",
+            "Liquid water turning into water vapor (gas), usually due to heat from the sun",
+            "Water freezing into ice",
+            "Water flowing downhill"
+          ],
+          "correct": 1
+        },
+        {
+          "q": "What force pulls precipitation (rain/snow) down from the atmosphere to Earth's surface?",
+          "choices": [
+            "Magnetism",
+            "Gravity",
+            "Wind resistance",
+            "Density has no role"
+          ],
+          "correct": 1
+        }
+      ],
+      "notebookPrompt": "In 2-4 sentences, describe the water cycle's main steps (evaporation, condensation, precipitation) and explain what role the Sun and gravity each play."
+    },
+    {
+      "id": 84,
+      "week": 18,
+      "subject": "Science",
+      "standard": "6.3.2",
+      "title": "Weather: high and low pressure",
+      "channel": "DeverScience",
+      "youtubeId": "XajpHV66jIY",
+      "duration": "5:23",
+      "questions": [
+        {
+          "q": "What kind of weather is typically associated with high-pressure systems?",
+          "choices": [
+            "Stormy, cloudy weather",
+            "Clear, calm, fair weather",
+            "Always snow",
+            "Always hurricanes"
+          ],
+          "correct": 1
+        },
+        {
+          "q": "What kind of weather is typically associated with low-pressure systems?",
+          "choices": [
+            "Clear and sunny",
+            "Clouds, precipitation, and stormier weather",
+            "No weather changes at all",
+            "Always extremely hot"
+          ],
+          "correct": 1
+        },
+        {
+          "q": "What happens when a warm air mass meets a cold air mass?",
+          "choices": [
+            "Nothing happens",
+            "It can create fronts and trigger changes in weather, like storms",
+            "They always cancel out with no effect",
+            "They merge into one identical mass instantly"
+          ],
+          "correct": 1
+        }
+      ],
+      "notebookPrompt": "In 2-4 sentences, explain the difference between high-pressure and low-pressure weather systems and the kind of weather each typically brings."
+    },
+    {
+      "id": 85,
+      "week": 20,
+      "subject": "Science",
+      "standard": "6.3.3",
+      "title": "Understanding Global Atmospheric Circulation",
+      "channel": "ClickView",
+      "youtubeId": "PFxpJkMXhwg",
+      "duration": "3:25",
+      "questions": [
+        {
+          "q": "What causes global wind and atmospheric circulation patterns?",
+          "choices": [
+            "Random chance",
+            "Uneven heating of Earth's surface by the sun (equator vs. poles)",
+            "The Moon's gravity alone",
+            "Ocean color"
+          ],
+          "correct": 1
+        },
+        {
+          "q": "How are ocean currents and atmospheric circulation related?",
+          "choices": [
+            "They have no relationship",
+            "They're interconnected - both are driven by uneven heating and both affect regional climate",
+            "Ocean currents control the Moon",
+            "Only atmospheric circulation exists; ocean currents don't"
+          ],
+          "correct": 1
+        },
+        {
+          "q": "Why do regions near the equator tend to be warmer than regions near the poles?",
+          "choices": [
+            "The equator is closer to the sun in distance",
+            "The equator receives more direct, concentrated sunlight than the poles",
+            "It's random with no pattern",
+            "The poles actually receive more sunlight"
+          ],
+          "correct": 1
+        }
+      ],
+      "notebookPrompt": "In 2-4 sentences, explain how uneven heating of Earth by the Sun creates global wind and ocean circulation patterns."
+    },
+    {
+      "id": 86,
+      "week": 20,
+      "subject": "Science",
+      "standard": "6.3.3",
+      "title": "Causes of Inversion",
+      "channel": "UCAIR",
+      "youtubeId": "Pdir5MGV4_M",
+      "duration": "1:29",
+      "questions": [
+        {
+          "q": "What is a temperature inversion (like the ones that happen in Utah valleys)?",
+          "choices": [
+            "A layer of warm air trapping cooler, polluted air near the ground",
+            "The normal pattern where air just keeps getting warmer with altitude",
+            "A type of rainstorm",
+            "A hurricane"
+          ],
+          "correct": 0
+        },
+        {
+          "q": "Why do inversions often happen in valley areas like Utah's, especially in winter?",
+          "choices": [
+            "Mountains have no effect on air movement",
+            "Surrounding mountains trap cold, dense air in the valley under a warmer air layer above",
+            "Inversions only happen at the beach",
+            "It's caused entirely by ocean currents"
+          ],
+          "correct": 1
+        },
+        {
+          "q": "What problem do inversions cause for air quality?",
+          "choices": [
+            "They clean the air",
+            "They trap pollution close to the ground instead of letting it disperse",
+            "They have no effect on pollution",
+            "They only affect water quality"
+          ],
+          "correct": 1
+        }
+      ],
+      "notebookPrompt": "In 2-4 sentences, explain what causes a temperature inversion and why Utah's mountains and valleys make the state prone to them."
+    },
+    {
+      "id": 87,
+      "week": 20,
+      "subject": "Science",
+      "standard": "6.3.3",
+      "title": "What is a Lake Effect Storm?",
+      "channel": "Ski Utah",
+      "youtubeId": "tj-RKFzFG-A",
+      "duration": "2:31",
+      "questions": [
+        {
+          "q": "What is lake-effect snow?",
+          "choices": [
+            "Snow that falls in the desert",
+            "Extra snowfall caused by cold air picking up moisture as it crosses a relatively warmer lake",
+            "Rain that falls only in summer",
+            "A type of thunderstorm with no snow"
+          ],
+          "correct": 1
+        },
+        {
+          "q": "What large body of water contributes to lake-effect snow in Utah?",
+          "choices": [
+            "The Pacific Ocean",
+            "The Great Salt Lake",
+            "The Mississippi River",
+            "Lake Michigan"
+          ],
+          "correct": 1
+        },
+        {
+          "q": "Why does the temperature difference between the lake and the air matter for creating lake-effect snow?",
+          "choices": [
+            "It doesn't matter at all",
+            "A bigger temperature difference lets the air pick up more moisture, creating heavier snow",
+            "Colder lakes always produce more snow than warmer ones",
+            "Lake temperature has no connection to snowfall"
+          ],
+          "correct": 1
+        }
+      ],
+      "notebookPrompt": "In 2-4 sentences, explain how the Great Salt Lake helps create Utah's famous lake-effect snow."
+    },
+    {
+      "id": 88,
+      "week": 23,
+      "subject": "Science",
+      "standard": "6.3.4",
+      "title": "What Is the Greenhouse Effect?",
+      "channel": "NASA Space Place",
+      "youtubeId": "SN5-DnOHQmE",
+      "duration": "2:30",
+      "questions": [
+        {
+          "q": "What is the greenhouse effect?",
+          "choices": [
+            "Cooling caused by clouds blocking the sun",
+            "Certain gases in the atmosphere trapping heat, warming the planet",
+            "A myth with no scientific basis",
+            "Something that only happens indoors"
+          ],
+          "correct": 1
+        },
+        {
+          "q": "Name one greenhouse gas mentioned.",
+          "choices": [
+            "Oxygen",
+            "Carbon dioxide (CO2)",
+            "Nitrogen only",
+            "Helium"
+          ],
+          "correct": 1
+        },
+        {
+          "q": "Is the greenhouse effect entirely bad, according to NASA?",
+          "choices": [
+            "Yes, entirely bad with no benefit",
+            "No - a natural greenhouse effect keeps Earth warm enough for life; too much can cause excess warming",
+            "It has no effect on temperature at all",
+            "It only affects the moon"
+          ],
+          "correct": 1
+        }
+      ],
+      "notebookPrompt": "In 2-4 sentences, explain what the greenhouse effect is and why some of it is necessary for life on Earth."
+    },
+    {
+      "id": 89,
+      "week": 23,
+      "subject": "Science",
+      "standard": "6.3.4",
+      "title": "Greenhouse Effect: Earth vs Venus & Mars",
+      "channel": "AstroSimplified",
+      "youtubeId": "G-n25ZrGnYk",
+      "duration": "5:37",
+      "questions": [
+        {
+          "q": "Why is Venus so much hotter than Earth, despite not being the closest planet to the Sun?",
+          "choices": [
+            "It's closer to the sun than Mercury",
+            "Venus has an extremely thick atmosphere of mostly CO2, creating a runaway greenhouse effect",
+            "Venus has no atmosphere at all",
+            "Venus is made of lava"
+          ],
+          "correct": 1
+        },
+        {
+          "q": "Why is Mars much colder than Earth?",
+          "choices": [
+            "Mars has a thicker atmosphere than Earth",
+            "Mars has a very thin atmosphere, so it can't trap much heat",
+            "Mars is closer to the sun",
+            "Mars has too much greenhouse effect"
+          ],
+          "correct": 1
+        },
+        {
+          "q": "What does comparing Venus, Earth, and Mars teach us about atmospheres and temperature?",
+          "choices": [
+            "Atmosphere thickness/composition has no effect on temperature",
+            "The amount and type of atmosphere a planet has dramatically affects its surface temperature",
+            "All three planets have identical atmospheres",
+            "Only distance from the sun matters, not atmosphere"
+          ],
+          "correct": 1
+        }
+      ],
+      "notebookPrompt": "In 2-4 sentences, compare the greenhouse effect on Venus, Earth, and Mars, and explain why their surface temperatures are so different."
+    },
+    {
+      "id": 90,
+      "week": 25,
+      "subject": "Science",
+      "standard": "6.4.1",
+      "title": "Carrying Capacity | Population Ecology",
+      "channel": "MAD GARDEN Science",
+      "youtubeId": "fbORpSWCShk",
+      "duration": "6:16",
+      "questions": [
+        {
+          "q": "What is carrying capacity?",
+          "choices": [
+            "The maximum weight an animal can carry",
+            "The maximum population size an ecosystem can support with its available resources",
+            "A type of predator",
+            "The total number of species on Earth"
+          ],
+          "correct": 1
+        },
+        {
+          "q": "Name one limiting factor that can affect an ecosystem's carrying capacity.",
+          "choices": [
+            "Music",
+            "Food, water, shelter, or space",
+            "Colors in the environment",
+            "The number of tourists"
+          ],
+          "correct": 1
+        },
+        {
+          "q": "What tends to happen to a population that grows beyond its ecosystem's carrying capacity?",
+          "choices": [
+            "It keeps growing forever with no consequences",
+            "It tends to decline due to resource shortages (starvation, disease, competition)",
+            "The ecosystem automatically creates more resources",
+            "Nothing changes"
+          ],
+          "correct": 1
+        }
+      ],
+      "notebookPrompt": "In 2-4 sentences, explain what carrying capacity is and describe one limiting factor (food, water, shelter, etc.) using an example from the video."
+    },
+    {
+      "id": 91,
+      "week": 27,
+      "subject": "Science",
+      "standard": "6.4.2",
+      "title": "Competition, predation, and mutualism | Middle school biology",
+      "channel": "Khan Academy",
+      "youtubeId": "S65RR_pEyPw",
+      "duration": "3:10",
+      "questions": [
+        {
+          "q": "What is competition, in an ecological sense?",
+          "choices": [
+            "Two species helping each other",
+            "Organisms competing for the same limited resources, like food or space",
+            "A type of predator-prey relationship only",
+            "A sport"
+          ],
+          "correct": 1
+        },
+        {
+          "q": "What is predation?",
+          "choices": [
+            "Two organisms both benefiting from an interaction",
+            "One organism (predator) hunting and eating another (prey)",
+            "Competition for resources",
+            "Organisms ignoring each other completely"
+          ],
+          "correct": 1
+        },
+        {
+          "q": "What is mutualism?",
+          "choices": [
+            "A relationship where one species is harmed and the other benefits",
+            "A relationship where both species benefit",
+            "A relationship where both species are harmed",
+            "The same thing as predation"
+          ],
+          "correct": 1
+        }
+      ],
+      "notebookPrompt": "In 2-4 sentences, describe competition, predation, and mutualism, giving one example of each if you can."
+    },
+    {
+      "id": 92,
+      "week": 29,
+      "subject": "Science",
+      "standard": "6.4.3",
+      "title": "Food Chain for Kids \u2013 INTERACTIVE",
+      "channel": "Learn Bright",
+      "youtubeId": "AWqAex-01kc",
+      "duration": "5:03",
+      "questions": [
+        {
+          "q": "What is a producer in a food chain?",
+          "choices": [
+            "An animal that eats other animals",
+            "An organism (usually a plant) that makes its own food using sunlight",
+            "A decomposer",
+            "A rock"
+          ],
+          "correct": 1
+        },
+        {
+          "q": "What is a decomposer's role in a food web?",
+          "choices": [
+            "To produce food from sunlight",
+            "To break down dead organisms and recycle nutrients back into the ecosystem",
+            "To hunt live prey",
+            "To do nothing useful"
+          ],
+          "correct": 1
+        },
+        {
+          "q": "What's the difference between a food chain and a food web?",
+          "choices": [
+            "They are exactly the same thing",
+            "A food web shows many interconnected food chains, not just one single path",
+            "A food chain has more organisms than a food web",
+            "A food web only includes plants"
+          ],
+          "correct": 1
+        }
+      ],
+      "notebookPrompt": "In 2-4 sentences, explain the roles of producers, consumers, and decomposers in a food web, using an example ecosystem."
+    },
+    {
+      "id": 93,
+      "week": 32,
+      "subject": "Science",
+      "standard": "6.4.4",
+      "title": "The threat of invasive species",
+      "channel": "TED-Ed",
+      "youtubeId": "spTWwqVP_2s",
+      "duration": "4:46",
+      "questions": [
+        {
+          "q": "What is an invasive species?",
+          "choices": [
+            "Any species that lives in its native habitat",
+            "A species introduced to a new environment where it causes ecological harm",
+            "A species that is always beneficial wherever it goes",
+            "A species that can't survive anywhere"
+          ],
+          "correct": 1
+        },
+        {
+          "q": "Why do invasive species often thrive and cause problems in new environments?",
+          "choices": [
+            "They can't survive without help",
+            "They often lack natural predators or controls in the new environment",
+            "New environments always destroy invasive species immediately",
+            "They have no effect on native species"
+          ],
+          "correct": 1
+        },
+        {
+          "q": "How can an invasive species affect population stability in an ecosystem?",
+          "choices": [
+            "It has no effect on other populations",
+            "It can outcompete native species, reducing their populations or causing local extinctions",
+            "It always increases every native species' population",
+            "Ecosystems are unaffected by new species"
+          ],
+          "correct": 1
+        }
+      ],
+      "notebookPrompt": "In 2-4 sentences, explain how introducing an invasive species can disrupt an ecosystem's stability, using an example from the video."
+    },
+    {
+      "id": 94,
+      "week": 34,
+      "subject": "Science",
+      "standard": "6.4.5",
+      "title": "Why is biodiversity so important?",
+      "channel": "TED-Ed",
+      "youtubeId": "GK_vRtHJZu4",
+      "duration": "4:19",
+      "questions": [
+        {
+          "q": "What is biodiversity?",
+          "choices": [
+            "The number of countries on Earth",
+            "The variety of life (species, genes, ecosystems) in a given area",
+            "A single type of animal",
+            "The total weight of all animals"
+          ],
+          "correct": 1
+        },
+        {
+          "q": "Why is biodiversity important for ecosystem stability, according to the video?",
+          "choices": [
+            "It isn't important at all",
+            "Diverse ecosystems are generally more resilient to disturbances and changes",
+            "More species always cause more problems",
+            "Ecosystems function better with only one species"
+          ],
+          "correct": 1
+        },
+        {
+          "q": "Name one ecosystem service that biodiversity helps provide.",
+          "choices": [
+            "Nothing useful",
+            "Services like clean water, pollination, or climate regulation",
+            "Only entertainment value",
+            "Biodiversity provides no services"
+          ],
+          "correct": 1
+        }
+      ],
+      "notebookPrompt": "In 2-4 sentences, explain why biodiversity matters for keeping ecosystems stable and healthy."
+    },
+    {
+      "id": 95,
+      "week": 34,
+      "subject": "Science",
+      "standard": "6.4.5",
+      "title": "Can wildlife adapt to climate change?",
+      "channel": "TED-Ed",
+      "youtubeId": "ZCKRjP_DMII",
+      "duration": "4:47",
+      "questions": [
+        {
+          "q": "What is one way climate change is affecting wildlife, according to the video?",
+          "choices": [
+            "It has no effect on any species",
+            "Shifting habitats, temperatures, and resource availability that species must adapt to",
+            "It only affects the ocean, not on land",
+            "All species are adapting perfectly with no issues"
+          ],
+          "correct": 1
+        },
+        {
+          "q": "What determines whether a species can successfully adapt to a changing climate?",
+          "choices": [
+            "Nothing - it's totally random",
+            "Factors like how fast the change happens and the species' ability to migrate, evolve, or adjust behavior",
+            "Only the species' size matters",
+            "Adaptation is impossible for any species"
+          ],
+          "correct": 1
+        },
+        {
+          "q": "What is one design/conservation solution that could help wildlife adapt, based on this video or related conservation ideas?",
+          "choices": [
+            "Doing nothing at all",
+            "Protecting and connecting habitats so species can migrate or shift ranges",
+            "Removing all protected areas",
+            "Introducing more invasive species"
+          ],
+          "correct": 1
+        }
+      ],
+      "notebookPrompt": "In 2-4 sentences, describe one challenge climate change poses for wildlife and one possible solution to help species adapt."
+    },
+    {
+      "id": 96,
+      "week": 34,
+      "subject": "Science",
+      "standard": "6.4.5",
+      "title": "Connectivity Conservation: Why Wildlife Corridors Matter!",
+      "channel": "The Center for Large Landscape Conservation",
+      "youtubeId": "cswQpkHiPOs",
+      "duration": "1:05",
+      "questions": [
+        {
+          "q": "What is a wildlife corridor?",
+          "choices": [
+            "A fence to keep animals out",
+            "A protected pathway connecting separated habitats so animals can move safely between them",
+            "A type of zoo enclosure",
+            "A road built for cars only"
+          ],
+          "correct": 1
+        },
+        {
+          "q": "Why do animals need to move between different habitat areas?",
+          "choices": [
+            "They never need to move",
+            "To find food, mates, and adapt to seasonal or long-term environmental changes",
+            "Only for entertainment",
+            "Movement has no ecological benefit"
+          ],
+          "correct": 1
+        },
+        {
+          "q": "How is a wildlife corridor an example of a 'design solution' for protecting biodiversity?",
+          "choices": [
+            "It's not a real design, just an accident",
+            "It's a deliberately engineered/protected solution to reconnect fragmented habitats caused by human development",
+            "It makes habitats more fragmented",
+            "It only helps humans, not wildlife"
+          ],
+          "correct": 1
+        }
+      ],
+      "notebookPrompt": "In 2-4 sentences, design (in words) your own idea for helping wildlife move safely between habitats fragmented by roads or cities, using the wildlife corridor concept as inspiration."
     }
   ]
 }
