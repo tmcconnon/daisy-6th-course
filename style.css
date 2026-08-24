@@ -118,11 +118,18 @@ p.lead { font-size: 16px; color: var(--muted); line-height: 1.5; }
 .upcoming-list li { margin-bottom: 2px; }
 
 /* ---------------- SURPRISE BOX ---------------- */
+.section-divider {
+  height: 1px;
+  background: #ececec;
+  margin: 22px 0;
+  width: 100%;
+}
+
 .box-row {
   display: flex;
   justify-content: center;
   gap: 22px;
-  margin: 26px 0 8px;
+  margin: 24px 0 22px;
   padding-top: 16px; /* room for the lids, which overhang the top of each box */
 }
 .surprise-box {
@@ -175,11 +182,14 @@ p.lead { font-size: 16px; color: var(--muted); line-height: 1.5; }
   100% { transform: scale(1) rotate(0); }
 }
 
-#boxes-prompt { margin-top: 18px; }
+#boxes-prompt { margin: 0 0 4px; }
 
 .box-reveal {
-  margin-top: 18px;
+  margin-top: 22px;
   width: 100%;
+  padding: 20px 18px 4px;
+  background: var(--bg);
+  border-radius: 14px;
 }
 .box-reveal.hidden { display: none; }
 .box-cat-tag {
@@ -191,12 +201,13 @@ p.lead { font-size: 16px; color: var(--muted); line-height: 1.5; }
   padding: 4px 12px;
   border-radius: 999px;
   color: white;
-  margin-bottom: 10px;
+  margin-bottom: 12px;
 }
 .box-cat-tag.animal { background: var(--sci-color); }
 .box-cat-tag.joke { background: #d98c1f; }
 .box-cat-tag.funfact { background: var(--accent); }
-.box-reveal-emoji { font-size: 42px; margin-bottom: 6px; }
+.box-reveal-emoji { font-size: 42px; margin-bottom: 10px; }
+.box-reveal p.lead { margin: 0 0 16px; }
 
 /* ---------------- PARENT EXPORT ---------------- */
 .export-confirm {

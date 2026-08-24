@@ -4,7 +4,7 @@
 
 const STORAGE_KEY = "daisy_course_progress_v1";
 const PIN_KEY = "daisy_course_pin_v1";
-const APP_VERSION = "v9"; // bump alongside CACHE_NAME in service-worker.js so the two always match
+const APP_VERSION = "v12"; // bump alongside CACHE_NAME in service-worker.js so the two always match
 
 let COURSE = null;   // loaded course-data.json
 let state = loadState();
@@ -187,6 +187,13 @@ function renderQuizScreen(lesson) {
   document.getElementById("btn-continue-to-notebook").classList.add("hidden");
   updateSubmitEnabled(lesson);
   updateProgressBar("progress-fill-2", lesson.id);
+
+  // If she already submitted this attempt (e.g. she's navigating BACK here from
+  // the Notebook screen), the choice buttons above were just rebuilt fresh and
+  // unlocked - re-apply the submitted result so it correctly shows as reviewed
+  // instead of looking clickable while silently doing nothing.
+  if (attempt.checked) applyQuizResults(lesson);
+
   show("screen-quiz");
 }
 
@@ -196,10 +203,14 @@ function updateSubmitEnabled(lesson) {
   document.getElementById("btn-submit-quiz").disabled = !allAnswered;
 }
 
-document.getElementById("btn-submit-quiz").onclick = () => {
-  const lesson = COURSE.lessons.find(l => l.id === state.currentLessonId);
+// Applies the "already submitted" visuals to whatever quiz DOM is currently
+// rendered: disables every choice button, marks only the one the student
+// picked (never revealing the right answer if she got it wrong), and shows
+// the correct feedback + follow-up button. Used both right after a fresh
+// submit AND when re-rendering a quiz screen the student already completed
+// (e.g. navigating back from the Notebook screen) - see renderQuizScreen().
+function applyQuizResults(lesson) {
   const attempt = state.currentAttempt;
-  attempt.checked = true;
   let allCorrect = true;
 
   lesson.questions.forEach((q, qi) => {
@@ -224,14 +235,20 @@ document.getElementById("btn-submit-quiz").onclick = () => {
     }
   });
 
-  saveState();
   document.getElementById("btn-submit-quiz").classList.add("hidden");
-
   if (allCorrect) {
     document.getElementById("btn-continue-to-notebook").classList.remove("hidden");
   } else {
     document.getElementById("btn-retry-quiz").classList.remove("hidden");
   }
+  return allCorrect;
+}
+
+document.getElementById("btn-submit-quiz").onclick = () => {
+  const lesson = COURSE.lessons.find(l => l.id === state.currentLessonId);
+  state.currentAttempt.checked = true;
+  applyQuizResults(lesson);
+  saveState();
 };
 
 document.getElementById("btn-retry-quiz").onclick = () => {
