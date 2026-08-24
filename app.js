@@ -7,13 +7,15 @@ const PIN_KEY = "daisy_course_pin_v1";
 
 let COURSE = null;   // loaded course-data.json
 let state = loadState();
+if (!state.boxCounters) state.boxCounters = { animal: 0, joke: 0, funfact: 0 };
 
 function loadState() {
   try {
     const raw = localStorage.getItem(STORAGE_KEY);
     if (raw) return JSON.parse(raw);
   } catch (e) { /* ignore */ }
-  return { completedLessons: {}, currentLessonId: null, currentAttempt: null };
+  return { completedLessons: {}, currentLessonId: null, currentAttempt: null,
+           boxCounters: { animal: 0, joke: 0, funfact: 0 } };
 }
 function saveState() {
   localStorage.setItem(STORAGE_KEY, JSON.stringify(state));
@@ -40,6 +42,20 @@ function subjectBadgeClass(subject) {
   return subject === "Social Studies" ? "ss" : "sci";
 }
 
+function standardGroup(lesson) {
+  return COURSE.lessons.filter(l => l.subject === lesson.subject && l.standard === lesson.standard);
+}
+
+function isFirstInStandard(lesson) {
+  const group = standardGroup(lesson);
+  return group.length > 0 && group[0].id === lesson.id;
+}
+
+function standardInfo(lesson) {
+  if (!COURSE.standards) return null;
+  return COURSE.standards[`${lesson.subject}|${lesson.standard}`] || null;
+}
+
 /* ---------------- WELCOME ---------------- */
 function renderWelcome() {
   const lesson = nextLesson();
@@ -54,7 +70,7 @@ function renderWelcome() {
     body.textContent = `Today we're covering some ${lesson.subject} content. Ready when you are.`;
     startBtn.classList.remove("hidden");
     doneMsg.classList.add("hidden");
-    startBtn.onclick = () => beginLesson(lesson.id);
+    startBtn.onclick = () => startLesson(lesson);
   } else {
     title.textContent = `Great work, ${name}!`;
     body.textContent = "";
@@ -62,6 +78,38 @@ function renderWelcome() {
     doneMsg.classList.remove("hidden");
   }
   show("screen-welcome");
+}
+
+/* ---------------- STANDARD INTRO ---------------- */
+function startLesson(lesson) {
+  if (isFirstInStandard(lesson) && standardInfo(lesson)) {
+    renderStandardIntro(lesson);
+  } else {
+    beginLesson(lesson.id);
+  }
+}
+
+function renderStandardIntro(lesson) {
+  const info = standardInfo(lesson);
+  const group = standardGroup(lesson);
+
+  document.getElementById("intro-badge").textContent = lesson.subject;
+  document.getElementById("intro-badge").className = "badge " + subjectBadgeClass(lesson.subject);
+  document.getElementById("intro-standard").textContent = `Standard ${lesson.standard}`;
+  document.getElementById("intro-title").textContent = info.title;
+  document.getElementById("intro-goal").textContent = info.goal;
+  document.getElementById("intro-why").textContent = info.why;
+
+  const list = document.getElementById("intro-upcoming-list");
+  list.innerHTML = "";
+  group.forEach(l => {
+    const li = document.createElement("li");
+    li.textContent = l.title;
+    list.appendChild(li);
+  });
+
+  document.getElementById("btn-start-topic").onclick = () => beginLesson(lesson.id);
+  show("screen-standard-intro");
 }
 
 /* ---------------- LESSON / VIDEO ---------------- */
@@ -219,9 +267,72 @@ document.getElementById("btn-save-notebook").onclick = () => {
   state.currentAttempt = null;
   saveState();
 
+  renderBoxesScreen(lesson, score);
+};
+
+/* ---------------- SURPRISE BOX ---------------- */
+function shuffle(arr) {
+  const a = arr.slice();
+  for (let i = a.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [a[i], a[j]] = [a[j], a[i]];
+  }
+  return a;
+}
+
+const BOX_CATEGORIES = ["animal", "joke", "funfact"];
+const BOX_CAT_LABEL = { animal: "Animal Fact", joke: "Dad Joke", funfact: "Fun Fact" };
+
+function renderBoxesScreen(lesson, score) {
+  const assignment = shuffle(BOX_CATEGORIES);
+  const boxes = [0, 1, 2].map(i => document.getElementById(`box-${i}`));
+
+  boxes.forEach((btn, i) => {
+    btn.dataset.cat = assignment[i];
+    btn.disabled = false;
+    btn.classList.remove("picked", "faded");
+    btn.querySelector(".box-mark").textContent = "?";
+  });
+  document.getElementById("box-reveal").classList.add("hidden");
+
+  boxes.forEach(btn => {
+    btn.onclick = () => pickBox(btn, boxes, lesson, score);
+  });
+
+  show("screen-boxes");
+}
+
+function pickBox(chosenBtn, allBoxes, lesson, score) {
+  // Only one pick allowed per lesson - lock out the other boxes immediately.
+  allBoxes.forEach(b => {
+    b.disabled = true;
+    if (b !== chosenBtn) b.classList.add("faded");
+  });
+  chosenBtn.classList.add("picked");
+
+  const cat = chosenBtn.dataset.cat;
+  const pool = COURSE.surpriseBoxes[cat];
+  const idx = state.boxCounters[cat] % pool.length;
+  const item = pool[idx];
+  state.boxCounters[cat] += 1;
+  saveState();
+
+  document.getElementById("box-cat-tag").textContent = BOX_CAT_LABEL[cat];
+  document.getElementById("box-cat-tag").className = "box-cat-tag " + cat;
+  document.getElementById("box-reveal-emoji").textContent = item.emoji || "";
+  document.getElementById("box-reveal-text").textContent = item.text;
+
+  setTimeout(() => {
+    document.getElementById("box-reveal").classList.remove("hidden");
+  }, 250);
+
+  document.getElementById("btn-box-continue").onclick = () => renderCompleteScreen(lesson, score);
+}
+
+function renderCompleteScreen(lesson, score) {
   document.getElementById("complete-score").textContent = `You got ${score} out of ${lesson.questions.length} on the first pass through the quiz.`;
   show("screen-complete");
-};
+}
 
 document.getElementById("btn-back-to-welcome").onclick = renderWelcome;
 
@@ -319,7 +430,8 @@ function renderParentDashboard() {
 
 document.getElementById("btn-reset-progress").onclick = () => {
   if (confirm("Reset ALL of Daisy's progress? This can't be undone.")) {
-    state = { completedLessons: {}, currentLessonId: null, currentAttempt: null };
+    state = { completedLessons: {}, currentLessonId: null, currentAttempt: null,
+              boxCounters: { animal: 0, joke: 0, funfact: 0 } };
     saveState();
     renderParentDashboard();
   }
@@ -327,6 +439,7 @@ document.getElementById("btn-reset-progress").onclick = () => {
 
 /* ---------------- NAV ---------------- */
 document.getElementById("btn-open-parent").onclick = renderPinScreen;
+document.getElementById("btn-back-0").onclick = renderWelcome;
 document.getElementById("btn-back-1").onclick = renderWelcome;
 document.getElementById("btn-back-2").onclick = () => {
   const lesson = COURSE.lessons.find(l => l.id === state.currentLessonId);

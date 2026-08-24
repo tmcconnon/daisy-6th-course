@@ -108,6 +108,74 @@ p.lead { font-size: 16px; color: var(--muted); line-height: 1.5; }
   margin-bottom: 4px;
 }
 
+.upcoming-list {
+  margin: 4px 0 16px 0;
+  padding-left: 20px;
+  font-size: 15px;
+  color: var(--ink);
+  line-height: 1.6;
+}
+.upcoming-list li { margin-bottom: 2px; }
+
+/* ---------------- SURPRISE BOX ---------------- */
+.box-row {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  margin: 18px 0 8px;
+}
+.surprise-box {
+  width: 84px;
+  height: 84px;
+  border-radius: 14px;
+  border: none;
+  background: linear-gradient(160deg, var(--accent), var(--accent-dark));
+  box-shadow: 0 6px 14px rgba(0,0,0,0.18);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.15s ease, opacity 0.2s ease;
+}
+.surprise-box .box-mark {
+  font-size: 30px;
+  color: white;
+  font-weight: 700;
+}
+.surprise-box:active { transform: scale(0.94); }
+.surprise-box.picked { animation: box-pop 0.35s ease; }
+.surprise-box.faded {
+  opacity: 0.35;
+  pointer-events: none;
+}
+.surprise-box:disabled { pointer-events: none; }
+@keyframes box-pop {
+  0% { transform: scale(1); }
+  45% { transform: scale(1.15) rotate(-3deg); }
+  100% { transform: scale(1); }
+}
+
+.box-reveal {
+  margin-top: 18px;
+  width: 100%;
+}
+.box-reveal.hidden { display: none; }
+.box-cat-tag {
+  display: inline-block;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  padding: 4px 12px;
+  border-radius: 999px;
+  color: white;
+  margin-bottom: 10px;
+}
+.box-cat-tag.animal { background: var(--sci-color); }
+.box-cat-tag.joke { background: #d98c1f; }
+.box-cat-tag.funfact { background: var(--accent); }
+.box-reveal-emoji { font-size: 42px; margin-bottom: 6px; }
+
 .progress-track {
   height: 8px;
   background: #eee;

@@ -823,43 +823,43 @@
       "week": 7,
       "subject": "Social Studies",
       "standard": "6.1.5",
-      "title": "Mohenjo Daro 101 (revisited: art & city design)",
+      "title": "Ancient Greece 101",
       "channel": "National Geographic",
-      "youtubeId": "QUng-iHhSzU",
-      "duration": "3:15",
+      "youtubeId": "6bDrYTXQLu8",
+      "duration": "4:12",
       "questions": [
         {
-          "q": "What artistic/design achievement does Mohenjo Daro show, beyond just economics?",
+          "q": "What areas of culture did ancient Greece leave a lasting mark on, according to the video?",
           "choices": [
-            "Advanced urban planning and standardized architecture",
-            "No design at all",
-            "Random, unplanned huts",
-            "Only religious buildings"
+            "Architecture, art, philosophy, and politics",
+            "Only farming techniques",
+            "Only military tactics",
+            "Only trade routes"
           ],
           "correct": 0
         },
         {
-          "q": "Why is Indus Valley cultural expression harder to study than Egypt's or China's?",
+          "q": "How far did Greek cultural influence spread, according to the video?",
           "choices": [
-            "Because their script has never been deciphered",
-            "Because they left no artifacts",
-            "Because it's identical to Egypt's",
-            "Because there's too much information"
-          ],
-          "correct": 0
-        },
-        {
-          "q": "What can archaeologists still learn about Indus Valley culture even without readable writing?",
-          "choices": [
-            "Nothing at all",
-            "Clues from city layout, art, and artifacts",
-            "Only guesses with no evidence",
-            "Only from other civilizations' records"
+            "It never left the Greek mainland",
+            "From Spain to India",
+            "Only to Egypt",
+            "Only to Rome"
           ],
           "correct": 1
+        },
+        {
+          "q": "Why is Greek cultural expression still relevant today?",
+          "choices": [
+            "Many modern institutions and art forms trace their roots back to Greek architecture, philosophy, and democracy",
+            "It has no modern influence at all",
+            "It was entirely copied from Egypt",
+            "It disappeared without a trace after Greece fell"
+          ],
+          "correct": 0
         }
       ],
-      "notebookPrompt": "In 2-4 sentences: since the Indus script hasn't been deciphered, what does the layout and design of Mohenjo Daro itself tell us about this civilization's values and skills? (Note for parent: this is the same video used for 6.1.4, revisited here with a cultural-expression lens since dedicated art/literature sources for the Indus Valley are very limited \u2014 see sourcing notes.)"
+      "notebookPrompt": "In 2-4 sentences, compare Greek cultural expression (architecture, philosophy, art) to one other civilization you've studied this unit. What's similar, and what makes Greece's contributions stand out?"
     },
     {
       "id": 21,
@@ -1468,7 +1468,7 @@
       "week": 11,
       "subject": "Social Studies",
       "standard": "6.2.2",
-      "title": "The Crusades \u2013 Pilgrimage or Holy War?: Crash Course World History #15",
+      "title": "The Crusades – Pilgrimage or Holy War?: Crash Course World History #15",
       "channel": "CrashCourse",
       "youtubeId": "X0zudTQelzI",
       "duration": "11:33",
@@ -2973,7 +2973,7 @@
       "week": 28,
       "subject": "Social Studies",
       "standard": "6.4.1",
-      "title": "Real Story of 9/11 \u2014 Why Terrorists Attacked America",
+      "title": "Real Story of 9/11 — Why Terrorists Attacked America",
       "channel": "How it was",
       "youtubeId": "lVAQsD9MK4k",
       "duration": "6:24",
@@ -3360,7 +3360,7 @@
       "week": 9,
       "subject": "Science",
       "standard": "6.2.2",
-      "title": "Solid, liquid, gas and \u2026 plasma?",
+      "title": "Solid, liquid, gas and … plasma?",
       "channel": "TED-Ed",
       "youtubeId": "tJplytSR-ww",
       "duration": "3:52",
@@ -3446,7 +3446,7 @@
       "week": 12,
       "subject": "Science",
       "standard": "6.2.3",
-      "title": "Heat Transfer \u2013 Conduction, Convection and Radiation",
+      "title": "Heat Transfer – Conduction, Convection and Radiation",
       "channel": "Next Generation Science",
       "youtubeId": "Me60Ti0E_rY",
       "duration": "3:15",
@@ -3489,7 +3489,7 @@
       "week": 14,
       "subject": "Science",
       "standard": "6.2.4",
-      "title": "Heat Conductors and Insulators \u2013 A Demonstration",
+      "title": "Heat Conductors and Insulators – A Demonstration",
       "channel": "Next Generation Science",
       "youtubeId": "M7g5MwExn8k",
       "duration": "4:24",
@@ -3919,7 +3919,7 @@
       "week": 29,
       "subject": "Science",
       "standard": "6.4.3",
-      "title": "Food Chain for Kids \u2013 INTERACTIVE",
+      "title": "Food Chain for Kids – INTERACTIVE",
       "channel": "Learn Bright",
       "youtubeId": "AWqAex-01kc",
       "duration": "5:03",
@@ -4129,5 +4129,1256 @@
       ],
       "notebookPrompt": "In 2-4 sentences, design (in words) your own idea for helping wildlife move safely between habitats fragmented by roads or cities, using the wildlife corridor concept as inspiration."
     }
-  ]
+  ],
+  "standards": {
+    "Social Studies|6.1.1": {
+      "title": "What Makes a Civilization?",
+      "goal": "You're comparing three early civilizations — Sumer, Egypt, and China — to find the ingredients every civilization needs: cities, government, writing, and more.",
+      "why": "Once you can spot these ingredients, you'll recognize them in every society you study this year, from ancient empires to the modern world."
+    },
+    "Social Studies|6.1.2": {
+      "title": "Where Did the World's Religions Begin?",
+      "goal": "You'll get a quick tour of the origins of the major world religions and see how belief systems shaped early societies.",
+      "why": "Religion has influenced art, law, and government for thousands of years — knowing where these traditions started helps explain a lot of world history."
+    },
+    "Social Studies|6.1.3": {
+      "title": "Geography Shapes Civilizations",
+      "goal": "You're using maps to see how rivers and land shaped where early civilizations grew — the Nile, the Tigris and Euphrates, and the Indus River valley.",
+      "why": "Geography decided where people could farm, trade, and build cities — it's still one of the biggest reasons history unfolded where it did."
+    },
+    "Social Studies|6.1.4": {
+      "title": "Ancient Economies and Technology",
+      "goal": "You'll look at how early civilizations traded, farmed, and invented things like writing and currency to keep their societies running.",
+      "why": "Trade and technology are what let civilizations grow beyond small villages — many ideas from this era, like money and writing, are still with us today."
+    },
+    "Social Studies|6.1.5": {
+      "title": "Art, Writing, and Belief in Ancient Cultures",
+      "goal": "You're comparing how different ancient civilizations expressed themselves through architecture, writing, and art.",
+      "why": "The way people write, build, and create tells us what they valued — it's like reading a civilization's personality."
+    },
+    "Social Studies|6.1.6": {
+      "title": "Early Forms of Government",
+      "goal": "You'll compare different types of early government — monarchy, democracy, oligarchy, theocracy — and see how they compare to governments today.",
+      "why": "Almost every government today borrows ideas from these ancient systems, including the one you live under."
+    },
+    "Social Studies|6.2.1": {
+      "title": "What Do the World's Religions Believe?",
+      "goal": "You're getting a closer look at the core beliefs of the major world religions.",
+      "why": "These belief systems shaped laws, art, and conflicts for centuries — and still guide billions of people's lives today."
+    },
+    "Social Studies|6.2.2": {
+      "title": "Religion Spreads and Connects the World",
+      "goal": "You'll see how the spread of religious ideas — through trade, conquest, and events like the Crusades — connected distant parts of the world.",
+      "why": "This is one of the first times in history the world starts feeling “globalized” — ideas moving across huge distances."
+    },
+    "Social Studies|6.2.3": {
+      "title": "Big Inventions of the Middle Ages",
+      "goal": "You're learning about major inventions from 500–1500 CE, like the printing press and new medical and astronomical tools.",
+      "why": "Some of these inventions changed how fast information could travel — a big deal before the internet existed."
+    },
+    "Social Studies|6.2.4": {
+      "title": "Geography and Global Connection",
+      "goal": "You'll trace how geography allowed trade routes, ideas, and even diseases to spread between distant regions.",
+      "why": "The same routes that carried silk and spices also carried the Black Death — geography connects both good and bad."
+    },
+    "Social Studies|6.2.5": {
+      "title": "Government Moves Toward Self-Rule",
+      "goal": "You're seeing how power slowly shifted away from single all-powerful rulers, through things like the Magna Carta and feudalism.",
+      "why": "This is an early step toward the idea that ordinary people should have rights and a say in government."
+    },
+    "Social Studies|6.2.6": {
+      "title": "Trade Connects the World's Cultures",
+      "goal": "You'll see how the exchange of goods and ideas gave China, India, the Middle East, and Southeast Asia huge influence on the wider world.",
+      "why": "Global trade networks from this era are the ancestors of the interconnected world you live in today."
+    },
+    "Social Studies|6.3.1": {
+      "title": "Exploration and Colonization Begin",
+      "goal": "You're looking at why European powers began exploring and colonizing other parts of the world.",
+      "why": "These choices reshaped the map of the world and set up conflicts that are still relevant today."
+    },
+    "Social Studies|6.3.2": {
+      "title": "The Lasting Impact of Colonization",
+      "goal": "You'll examine some of the long-term effects that exploration and colonization had on the world.",
+      "why": "Understanding these impacts helps explain many of today's global inequalities and conflicts."
+    },
+    "Social Studies|6.3.3": {
+      "title": "Winners, Losers, and the Industrial Revolution",
+      "goal": "You're weighing the positive and negative economic effects of global expansion and the Industrial Revolution — including the Columbian Exchange and the slave trade.",
+      "why": "Big economic shifts always create winners and losers — this standard asks you to think critically about both sides."
+    },
+    "Social Studies|6.3.4": {
+      "title": "Revolutions Change the World",
+      "goal": "You'll study the causes and effects of major revolutions from the 1700s–1900s, from France to Latin America to India.",
+      "why": "These revolutions introduced ideas about freedom and self-government that still shape politics today."
+    },
+    "Social Studies|6.3.5": {
+      "title": "World War I, the Depression, and World War II",
+      "goal": "You're covering the causes and effects of two world wars and the Great Depression in between them.",
+      "why": "This is one of the most consequential 30-year stretches in modern history — it reshaped the entire globe."
+    },
+    "Social Studies|6.4.1": {
+      "title": "Major Events of the Modern World",
+      "goal": "You'll look at significant 20th and 21st century events — from the Cold War to genocides to terrorism — that shaped the world we live in now.",
+      "why": "These events explain a lot about international relationships and conflicts happening in the news today."
+    },
+    "Social Studies|6.4.2": {
+      "title": "Comparing Economic Systems",
+      "goal": "You're comparing communism, capitalism, and socialism, and thinking about how each relates to freedom and fairness.",
+      "why": "These systems are still argued about today — understanding the basics helps you follow real-world debates."
+    },
+    "Social Studies|6.4.3": {
+      "title": "Human Rights Over Time",
+      "goal": "You'll trace how ideas about human rights have developed and look at efforts to protect them.",
+      "why": "Many rights people take for granted today were fought for fairly recently — it's worth knowing that history."
+    },
+    "Social Studies|6.4.4": {
+      "title": "The World Today, Connected",
+      "goal": "You're finding a current news story that shows how connected the modern world really is.",
+      "why": "This closes out the year by connecting everything you've learned to what's actually happening right now."
+    },
+    "Science|6.1.1": {
+      "title": "The Sun-Earth-Moon System",
+      "goal": "You're modeling how the Sun, Earth, and Moon interact to create moon phases, eclipses, and the seasons.",
+      "why": "These patterns explain everyday things you can actually go outside and observe."
+    },
+    "Science|6.1.2": {
+      "title": "Gravity and Orbits",
+      "goal": "You'll explore how gravity and inertia work together to keep planets and moons in orbit.",
+      "why": "The same forces that keep satellites and the Moon in orbit are at work everywhere in the universe."
+    },
+    "Science|6.1.3": {
+      "title": "Just How Big Is the Solar System?",
+      "goal": "You're using real data to compare the sizes, distances, and temperatures of solar system objects.",
+      "why": "The scale of space is almost impossible to imagine without comparing real numbers side by side."
+    },
+    "Science|6.2.1": {
+      "title": "Atoms and Molecules",
+      "goal": "You'll model how atoms combine in different ways to form molecules like water and carbon dioxide.",
+      "why": "Everything physical around you — including you — is built from combinations like these."
+    },
+    "Science|6.2.2": {
+      "title": "Heat and the States of Matter",
+      "goal": "You're looking at how heat energy changes matter between solid, liquid, and gas, and how that affects density.",
+      "why": "This explains everyday stuff, like why ice floats and why steam rises."
+    },
+    "Science|6.2.3": {
+      "title": "Heat, Temperature, and Particle Motion",
+      "goal": "You'll investigate how temperature and heat transfer relate to how fast particles are moving.",
+      "why": "This is the science behind why some things feel hot or cold, and how heat actually moves."
+    },
+    "Science|6.2.4": {
+      "title": "Conductors and Insulators",
+      "goal": "You're designing something that either speeds up or slows down heat transfer, using conductors and insulators.",
+      "why": "This is the same science behind winter coats, oven mitts, and computer cooling systems."
+    },
+    "Science|6.3.1": {
+      "title": "The Water Cycle",
+      "goal": "You'll model how solar energy, gravity, and density drive the water cycle.",
+      "why": "Every drop of rain that's ever fallen has been through this same cycle, over and over, for billions of years."
+    },
+    "Science|6.3.2": {
+      "title": "Air Pressure and Weather",
+      "goal": "You're investigating how high and low pressure air masses interact to cause weather changes.",
+      "why": "This is literally what's happening every time the weather forecast changes."
+    },
+    "Science|6.3.3": {
+      "title": "Wind, Circulation, and Regional Climate",
+      "goal": "You'll model how uneven heating of the Earth drives wind patterns and creates regional climate effects, including Utah's own lake-effect snow and inversions.",
+      "why": "This explains why the weather where you live behaves the way it does."
+    },
+    "Science|6.3.4": {
+      "title": "The Greenhouse Effect",
+      "goal": "You're exploring how the greenhouse effect keeps Earth's temperature balanced, and comparing it to Venus and Mars.",
+      "why": "This is the core science behind one of the most talked-about topics today: climate change."
+    },
+    "Science|6.4.1": {
+      "title": "Populations and Resources",
+      "goal": "You'll analyze how the availability of resources affects the size of populations in an ecosystem.",
+      "why": "This explains why animal populations rise and fall, and it's central to understanding conservation."
+    },
+    "Science|6.4.2": {
+      "title": "How Species Interact",
+      "goal": "You're learning about competition, predation, and mutualism — the different ways species interact with each other.",
+      "why": "Every ecosystem is really just a giant, ongoing web of relationships like these."
+    },
+    "Science|6.4.3": {
+      "title": "Food Webs and Energy Flow",
+      "goal": "You'll model how matter and energy move through an ecosystem via food webs — producers, consumers, and decomposers.",
+      "why": "This is the foundation for understanding how ecosystems stay balanced, or don't."
+    },
+    "Science|6.4.4": {
+      "title": "When Ecosystems Change",
+      "goal": "You're arguing how changes to an ecosystem affect the stability of its populations.",
+      "why": "This connects directly to real-world issues like invasive species and habitat loss."
+    },
+    "Science|6.4.5": {
+      "title": "Protecting Biodiversity",
+      "goal": "You'll evaluate real design solutions — like wildlife corridors — for protecting ecosystems and biodiversity.",
+      "why": "This is where all your ecosystem knowledge turns into thinking about real conservation solutions."
+    }
+  },
+  "surpriseBoxes": {
+    "animal": [
+      {
+        "emoji": "🦥",
+        "text": "A sloth can hold its breath longer than a dolphin can — up to 40 minutes underwater."
+      },
+      {
+        "emoji": "🐙",
+        "text": "An octopus has three hearts and blue blood."
+      },
+      {
+        "emoji": "🦩",
+        "text": "Flamingos are born gray — the pink comes from pigments in the shrimp they eat."
+      },
+      {
+        "emoji": "🦔",
+        "text": "A hedgehog has about 5,000 to 7,000 spines, and not one of them is poisonous."
+      },
+      {
+        "emoji": "🐘",
+        "text": "Elephants can recognize themselves in a mirror, one of the few animals that can."
+      },
+      {
+        "emoji": "🦒",
+        "text": "A giraffe's tongue is about 18-20 inches long and turns bluish-purple to help prevent sunburn."
+      },
+      {
+        "emoji": "🐧",
+        "text": "Emperor penguins can dive deeper than 1,800 feet to hunt for fish."
+      },
+      {
+        "emoji": "🦉",
+        "text": "An owl can rotate its head up to 270 degrees without hurting itself."
+      },
+      {
+        "emoji": "🦋",
+        "text": "A butterfly tastes with its feet."
+      },
+      {
+        "emoji": "🐝",
+        "text": "Honeybees tell each other where to find food by doing a special \"waggle dance.\""
+      },
+      {
+        "emoji": "🐜",
+        "text": "An ant can lift objects up to 50 times its own body weight."
+      },
+      {
+        "emoji": "🕷️",
+        "text": "Some spiders can \"fly\" by releasing silk threads and floating on the wind — it's called ballooning."
+      },
+      {
+        "emoji": "🦈",
+        "text": "Sharks have been around longer than trees — over 400 million years."
+      },
+      {
+        "emoji": "🐢",
+        "text": "A giant tortoise can live for more than 150 years."
+      },
+      {
+        "emoji": "🐍",
+        "text": "Snakes smell with their tongues, not their noses."
+      },
+      {
+        "emoji": "🦎",
+        "text": "A gecko can walk straight up glass thanks to millions of microscopic hairs on its feet."
+      },
+      {
+        "emoji": "🐸",
+        "text": "A frog can't swallow with its eyes open — it uses them to help push food down its throat."
+      },
+      {
+        "emoji": "🦇",
+        "text": "Bats are the only mammals capable of true, sustained flight."
+      },
+      {
+        "emoji": "🐿️",
+        "text": "Squirrels plant thousands of trees every year just by forgetting where they buried their acorns."
+      },
+      {
+        "emoji": "🦫",
+        "text": "A beaver's teeth never stop growing, so it has to keep gnawing on wood to wear them down."
+      },
+      {
+        "emoji": "🦦",
+        "text": "Sea otters hold hands while sleeping so they don't drift apart from each other."
+      },
+      {
+        "emoji": "🦭",
+        "text": "A seal can slow its heartbeat down to just a few beats per minute while diving."
+      },
+      {
+        "emoji": "🐋",
+        "text": "A blue whale's heart is about the size of a small car."
+      },
+      {
+        "emoji": "🐬",
+        "text": "Dolphins have signature whistles that work almost like names, used to call specific dolphins."
+      },
+      {
+        "emoji": "🦑",
+        "text": "A giant squid's eyes can be as big as a basketball — the largest eyes in the animal kingdom."
+      },
+      {
+        "emoji": "🦀",
+        "text": "A hermit crab moves into a new, bigger shell as it grows, like moving to a new apartment."
+      },
+      {
+        "emoji": "🦞",
+        "text": "Lobsters taste with their legs."
+      },
+      {
+        "emoji": "🐌",
+        "text": "A snail can sleep for up to three years at a time."
+      },
+      {
+        "emoji": "🐛",
+        "text": "A caterpillar has over 200 muscles just in its head."
+      },
+      {
+        "emoji": "🐞",
+        "text": "A ladybug can eat over 5,000 insects in its lifetime."
+      },
+      {
+        "emoji": "🦂",
+        "text": "Scorpions glow bright blue-green under ultraviolet light."
+      },
+      {
+        "emoji": "🐊",
+        "text": "A crocodile can't stick its tongue out — it's held in place by a membrane."
+      },
+      {
+        "emoji": "🦕",
+        "text": "Long-necked dinosaurs like Brachiosaurus may have needed an extra-powerful heart just to pump blood up to their brain."
+      },
+      {
+        "emoji": "🦖",
+        "text": "Some scientists believe T. rex had feathers, at least when it was young."
+      },
+      {
+        "emoji": "🐫",
+        "text": "A camel's hump doesn't store water — it actually stores fat."
+      },
+      {
+        "emoji": "🦘",
+        "text": "A newborn kangaroo, called a joey, is only about the size of a jellybean."
+      },
+      {
+        "emoji": "🐨",
+        "text": "Koalas sleep up to 20 hours a day."
+      },
+      {
+        "emoji": "🐼",
+        "text": "A giant panda spends about 12 hours a day just eating bamboo."
+      },
+      {
+        "emoji": "🐻‍❄️",
+        "text": "A polar bear's skin is actually black underneath all that white fur."
+      },
+      {
+        "emoji": "🦡",
+        "text": "Honey badgers are famous for being almost fearless — they'll even take on venomous snakes."
+      },
+      {
+        "emoji": "🦨",
+        "text": "A skunk can spray its stinky defense up to 10 feet away, and hit its target accurately."
+      },
+      {
+        "emoji": "🦝",
+        "text": "Raccoons \"wash\" their food in water partly to help them feel and inspect it better."
+      },
+      {
+        "emoji": "🐺",
+        "text": "A wolf pack can travel over 30 miles in a single day while hunting."
+      },
+      {
+        "emoji": "🦊",
+        "text": "A fox may use Earth's magnetic field like a targeting sight to pounce on prey hidden under snow."
+      },
+      {
+        "emoji": "🐗",
+        "text": "A wild boar's tusks never stop growing throughout its life."
+      },
+      {
+        "emoji": "🐖",
+        "text": "Pigs are considered one of the smartest animals, smarter than most dogs."
+      },
+      {
+        "emoji": "🐑",
+        "text": "A sheep can remember the faces of up to 50 other sheep for years."
+      },
+      {
+        "emoji": "🐐",
+        "text": "Baby goats, called kids, can develop regional \"accents\" based on the other goats around them."
+      },
+      {
+        "emoji": "🐄",
+        "text": "Cows form close friendships and can get stressed when they're separated from their best friend."
+      },
+      {
+        "emoji": "🐎",
+        "text": "A horse can sleep both lying down and standing up."
+      },
+      {
+        "emoji": "🦓",
+        "text": "No two zebras have the exact same stripe pattern — like fingerprints."
+      },
+      {
+        "emoji": "🦏",
+        "text": "A rhino's horn is made of keratin, the same material as human fingernails."
+      },
+      {
+        "emoji": "🦛",
+        "text": "Hippos can't actually swim — they walk or bounce along the bottom of rivers and lakes."
+      },
+      {
+        "emoji": "🐆",
+        "text": "A cheetah can go from 0 to 60 mph in about three seconds."
+      },
+      {
+        "emoji": "🐅",
+        "text": "A tiger's stripes are also on its skin, not just its fur."
+      },
+      {
+        "emoji": "🦁",
+        "text": "A lion's roar can be heard from up to 5 miles away."
+      },
+      {
+        "emoji": "🐈",
+        "text": "A group of cats is called a \"clowder.\""
+      },
+      {
+        "emoji": "🐕",
+        "text": "A dog's sense of smell is estimated to be up to 100,000 times stronger than a human's."
+      },
+      {
+        "emoji": "🐁",
+        "text": "A mouse's heart beats around 500-600 times per minute."
+      },
+      {
+        "emoji": "🐀",
+        "text": "Rats are ticklish and even laugh, though at a pitch too high for humans to hear."
+      },
+      {
+        "emoji": "🦅",
+        "text": "A bald eagle's nest can weigh over a ton and get reused for decades."
+      },
+      {
+        "emoji": "🦆",
+        "text": "Ducklings can recognize their mother's quack before they even hatch."
+      },
+      {
+        "emoji": "🦢",
+        "text": "Swans can bend their necks into an S-shape because they have more neck bones than a giraffe."
+      },
+      {
+        "emoji": "🦃",
+        "text": "Wild turkeys can run up to 25 mph and fly in short, powerful bursts."
+      },
+      {
+        "emoji": "🐓",
+        "text": "A rooster doesn't actually need sunlight to know when to crow."
+      },
+      {
+        "emoji": "🦜",
+        "text": "Some parrots can live over 80 years, easily outliving their owners."
+      },
+      {
+        "emoji": "🐦",
+        "text": "Hummingbirds are the only birds that can fly backwards."
+      },
+      {
+        "emoji": "🐦",
+        "text": "A woodpecker's tongue wraps almost all the way around the inside of its skull to cushion its brain."
+      },
+      {
+        "emoji": "🦤",
+        "text": "A dodo bird was about the size of a large turkey and had no natural fear of humans."
+      },
+      {
+        "emoji": "🦚",
+        "text": "A peacock's iconic \"eye\" feathers are used to attract mates during a dance-like display."
+      },
+      {
+        "emoji": "🐡",
+        "text": "A pufferfish inflates by gulping huge amounts of water, swelling to several times its normal size."
+      },
+      {
+        "emoji": "🐠",
+        "text": "A clownfish is born male and can change into a female later in its life."
+      },
+      {
+        "emoji": "🐟",
+        "text": "A goldfish's memory can last for months, not just three seconds like the popular myth claims."
+      },
+      {
+        "emoji": "🪼",
+        "text": "A jellyfish is made of about 95% water and has no brain, heart, or bones."
+      },
+      {
+        "emoji": "🦐",
+        "text": "A mantis shrimp can punch so fast it briefly creates a flash of light and heat."
+      },
+      {
+        "emoji": "🐚",
+        "text": "A nautilus can live for over 20 years and has barely changed in the last 500 million years."
+      },
+      {
+        "emoji": "🐪",
+        "text": "A dromedary camel has one hump, while a Bactrian camel has two."
+      },
+      {
+        "emoji": "🦌",
+        "text": "A deer can rotate its ears independently to listen in two directions at once."
+      },
+      {
+        "emoji": "🦬",
+        "text": "A bison can run up to 35 mph, faster than most humans could ever sprint."
+      },
+      {
+        "emoji": "🦙",
+        "text": "A llama can spit over 10 feet when it's annoyed."
+      },
+      {
+        "emoji": "🐾",
+        "text": "A pangolin is the only mammal covered entirely in scales, made of the same material as your fingernails."
+      },
+      {
+        "emoji": "🐾",
+        "text": "A platypus is one of the only mammals that lays eggs instead of giving birth."
+      },
+      {
+        "emoji": "🐾",
+        "text": "An axolotl can regrow an entire lost limb, including bones, muscles, and nerves."
+      },
+      {
+        "emoji": "🐾",
+        "text": "A tardigrade, sometimes called a \"water bear,\" can survive being frozen, boiled, and even outer space."
+      },
+      {
+        "emoji": "🐾",
+        "text": "A quokka is famous for looking like it's always smiling, earning it the nickname \"world's happiest animal.\""
+      },
+      {
+        "emoji": "🐾",
+        "text": "A naked mole rat can live over 30 years and almost never gets cancer, which scientists are still studying."
+      },
+      {
+        "emoji": "🐾",
+        "text": "An okapi looks like a mix of a zebra and a giraffe, but it's actually the giraffe's closest living relative."
+      },
+      {
+        "emoji": "🐋",
+        "text": "A narwhal's long spiral \"tusk\" is actually an oversized tooth that can grow up to 10 feet long."
+      },
+      {
+        "emoji": "🦈",
+        "text": "A hammerhead shark's wide head helps it see almost all the way around itself at once."
+      },
+      {
+        "emoji": "🦑",
+        "text": "A cuttlefish can change the color and texture of its skin in less than a second to hide from predators."
+      },
+      {
+        "emoji": "🐾",
+        "text": "A dragonfly can fly in every direction, including straight up, down, and even backwards."
+      },
+      {
+        "emoji": "🐾",
+        "text": "A termite mound can be over 9 feet tall and stays cool inside even in scorching heat."
+      },
+      {
+        "emoji": "🕷️",
+        "text": "A tarantula can survive over two years without eating."
+      },
+      {
+        "emoji": "🐌",
+        "text": "A banana slug can grow up to 10 inches long, making it one of the largest slugs in the world."
+      },
+      {
+        "emoji": "🐊",
+        "text": "An alligator's bite force is one of the strongest of any animal, but the muscles that open its jaw are surprisingly weak."
+      },
+      {
+        "emoji": "🦭",
+        "text": "A walrus can use its tusks to haul its huge body out of icy water, kind of like ice picks."
+      }
+    ],
+    "joke": [
+      {
+        "text": "Why don't scientists trust atoms? Because they make up everything."
+      },
+      {
+        "text": "What do you call a fish with no eyes? A fsh."
+      },
+      {
+        "text": "Why did the history teacher take the day off? She needed a break from the past."
+      },
+      {
+        "text": "What did the ocean say to the shore? Nothing, it just waved."
+      },
+      {
+        "text": "Why can't you give Elsa a balloon? She'll let it go."
+      },
+      {
+        "text": "What do you call a bear with no teeth? A gummy bear."
+      },
+      {
+        "text": "Why did the math book look sad? It had too many problems."
+      },
+      {
+        "text": "What do you call a dinosaur that crashes his car? Tyrannosaurus wrecks."
+      },
+      {
+        "text": "Why did the bicycle fall over? It was two-tired."
+      },
+      {
+        "text": "What do you call cheese that isn't yours? Nacho cheese."
+      },
+      {
+        "text": "Why don't eggs tell jokes? They'd crack each other up."
+      },
+      {
+        "text": "What do you call a can opener that doesn't work? A can't opener."
+      },
+      {
+        "text": "Why did the scarecrow win an award? He was outstanding in his field."
+      },
+      {
+        "text": "What do you call a sleeping dinosaur? A dino-snore."
+      },
+      {
+        "text": "Why did the golfer bring two pairs of pants? In case he got a hole in one."
+      },
+      {
+        "text": "What do you call a fake noodle? An impasta."
+      },
+      {
+        "text": "Why did the tomato turn red? It saw the salad dressing."
+      },
+      {
+        "text": "What do you call a factory that makes just okay products? A satisfactory."
+      },
+      {
+        "text": "Why couldn't the leopard play hide and seek? He was always spotted."
+      },
+      {
+        "text": "What do you call a pile of cats? A meowtain."
+      },
+      {
+        "text": "Why did the cookie go to the doctor? It was feeling crummy."
+      },
+      {
+        "text": "What do you call a droid that takes the long way around? R2-Detour."
+      },
+      {
+        "text": "Why did the picture go to jail? It was framed."
+      },
+      {
+        "text": "What do you call an alligator in a vest? An investigator."
+      },
+      {
+        "text": "Why don't skeletons fight each other? They don't have the guts."
+      },
+      {
+        "text": "What do you call a snowman with a six-pack? An abdominal snowman."
+      },
+      {
+        "text": "Why did the computer go to the doctor? It had a virus."
+      },
+      {
+        "text": "What do you call a boomerang that doesn't come back? A stick."
+      },
+      {
+        "text": "Why did the coffee file a police report? It got mugged."
+      },
+      {
+        "text": "What do you call a belt made of watches? A waist of time."
+      },
+      {
+        "text": "Why did the student eat his homework? The teacher said it was a piece of cake."
+      },
+      {
+        "text": "What do you call a group of musical whales? An orca-stra."
+      },
+      {
+        "text": "Why don't oysters share their pearls? Because they're shellfish."
+      },
+      {
+        "text": "What do you call a nervous javelin thrower? Shakespeare."
+      },
+      {
+        "text": "Why did the astronaut break up with his girlfriend? He needed space."
+      },
+      {
+        "text": "What do you call two birds in love? Tweethearts."
+      },
+      {
+        "text": "Why did the pencil get sent to the principal's office? It kept making a point."
+      },
+      {
+        "text": "What do you call a can of soup shaped like a triangle? Souperior geometry."
+      },
+      {
+        "text": "Why did the volcano go to therapy? It had a lot to get off its chest."
+      },
+      {
+        "text": "What do you call a dog that does magic tricks? A labracadabrador."
+      },
+      {
+        "text": "Why did the light bulb fail its test? It wasn't very bright that day."
+      },
+      {
+        "text": "What do you call an elephant that doesn't matter? An irrelephant."
+      },
+      {
+        "text": "Why did the gym close down? It just didn't work out."
+      },
+      {
+        "text": "What do you call a fish that wears a crown? King Neptuna."
+      },
+      {
+        "text": "Why did the calendar feel important? Because it had a lot of dates."
+      },
+      {
+        "text": "What do you call a lazy kangaroo? A pouch potato."
+      },
+      {
+        "text": "Why did the smartphone need glasses? It lost all its contacts."
+      },
+      {
+        "text": "What do you call a group of unorganized cats? A cat-astrophe."
+      },
+      {
+        "text": "Why did the bee get married? Because he finally found his honey."
+      },
+      {
+        "text": "What do you call a bear caught in the rain? A drizzly bear."
+      },
+      {
+        "text": "Why did the football coach go to the bank? To get his quarterback."
+      },
+      {
+        "text": "What do you call a sad strawberry? A blueberry."
+      },
+      {
+        "text": "Why don't scientists trust stairs? They're always up to something."
+      },
+      {
+        "text": "What do you call a pig that does karate? A pork chop."
+      },
+      {
+        "text": "Why did the melon jump into the lake? It wanted to be a watermelon."
+      },
+      {
+        "text": "What do you call a fish without any friends? Lonely."
+      },
+      {
+        "text": "Why did the ghost go into the bar? For the boos."
+      },
+      {
+        "text": "What do you call a very small mother? A minimum."
+      },
+      {
+        "text": "Why did the tree go to the dentist? It needed a root canal."
+      },
+      {
+        "text": "What do you call a duck that gets all A's? A wise quacker."
+      },
+      {
+        "text": "Why did the banana go to the doctor? It wasn't peeling well."
+      },
+      {
+        "text": "What do you call an owl that does magic? Hoo-dini."
+      },
+      {
+        "text": "Why did the map win an award? It was outstanding in every direction."
+      },
+      {
+        "text": "What do you call a rabbit with fleas? Bugs Bunny."
+      },
+      {
+        "text": "Why did the orange stop rolling down the hill? It ran out of juice."
+      },
+      {
+        "text": "What do you call a dinosaur with an extensive vocabulary? A thesaurus."
+      },
+      {
+        "text": "Why did the frog take the bus to school? His car got toad away."
+      },
+      {
+        "text": "What do you call a nosy pepper? Jalapeño business."
+      },
+      {
+        "text": "Why did the baker stop making donuts? He got tired of the hole business."
+      },
+      {
+        "text": "What do you call a sleepy bull? A bulldozer."
+      },
+      {
+        "text": "Why did the stadium get hot after the game? All the fans left."
+      },
+      {
+        "text": "What do you call two crows who fall in love? Crowmance."
+      },
+      {
+        "text": "Why did the teddy bear say no to dessert? Because it was already stuffed."
+      },
+      {
+        "text": "Why did the lizard bring a ladder to the party? To reach new heights."
+      },
+      {
+        "text": "What do you call a magic dog? A labra-cadabra-dor."
+      },
+      {
+        "text": "Why did the robot go on a diet? It had a byte problem."
+      },
+      {
+        "text": "What do you call a fish who wears a tuxedo? Sofishticated."
+      },
+      {
+        "text": "Why did the mushroom get invited to every party? Because he's a fungi to be around."
+      },
+      {
+        "text": "What do you call a cow that just had a baby? De-calf-inated."
+      },
+      {
+        "text": "Why don't ants get sick very often? Because they have tiny anty-bodies."
+      },
+      {
+        "text": "What do you call a bear with no ears? B."
+      },
+      {
+        "text": "Why did the clock in the cafeteria get sent to the principal? It kept ticking off the students."
+      },
+      {
+        "text": "What do you call a boneless dinosaur? A jelly-saurus."
+      },
+      {
+        "text": "Why did the student bring a ladder to school? To go to high school."
+      },
+      {
+        "text": "What do you call a pony with a cough? A little horse."
+      },
+      {
+        "text": "What do you call a shoe made out of a banana? A slipper."
+      },
+      {
+        "text": "What do you call a computer that can sing? A Dell."
+      },
+      {
+        "text": "Why did the karate teacher tell everyone to sit down? Because he wanted to break it to them gently."
+      },
+      {
+        "text": "What do you call a dinosaur that never gives up? A try-ceratops."
+      },
+      {
+        "text": "Why did the baseball team hire a baker? They needed a good batter."
+      },
+      {
+        "text": "What do you call a group of rabbits hopping backwards? A receding hare-line."
+      },
+      {
+        "text": "Why did the barber win the race? He knew a shortcut."
+      },
+      {
+        "text": "What do you call a bird that's afraid of everything? A chicken."
+      },
+      {
+        "text": "Why was six afraid of seven? Because seven eight nine."
+      },
+      {
+        "text": "What's an astronaut's favorite meal? Launch."
+      },
+      {
+        "text": "What do you call a pig that plays basketball? A ball hog."
+      }
+    ],
+    "funfact": [
+      {
+        "emoji": "🌋",
+        "text": "There are more possible ways to play a game of chess than atoms in the observable universe."
+      },
+      {
+        "emoji": "🍯",
+        "text": "Honey found in ancient Egyptian tombs, thousands of years old, is still technically edible."
+      },
+      {
+        "emoji": "🌕",
+        "text": "A day on Venus is longer than a year on Venus."
+      },
+      {
+        "emoji": "🧠",
+        "text": "Your brain uses about 20% of your body's total energy, even though it's only about 2% of your body weight."
+      },
+      {
+        "emoji": "🍫",
+        "text": "White chocolate isn't technically chocolate — it contains no cocoa solids."
+      },
+      {
+        "emoji": "🌊",
+        "text": "More people have traveled to space than have visited the deepest part of the ocean."
+      },
+      {
+        "emoji": "🦷",
+        "text": "Your teeth start forming before you're even born."
+      },
+      {
+        "emoji": "⚡",
+        "text": "A bolt of lightning is roughly five times hotter than the surface of the sun."
+      },
+      {
+        "emoji": "🏔️",
+        "text": "Mount Everest grows about 4 millimeters taller every year."
+      },
+      {
+        "emoji": "🍌",
+        "text": "Bananas are naturally a tiny bit radioactive because of their potassium — completely harmless to eat."
+      },
+      {
+        "emoji": "📚",
+        "text": "The Library of Congress adds around 12,000 new items to its collection every single day."
+      },
+      {
+        "emoji": "🌙",
+        "text": "The Moon is slowly drifting away from Earth, about 1.5 inches every year."
+      },
+      {
+        "emoji": "🧊",
+        "text": "Hot water can sometimes freeze faster than cold water — a puzzle scientists still study."
+      },
+      {
+        "emoji": "🚗",
+        "text": "The first speeding ticket was issued in 1896 — to a driver going 8 mph."
+      },
+      {
+        "emoji": "🥔",
+        "text": "A raw potato can conduct enough electricity to power a small light bulb in an experiment."
+      },
+      {
+        "emoji": "🧬",
+        "text": "Humans share about 60% of their DNA with a banana."
+      },
+      {
+        "emoji": "🕰️",
+        "text": "Until 1967, a second wasn't defined by atomic clocks — it was based on Earth's rotation."
+      },
+      {
+        "emoji": "🦄",
+        "text": "Scotland's official national animal is the unicorn."
+      },
+      {
+        "emoji": "🧱",
+        "text": "The Great Wall of China isn't actually visible from space with the naked eye, despite the popular myth."
+      },
+      {
+        "emoji": "❄️",
+        "text": "It's technically possible for it to be too cold to snow — extremely dry, frigid air holds too little moisture."
+      },
+      {
+        "emoji": "🧀",
+        "text": "The most stolen food in the world is reportedly cheese."
+      },
+      {
+        "emoji": "🚀",
+        "text": "It's cheaper to launch a rocket that lands and gets reused than to build a brand-new one every time."
+      },
+      {
+        "emoji": "⭐",
+        "text": "A single teaspoon of a neutron star would weigh about as much as a mountain."
+      },
+      {
+        "emoji": "🎨",
+        "text": "The color orange was named after the fruit, not the other way around."
+      },
+      {
+        "emoji": "🕸️",
+        "text": "Some spider silk is stronger, ounce for ounce, than steel."
+      },
+      {
+        "emoji": "📖",
+        "text": "The dot over a lowercase \"i\" or \"j\" has its own name: a tittle."
+      },
+      {
+        "emoji": "☁️",
+        "text": "A single cloud can weigh over a million pounds because of the sheer volume of tiny water droplets."
+      },
+      {
+        "emoji": "🏜️",
+        "text": "Antarctica is technically classified as a desert because it gets so little precipitation."
+      },
+      {
+        "emoji": "🍎",
+        "text": "Apples float in water because they're made up of about 25% air."
+      },
+      {
+        "emoji": "🌌",
+        "text": "There are more stars in the universe than grains of sand on every beach on Earth combined."
+      },
+      {
+        "emoji": "🪟",
+        "text": "Glass is technically a slow-moving liquid at the atomic level, though it behaves like a solid in everyday life."
+      },
+      {
+        "emoji": "🥕",
+        "text": "Carrots were originally purple before farmers bred the familiar orange variety."
+      },
+      {
+        "emoji": "🎵",
+        "text": "Music can trigger the same brain chemical, dopamine, as eating your favorite food."
+      },
+      {
+        "emoji": "⏱️",
+        "text": "A \"jiffy\" is an actual unit of time — roughly 1/100th of a second."
+      },
+      {
+        "emoji": "🌎",
+        "text": "Earth is the only planet in our solar system not named after a Greek or Roman god."
+      },
+      {
+        "emoji": "⚡",
+        "text": "A single bolt of lightning contains enough energy to toast about 100,000 slices of bread."
+      },
+      {
+        "emoji": "🏛️",
+        "text": "Ancient Roman concrete has lasted over 2,000 years, and scientists are still studying why it's so durable."
+      },
+      {
+        "emoji": "🎈",
+        "text": "Helium makes your voice sound higher because sound travels faster through it than through air."
+      },
+      {
+        "emoji": "🎋",
+        "text": "Bamboo can grow up to 3 feet in a single day, making it one of the fastest-growing plants on Earth."
+      },
+      {
+        "emoji": "🥱",
+        "text": "Yawning may help cool down your brain, according to one popular scientific theory."
+      },
+      {
+        "emoji": "🧲",
+        "text": "If you cut a magnet in half, you don't get a north half and a south half — you get two smaller magnets, each with its own north and south."
+      },
+      {
+        "emoji": "🌈",
+        "text": "A rainbow can actually form a full circle, but from the ground we usually only see the top arc."
+      },
+      {
+        "emoji": "🚦",
+        "text": "The first traffic light was installed in London in 1868 — and it exploded a few weeks later."
+      },
+      {
+        "emoji": "🧭",
+        "text": "A compass needle points toward Earth's magnetic north, which is slowly drifting and isn't the same as true north."
+      },
+      {
+        "emoji": "🥚",
+        "text": "An eggshell contains around 17,000 tiny pores that let air and moisture pass through."
+      },
+      {
+        "emoji": "🎻",
+        "text": "A Stradivarius violin's exact sound has never been fully explained by science, despite centuries of study."
+      },
+      {
+        "emoji": "🧊",
+        "text": "Antarctica holds about 70% of the world's fresh water, locked up in ice."
+      },
+      {
+        "emoji": "📄",
+        "text": "If you could fold a piece of paper 42 times, it would be thick enough to reach the Moon."
+      },
+      {
+        "emoji": "🥠",
+        "text": "Fortune cookies were actually invented in California, not China."
+      },
+      {
+        "emoji": "🌪️",
+        "text": "Tornadoes have been recorded on every continent except Antarctica."
+      },
+      {
+        "emoji": "💡",
+        "text": "Your brain generates enough electricity on its own to power a small light bulb."
+      },
+      {
+        "emoji": "💧",
+        "text": "Water can exist in three states at once at a specific point called the \"triple point.\""
+      },
+      {
+        "emoji": "🖊️",
+        "text": "The inventor of the ballpoint pen, László Bíró, has an award-winning pen design competition named after him."
+      },
+      {
+        "emoji": "🏔️",
+        "text": "The tallest mountain in the solar system is on Mars — Olympus Mons, nearly three times taller than Everest."
+      },
+      {
+        "emoji": "🍇",
+        "text": "A grape, cut a certain way, can create a small burst of plasma in a microwave because of how it concentrates energy."
+      },
+      {
+        "emoji": "🧊",
+        "text": "Ice floats because it's less dense than liquid water, which is unusual since most solids are denser than their liquid form."
+      },
+      {
+        "emoji": "🎲",
+        "text": "The odds of shuffling a deck of cards into a truly unique order are so high that no shuffle has likely ever repeated in history."
+      },
+      {
+        "emoji": "🌍",
+        "text": "About 71% of Earth's surface is covered in water, but less than 1% of it is fresh water available for us to use."
+      },
+      {
+        "emoji": "👅",
+        "text": "Every person's tongue print is unique, similar to a fingerprint."
+      },
+      {
+        "emoji": "🎨",
+        "text": "Pink doesn't exist as its own wavelength of light — it's a color your brain creates by mixing red and violet."
+      },
+      {
+        "emoji": "🌑",
+        "text": "The far side of the Moon wasn't photographed until 1959."
+      },
+      {
+        "emoji": "🧀",
+        "text": "Some cheeses are illegal in certain countries because live insect larvae are part of how they're aged."
+      },
+      {
+        "emoji": "🌊",
+        "text": "Ocean waves can travel thousands of miles across open water before ever reaching shore."
+      },
+      {
+        "emoji": "🕯️",
+        "text": "Before mechanical clocks, some cultures told time using candles marked with lines to track how much had burned."
+      },
+      {
+        "emoji": "🍕",
+        "text": "Pizza was originally considered street food for the poor in Naples before it became a global favorite."
+      },
+      {
+        "emoji": "🧊",
+        "text": "A \"brinicle\" is a rare underwater ice formation that can freeze sea creatures in place as it grows downward."
+      },
+      {
+        "emoji": "🌋",
+        "text": "There are more volcanoes underwater than there are on land."
+      },
+      {
+        "emoji": "🚲",
+        "text": "The bicycle was considered so revolutionary in the 1800s that some doctors warned it could cause a made-up illness called \"bicycle face.\""
+      },
+      {
+        "emoji": "☀️",
+        "text": "Light from the sun takes about 8 minutes to reach Earth."
+      },
+      {
+        "emoji": "🧠",
+        "text": "The human brain can generate around 50,000 thoughts in a single day, according to some estimates."
+      },
+      {
+        "emoji": "🥶",
+        "text": "The coldest temperature ever recorded on Earth was about -128.6°F, in Antarctica."
+      },
+      {
+        "emoji": "⛈️",
+        "text": "A single thunderstorm cloud can contain enough water to fill thousands of swimming pools."
+      },
+      {
+        "emoji": "🧭",
+        "text": "Vikings may have used a mineral called sunstone to help navigate on cloudy days."
+      },
+      {
+        "emoji": "🍫",
+        "text": "Chocolate was once so valuable that the Aztecs used cacao beans as a form of currency."
+      },
+      {
+        "emoji": "🕰️",
+        "text": "If Earth's entire history were squeezed into a single 24-hour day, humans wouldn't show up until the last few seconds before midnight."
+      },
+      {
+        "emoji": "🧊",
+        "text": "Hailstones can grow as large as grapefruits inside powerful thunderstorms."
+      },
+      {
+        "emoji": "🔢",
+        "text": "A \"googol\" is a real mathematical number — a 1 followed by 100 zeros."
+      },
+      {
+        "emoji": "🏜️",
+        "text": "The Sahara Desert wasn't always dry — thousands of years ago it was a green landscape with lakes and rivers."
+      },
+      {
+        "emoji": "☀️",
+        "text": "It takes sunlight longer to travel from the sun's core to its surface than it does to travel from the sun to Earth."
+      },
+      {
+        "emoji": "🖍️",
+        "text": "Crayola crayon names are chosen very carefully, and brand-new colors are still invented today."
+      },
+      {
+        "emoji": "🐾",
+        "text": "There's an island in Japan sometimes called \"Cat Island,\" where cats far outnumber the people who live there."
+      },
+      {
+        "emoji": "🌊",
+        "text": "The Pacific Ocean is so large it holds about half of all the water on Earth's surface."
+      },
+      {
+        "emoji": "🕰️",
+        "text": "Time zones weren't standardized worldwide until railroads made accurate scheduling necessary in the 1800s."
+      },
+      {
+        "emoji": "❄️",
+        "text": "Snowflakes almost always have six sides because of how water molecules bond together as they freeze."
+      },
+      {
+        "emoji": "👣",
+        "text": "Footprints left on the Moon could last for millions of years since there's no wind or water there to erode them."
+      },
+      {
+        "emoji": "🍄",
+        "text": "Mushrooms are more closely related to animals than to plants, at least on the genetic tree of life."
+      },
+      {
+        "emoji": "🌈",
+        "text": "Double rainbows form when light reflects twice inside a raindrop, which is why the second bow's colors appear reversed."
+      },
+      {
+        "emoji": "🧠",
+        "text": "Multitasking is mostly a myth — your brain usually just switches quickly between tasks rather than doing them at once."
+      },
+      {
+        "emoji": "🍺",
+        "text": "The oldest known recipe in the world is for beer, recorded by the ancient Sumerians."
+      },
+      {
+        "emoji": "🌐",
+        "text": "It's possible for one spot on Earth to be daytime while a spot right next to it, across the international date line, is a full day different."
+      },
+      {
+        "emoji": "🍭",
+        "text": "Cotton candy was invented by a dentist."
+      },
+      {
+        "emoji": "🏝️",
+        "text": "The Maldives is the lowest-lying country in the world, sitting barely above sea level."
+      },
+      {
+        "emoji": "♟️",
+        "text": "The word \"checkmate\" comes from a Persian phrase meaning \"the king is helpless.\""
+      },
+      {
+        "emoji": "🥶",
+        "text": "Absolute zero, the coldest possible temperature, has never actually been reached in any experiment."
+      },
+      {
+        "emoji": "🧊",
+        "text": "Glaciers can hold air bubbles from thousands of years ago, giving scientists a way to study ancient Earth's atmosphere."
+      },
+      {
+        "emoji": "🌕",
+        "text": "A \"blue moon\" doesn't actually turn the Moon blue — it just refers to a second full moon in the same calendar month."
+      }
+    ]
+  }
 }

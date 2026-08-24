@@ -29,6 +29,25 @@
     </div>
   </section>
 
+  <!-- STANDARD INTRO -->
+  <section id="screen-standard-intro" class="hidden">
+    <div class="topbar">
+      <button class="icon-btn" id="btn-back-0">&#8592;</button>
+      <h1>New Topic</h1>
+      <span></span>
+    </div>
+    <div class="card">
+      <span class="badge" id="intro-badge">Subject</span>
+      <div class="video-meta" id="intro-standard">Standard</div>
+      <h2 class="big" id="intro-title">Topic title</h2>
+      <p class="lead" id="intro-goal">What you're learning.</p>
+      <p class="lead" id="intro-why">Why it matters.</p>
+      <div class="video-meta" id="intro-upcoming-label">Coming up in this topic:</div>
+      <ul id="intro-upcoming-list" class="upcoming-list"></ul>
+      <button class="btn btn-primary" id="btn-start-topic">Let's start</button>
+    </div>
+  </section>
+
   <!-- LESSON / VIDEO -->
   <section id="screen-lesson" class="hidden">
     <div class="topbar">
@@ -76,6 +95,24 @@
       <p class="lead" id="notebook-prompt">Prompt goes here.</p>
       <textarea class="notebook-input" id="notebook-text" placeholder="Type your answer here..."></textarea>
       <button class="btn btn-primary" id="btn-save-notebook">Save &amp; finish lesson</button>
+    </div>
+  </section>
+
+  <!-- SURPRISE BOX -->
+  <section id="screen-boxes" class="hidden">
+    <div class="card center">
+      <p class="lead" id="boxes-prompt">Pick a box &mdash; you get one surprise per lesson!</p>
+      <div class="box-row" id="box-row">
+        <button class="surprise-box" id="box-0" data-slot="0"><span class="box-mark">?</span></button>
+        <button class="surprise-box" id="box-1" data-slot="1"><span class="box-mark">?</span></button>
+        <button class="surprise-box" id="box-2" data-slot="2"><span class="box-mark">?</span></button>
+      </div>
+      <div class="box-reveal hidden" id="box-reveal">
+        <span class="box-cat-tag" id="box-cat-tag"></span>
+        <div class="box-reveal-emoji" id="box-reveal-emoji"></div>
+        <p class="lead" id="box-reveal-text"></p>
+        <button class="btn btn-primary" id="btn-box-continue">Continue</button>
+      </div>
     </div>
   </section>
 
