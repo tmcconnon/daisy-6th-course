@@ -4,7 +4,7 @@
 
 const STORAGE_KEY = "daisy_course_progress_v1";
 const PIN_KEY = "daisy_course_pin_v1";
-const APP_VERSION = "v8"; // bump alongside CACHE_NAME in service-worker.js so the two always match
+const APP_VERSION = "v9"; // bump alongside CACHE_NAME in service-worker.js so the two always match
 
 let COURSE = null;   // loaded course-data.json
 let state = loadState();
@@ -118,7 +118,7 @@ function renderStandardIntro(lesson) {
 function beginLesson(lessonId) {
   const lesson = COURSE.lessons.find(l => l.id === lessonId);
   state.currentLessonId = lessonId;
-  state.currentAttempt = { answers: new Array(lesson.questions.length).fill(null), checked: false };
+  state.currentAttempt = { answers: new Array(lesson.questions.length).fill(null), checked: false, tryNumber: 1 };
   saveState();
   renderLessonScreen(lesson);
 }
@@ -236,7 +236,8 @@ document.getElementById("btn-submit-quiz").onclick = () => {
 
 document.getElementById("btn-retry-quiz").onclick = () => {
   const lesson = COURSE.lessons.find(l => l.id === state.currentLessonId);
-  state.currentAttempt = { answers: new Array(lesson.questions.length).fill(null), checked: false };
+  const priorTry = state.currentAttempt.tryNumber || 1;
+  state.currentAttempt = { answers: new Array(lesson.questions.length).fill(null), checked: false, tryNumber: priorTry + 1 };
   saveState();
   renderQuizScreen(lesson);
 };
@@ -258,18 +259,20 @@ document.getElementById("btn-save-notebook").onclick = () => {
   const text = document.getElementById("notebook-text").value.trim();
   const attempt = state.currentAttempt;
   const score = attempt.answers.filter((a, i) => a === lesson.questions[i].correct).length;
+  const tries = attempt.tryNumber || 1;
 
   state.completedLessons[lesson.id] = {
     completedAt: new Date().toISOString(),
     score: score,
     total: lesson.questions.length,
+    tries: tries,
     notebookText: text
   };
   state.currentLessonId = null;
   state.currentAttempt = null;
   saveState();
 
-  renderCompleteScreen(lesson, score);
+  renderCompleteScreen(lesson, score, tries);
 };
 
 /* ---------------- SURPRISE BOX ---------------- */
@@ -326,8 +329,10 @@ function pickBox(chosenBtn, allBoxes) {
   }, 250);
 }
 
-function renderCompleteScreen(lesson, score) {
-  document.getElementById("complete-score").textContent = `You got ${score} out of ${lesson.questions.length} on the first pass through the quiz.`;
+function renderCompleteScreen(lesson, score, tries) {
+  document.getElementById("complete-score").textContent = tries > 1
+    ? `You got all ${lesson.questions.length} correct — it took ${tries} tries to get there!`
+    : `You got all ${lesson.questions.length} correct on your first try!`;
   setupBoxes(lesson, score);
   show("screen-complete");
 }
@@ -404,7 +409,8 @@ function buildExportText(sinceIso) {
     lines.push(`[${lesson.subject} · Standard ${lesson.standard}] "${lesson.title}"`);
     lines.push(`Prompt: ${lesson.notebookPrompt}`);
     lines.push(`Daisy's answer: ${rec.notebookText || "(no answer recorded)"}`);
-    lines.push(`Quiz score: ${rec.score}/${rec.total}`);
+    const tries = rec.tries || 1;
+    lines.push(`Quiz score: ${rec.score}/${rec.total} (${tries > 1 ? `took ${tries} tries` : "first try"})`);
     lines.push(`Completed: ${new Date(rec.completedAt).toLocaleDateString()}`);
     lines.push("");
   });
@@ -486,7 +492,9 @@ function renderParentDashboard() {
     if (rec) {
       const score = document.createElement("div");
       score.className = "lscore";
-      score.textContent = `Score: ${rec.score}/${rec.total} · Completed ${new Date(rec.completedAt).toLocaleDateString()}`;
+      const tries = rec.tries || 1;
+      const triesText = tries > 1 ? `Got it on try ${tries}` : "Got it on the first try";
+      score.textContent = `Score: ${rec.score}/${rec.total} · ${triesText} · Completed ${new Date(rec.completedAt).toLocaleDateString()}`;
       entry.appendChild(score);
       if (rec.notebookText) {
         const note = document.createElement("div");
